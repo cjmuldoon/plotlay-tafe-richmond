@@ -32,27 +32,47 @@
             }
           ]
         },
-        "Series": {
+        "Value": {
           "projections": [
             {
               "field": {
-                "Column": {
+                "Measure": {
                   "Expression": {
                     "SourceRef": {
                       "Entity": "Buildings"
                     }
                   },
-                  "Property": "outline_source"
+                  "Property": "Outline source code"
                 }
               },
-              "queryRef": "Buildings.outline_source",
-              "nativeQueryRef": "outline_source",
-              "displayName": "Outline from"
+              "queryRef": "Buildings.Outline source code",
+              "nativeQueryRef": "Outline source code",
+              "displayName": "Outline source code"
             }
           ]
         },
         "Tooltips": {
           "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Buildings"
+                        }
+                      },
+                      "Property": "outline_source"
+                    }
+                  },
+                  "Function": 3
+                }
+              },
+              "queryRef": "Min(Buildings.outline_source)",
+              "nativeQueryRef": "outline_source",
+              "displayName": "Outline from"
+            },
             {
               "field": {
                 "Measure": {
@@ -102,7 +122,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Buildings by outline source'"
+                  "Value": "'Buildings by outline source: blue traced from the Microsoft footprint, gold traced (not in the footprints), red the Microsoft footprint as it is'"
                 }
               }
             },
@@ -239,6 +259,80 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dataPoint": [
+        {
+          "properties": {
+            "fillRule": {
+              "linearGradient3": {
+                "min": {
+                  "color": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "'#1d4f91'"
+                      }
+                    }
+                  },
+                  "value": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "1D"
+                      }
+                    }
+                  }
+                },
+                "mid": {
+                  "color": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "'#d9a21b'"
+                      }
+                    }
+                  },
+                  "value": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "2D"
+                      }
+                    }
+                  }
+                },
+                "max": {
+                  "color": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "'#cf3b26'"
+                      }
+                    }
+                  },
+                  "value": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "3D"
+                      }
+                    }
+                  }
+                },
+                "nullColoringStrategy": {
+                  "strategy": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "'specificColor'"
+                      }
+                    }
+                  },
+                  "color": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "'#cfcac0'"
+                      }
+                    }
+                  }
                 }
               }
             }

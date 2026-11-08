@@ -13,6 +13,13 @@ table SampleRisk
 		displayFolder: Sample data
 		lineageTag: 3e33d509-6ec6-7e25-34ee-c0632553f882
 
+	/// Sample data: not about TAFE NSW Richmond or any real building. Background colour of a risk matrix cell by its score
+	measure 'Sample risk colour' =
+			VAR s = SELECTEDVALUE ( SampleRisk[likelihood_1to5] ) * SELECTEDVALUE ( SampleRisk[consequence_1to5] )
+			RETURN IF ( NOT ISBLANK ( [Sample assets scored] ), SWITCH ( TRUE (), s >= 20, "#e8706b", s >= 12, "#f6ad6b", s >= 6, "#ffe08a", s >= 1, "#a8dba8" ) )
+		displayFolder: Sample data
+		lineageTag: 5870a8ab-10e9-cd04-e038-6f544381bdb4
+
 	column asset_id
 		dataType: string
 		isHidden

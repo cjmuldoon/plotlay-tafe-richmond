@@ -35,6 +35,11 @@ table Buildings
 		displayFolder: Site level
 		lineageTag: 8f6cb6f5-bc77-fa9b-ee57-01ba9a846a60
 
+	/// For the map: each outline source as a code (1 to 3), coloured on a gradient
+	measure 'Outline source code' = SWITCH ( SELECTEDVALUE ( Buildings[outline_source] ), "Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges", 1, "Traced over NSW Imagery (not in the Microsoft footprints)", 2, "Microsoft footprint, picked as it is (a complex roof, not refined)", 3 )
+		formatString: 0
+		lineageTag: f669d729-de09-659b-ca66-fd4a47afc3f4
+
 	column key
 		dataType: string
 		lineageTag: 1e555345-fe10-8565-7067-a048dc11695d
