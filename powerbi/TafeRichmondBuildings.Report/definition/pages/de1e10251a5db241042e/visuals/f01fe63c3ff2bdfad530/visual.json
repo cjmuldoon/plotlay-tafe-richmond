@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "Buildings.Microsoft offset median m",
-              "nativeQueryRef": "Microsoft offset median m"
+              "nativeQueryRef": "Microsoft offset median m",
+              "displayName": "Microsoft offset (m)"
             }
           ]
         }
@@ -49,6 +50,28 @@
               "expr": {
                 "Literal": {
                   "Value": "'Microsoft offset, median m'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

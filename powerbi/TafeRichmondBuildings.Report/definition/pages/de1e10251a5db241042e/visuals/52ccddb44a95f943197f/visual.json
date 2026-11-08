@@ -27,11 +27,12 @@
                 }
               },
               "queryRef": "Buildings.key",
-              "nativeQueryRef": "key"
+              "nativeQueryRef": "key",
+              "displayName": "Building"
             }
           ]
         },
-        "Legend": {
+        "Series": {
           "projections": [
             {
               "field": {
@@ -45,7 +46,8 @@
                 }
               },
               "queryRef": "Buildings.outline_source",
-              "nativeQueryRef": "outline_source"
+              "nativeQueryRef": "outline_source",
+              "displayName": "Outline from"
             }
           ]
         },
@@ -63,7 +65,8 @@
                 }
               },
               "queryRef": "Buildings.Footprint m2",
-              "nativeQueryRef": "Footprint m2"
+              "nativeQueryRef": "Footprint m2",
+              "displayName": "Footprint (m²)"
             },
             {
               "field": {
@@ -77,7 +80,8 @@
                 }
               },
               "queryRef": "Buildings.Mean accuracy m",
-              "nativeQueryRef": "Mean accuracy m"
+              "nativeQueryRef": "Mean accuracy m",
+              "displayName": "Mean accuracy (m)"
             }
           ]
         }
@@ -98,7 +102,70 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Buildings by outline source (custom map: data/geometry/campus_buildings.topojson)'"
+                  "Value": "'Buildings by outline source'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "shape": [
+        {
+          "properties": {
+            "datasourceType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'file_upload'"
+                }
+              }
+            },
+            "mapUrl": {
+              "expr": {
+                "Literal": {
+                  "Value": "''"
+                }
+              }
+            },
+            "map": {
+              "geoJson": {
+                "type": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'packaged'"
+                    }
+                  }
+                },
+                "name": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'campus_buildings.topojson'"
+                    }
+                  }
+                },
+                "content": {
+                  "expr": {
+                    "ResourcePackageItem": {
+                      "PackageName": "RegisteredResources",
+                      "PackageType": 1,
+                      "ItemName": "campus_buildings.topojson"
+                    }
+                  }
+                }
+              }
+            },
+            "projectionEnum": {
+              "expr": {
+                "Literal": {
+                  "Value": "'mercator'"
                 }
               }
             }

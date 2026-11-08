@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "Buildings.Buildings count",
-              "nativeQueryRef": "Buildings count"
+              "nativeQueryRef": "Buildings count",
+              "displayName": "Buildings"
             }
           ]
         }
@@ -49,6 +50,28 @@
               "expr": {
                 "Literal": {
                   "Value": "'Buildings'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "Buildings.outline_source",
-              "nativeQueryRef": "outline_source"
+              "nativeQueryRef": "outline_source",
+              "displayName": "Outline from"
             }
           ]
         },
@@ -45,10 +46,29 @@
                 }
               },
               "queryRef": "Buildings.Buildings count",
-              "nativeQueryRef": "Buildings count"
+              "nativeQueryRef": "Buildings count",
+              "displayName": "Buildings"
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Buildings"
+                  }
+                },
+                "Property": "Buildings count"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": false
       }
     },
     "drillFilterOtherVisuals": true,
@@ -67,6 +87,54 @@
               "expr": {
                 "Literal": {
                   "Value": "'Buildings by outline source'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "valueAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "labels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

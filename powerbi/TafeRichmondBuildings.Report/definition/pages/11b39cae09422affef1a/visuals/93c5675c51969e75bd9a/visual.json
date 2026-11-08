@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "SampleAssets.Sample assets",
-              "nativeQueryRef": "Sample assets"
+              "nativeQueryRef": "Sample assets",
+              "displayName": "Assets"
             }
           ]
         }
@@ -49,6 +50,28 @@
               "expr": {
                 "Literal": {
                   "Value": "'Assets (Sample data)'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

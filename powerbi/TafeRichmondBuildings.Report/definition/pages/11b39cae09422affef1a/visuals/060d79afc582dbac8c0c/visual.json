@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "SampleAssets.Sample assets past life",
-              "nativeQueryRef": "Sample assets past life"
+              "nativeQueryRef": "Sample assets past life",
+              "displayName": "Past expected life"
             }
           ]
         }
@@ -49,6 +50,28 @@
               "expr": {
                 "Literal": {
                   "Value": "'Past expected life (Sample data)'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

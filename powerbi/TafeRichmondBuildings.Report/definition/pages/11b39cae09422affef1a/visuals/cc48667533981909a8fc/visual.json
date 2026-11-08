@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "SampleRisk.likelihood_1to5",
-              "nativeQueryRef": "likelihood_1to5"
+              "nativeQueryRef": "likelihood_1to5",
+              "displayName": "Likelihood"
             }
           ]
         },
@@ -45,7 +46,8 @@
                 }
               },
               "queryRef": "SampleRisk.consequence_1to5",
-              "nativeQueryRef": "consequence_1to5"
+              "nativeQueryRef": "consequence_1to5",
+              "displayName": "Consequence"
             }
           ]
         },
@@ -63,7 +65,8 @@
                 }
               },
               "queryRef": "SampleRisk.Sample assets scored",
-              "nativeQueryRef": "Sample assets scored"
+              "nativeQueryRef": "Sample assets scored",
+              "displayName": "Assets"
             }
           ]
         }
@@ -85,6 +88,13 @@
               "expr": {
                 "Literal": {
                   "Value": "'Risk matrix: likelihood by consequence (Sample data)'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

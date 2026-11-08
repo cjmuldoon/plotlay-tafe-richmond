@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "SampleRisk.asset_id",
-              "nativeQueryRef": "asset_id"
+              "nativeQueryRef": "asset_id",
+              "displayName": "Asset"
             },
             {
               "field": {
@@ -41,7 +42,8 @@
                 }
               },
               "queryRef": "SampleAssets.asset_type",
-              "nativeQueryRef": "asset_type"
+              "nativeQueryRef": "asset_type",
+              "displayName": "Asset type"
             },
             {
               "field": {
@@ -55,7 +57,8 @@
                 }
               },
               "queryRef": "Buildings.key",
-              "nativeQueryRef": "key"
+              "nativeQueryRef": "key",
+              "displayName": "Building"
             },
             {
               "field": {
@@ -69,7 +72,8 @@
                 }
               },
               "queryRef": "SampleRisk.risk_score",
-              "nativeQueryRef": "risk_score"
+              "nativeQueryRef": "risk_score",
+              "displayName": "Score"
             },
             {
               "field": {
@@ -83,7 +87,8 @@
                 }
               },
               "queryRef": "SampleRisk.risk_rating",
-              "nativeQueryRef": "risk_rating"
+              "nativeQueryRef": "risk_rating",
+              "displayName": "Rating"
             },
             {
               "field": {
@@ -97,10 +102,29 @@
                 }
               },
               "queryRef": "SampleRisk.risk_drivers",
-              "nativeQueryRef": "risk_drivers"
+              "nativeQueryRef": "risk_drivers",
+              "displayName": "Drivers"
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "SampleRisk"
+                  }
+                },
+                "Property": "risk_score"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": false
       }
     },
     "drillFilterOtherVisuals": true,
@@ -118,7 +142,128 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Assets by risk (Sample data)'"
+                  "Value": "'Assets by risk, highest first (Sample data)'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "89.7D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "SampleRisk.asset_id"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "242.5D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "SampleAssets.asset_type"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "83.7D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Buildings.key"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "62.5D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "SampleRisk.risk_score"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "81.2D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "SampleRisk.risk_rating"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "276.4D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "SampleRisk.risk_drivers"
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

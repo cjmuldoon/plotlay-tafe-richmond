@@ -128,6 +128,14 @@ table SampleWorkOrders
 
 		annotation SummarizationSetBy = Automatic
 
+	column raised_month
+		dataType: string
+		lineageTag: 3511d637-e0ce-050c-9390-c1ada7a1bbd7
+		summarizeBy: none
+		sourceColumn: raised_month
+
+		annotation SummarizationSetBy = Automatic
+
 	partition SampleWorkOrders = m
 		mode: import
 		source =
@@ -136,8 +144,9 @@ table SampleWorkOrders
 				    Skipped = Table.Skip(Source, 0),
 				    Promoted = Table.PromoteHeaders(Skipped, [PromoteAllScalars = true]),
 				    Kept = Table.SelectColumns(Promoted, {"wo_id", "raised", "building", "asset_id", "wo_type", "trade", "priority", "status", "target", "age_days", "overdue", "cost_aud", "data_status"}),
-				    Typed = Table.TransformColumnTypes(Kept, {{"wo_id", type text}, {"raised", type date}, {"building", type text}, {"asset_id", type text}, {"wo_type", type text}, {"trade", type text}, {"priority", type text}, {"status", type text}, {"target", type date}, {"age_days", Int64.Type}, {"overdue", type text}, {"cost_aud", type number}, {"data_status", type text}}, "en-AU")
+				    Typed = Table.TransformColumnTypes(Kept, {{"wo_id", type text}, {"raised", type date}, {"building", type text}, {"asset_id", type text}, {"wo_type", type text}, {"trade", type text}, {"priority", type text}, {"status", type text}, {"target", type date}, {"age_days", Int64.Type}, {"overdue", type text}, {"cost_aud", type number}, {"data_status", type text}}, "en-AU"),
+				    Extra = Table.AddColumn(Typed, "raised_month", each Date.ToText([raised], "yyyy-MM"), type text)
 				in
-				    Typed
+				    Extra
 
 	annotation PBI_ResultType = Table

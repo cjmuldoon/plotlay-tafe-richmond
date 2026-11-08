@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "Buildings.Not in Microsoft footprints",
-              "nativeQueryRef": "Not in Microsoft footprints"
+              "nativeQueryRef": "Not in Microsoft footprints",
+              "displayName": "In no open data"
             }
           ]
         }
@@ -49,6 +50,28 @@
               "expr": {
                 "Literal": {
                   "Value": "'In no open data'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

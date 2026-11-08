@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "Buildings.key",
-              "nativeQueryRef": "key"
+              "nativeQueryRef": "key",
+              "displayName": "Building"
             },
             {
               "field": {
@@ -41,7 +42,8 @@
                 }
               },
               "queryRef": "Buildings.outline_source",
-              "nativeQueryRef": "outline_source"
+              "nativeQueryRef": "outline_source",
+              "displayName": "Outline from"
             },
             {
               "field": {
@@ -55,7 +57,8 @@
                 }
               },
               "queryRef": "Buildings.outline_accuracy_m",
-              "nativeQueryRef": "outline_accuracy_m"
+              "nativeQueryRef": "outline_accuracy_m",
+              "displayName": "Accuracy (m)"
             },
             {
               "field": {
@@ -69,7 +72,8 @@
                 }
               },
               "queryRef": "Buildings.footprint_m2",
-              "nativeQueryRef": "footprint_m2"
+              "nativeQueryRef": "footprint_m2",
+              "displayName": "Footprint (m²)"
             },
             {
               "field": {
@@ -83,10 +87,29 @@
                 }
               },
               "queryRef": "Buildings.microsoft_offset_m",
-              "nativeQueryRef": "microsoft_offset_m"
+              "nativeQueryRef": "microsoft_offset_m",
+              "displayName": "Microsoft offset (m)"
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Buildings"
+                  }
+                },
+                "Property": "key"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": false
       }
     },
     "drillFilterOtherVisuals": true,
@@ -105,6 +128,113 @@
               "expr": {
                 "Literal": {
                   "Value": "'Each building'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "83.6D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Buildings.key"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "309.8D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Buildings.outline_source"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "88.0D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Buildings.outline_accuracy_m"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "91.3D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Buildings.footprint_m2"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "93.2D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Buildings.microsoft_offset_m"
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

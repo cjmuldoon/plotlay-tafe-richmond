@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "SampleWorkOrders.priority",
-              "nativeQueryRef": "priority"
+              "nativeQueryRef": "priority",
+              "displayName": "Priority"
             }
           ]
         },
@@ -45,7 +46,8 @@
                 }
               },
               "queryRef": "SampleWorkOrders.Sample open work orders",
-              "nativeQueryRef": "Sample open work orders"
+              "nativeQueryRef": "Sample open work orders",
+              "displayName": "Open work orders"
             }
           ]
         },
@@ -63,10 +65,29 @@
                 }
               },
               "queryRef": "Buildings.key",
-              "nativeQueryRef": "key"
+              "nativeQueryRef": "key",
+              "displayName": "Building"
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "SampleWorkOrders"
+                  }
+                },
+                "Property": "priority"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": false
       }
     },
     "drillFilterOtherVisuals": true,
@@ -85,6 +106,41 @@
               "expr": {
                 "Literal": {
                   "Value": "'Open by priority and building (Sample data)'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "valueAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

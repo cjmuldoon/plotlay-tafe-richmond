@@ -3,9 +3,9 @@
   "name": "2ffe6507f3d6f157bb1c",
   "position": {
     "x": 40,
-    "y": 24,
+    "y": 14,
     "z": 0,
-    "height": 90,
+    "height": 106,
     "width": 1600,
     "tabOrder": 0
   },
@@ -31,7 +31,7 @@
               {
                 "textRuns": [
                   {
-                    "value": "Every asset in the sample register by likelihood of failure (rows) and consequence (columns), the ten highest, and each building by its assets at high or extreme risk.",
+                    "value": "Every asset in the sample register by likelihood of failure (rows) and consequence (columns), the assets by risk, and each building by its assets at high or extreme risk.",
                     "textStyle": {
                       "fontSize": "11pt",
                       "color": "#5b6573"

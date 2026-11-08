@@ -15,7 +15,21 @@
    - By default the data is read from the repo's public copy on GitHub (`DataFolder` is `https://raw.githubusercontent.com/cjmuldoon/plotlay-tafe-richmond/main/data/`). If Desktop asks how to connect, choose **Anonymous** and **Connect**.
    - To read the files on disk instead: **Home, Transform data, Edit parameters**, set `DataFolder` to the full path of the repo's `data` folder **ending with a backslash**, then **OK** and **Apply changes**.
    - If Desktop warns about privacy levels, choose **Ignore privacy levels** for this file (all sources are public open data) or set them to Public.
-4. After the refresh, the **Drawn out** page reads 38 buildings, 5 in no open data, and a median Microsoft offset of about 2.2 m, the README's figures. If it does, everything is joined correctly.
+4. Check the numbers (below).
+
+## Check the numbers after Refresh
+
+After **Refresh** (there are no slicers, and nothing on these pages changes with time):
+
+| Page | Card | Should read |
+|---|---|---|
+| Drawn out | Buildings | 38 |
+| Drawn out | In no open data | 5 |
+| Drawn out | Microsoft offset, median m | 2.23 |
+
+These are the README's figures. The table lists all 38 buildings (18,022 m² of footprint in all); the offset chart on **Outline sources** shows the 31 buildings started from a Microsoft footprint, largest offset first.
+
+The sample pages (not about any real building) read: Assets 372, High or extreme 70, Past expected life 106; Open 33, Overdue 9, Raised in 12 months 1,010; Planned maintenance on time 88.1%, Safety measures overdue 8, Capital works backlog 3,054,000.
 
 ## The tables
 
@@ -25,18 +39,16 @@
 
 Three pages read the tables in `data/sample/`: **Sample: risk** (the risk matrix, the assets by risk, each building's assets at high or extreme risk), **Sample: work orders** (open by priority and building, raised each month, reactive against planned) and **Sample: compliance** (planned maintenance on time, essential safety measures by status, the capital works backlog). The tables are `SampleSummary`, `SampleAssets`, `SampleRisk`, `SampleWorkOrders`, `SamplePM` and `SampleESM`; their measures are in the Sample data folder. They are sample data, not about TAFE NSW Richmond or any real building, and each page carries a Sample data tag. No other page or measure reads them.
 
-## The map setting Power BI asks for by hand
+## The maps
 
-Power BI keeps a custom map file inside the report only once you have chosen it, so do this once and save:
-
-- **Shape Map** (Drawn out, and Sample: risk). Select the map, then **Format visual, Visual, Map settings**: Map type **Custom map**, **Add map type**, choose `..\data\geometry\campus_buildings.topojson`. Under **View map keys** the keys B01 to B38 should match. Projection: Mercator. If the Shape Map is not in the Visualizations pane, turn it on in **Options, Preview features, Shape map visual**.
+- **Shape Map** (Drawn out, and Sample: risk). The custom map, `data/geometry/campus_buildings.topojson`, is saved inside the report (`TafeRichmondBuildings.Report/StaticResources/RegisteredResources/campus_buildings.topojson`, a copy that keeps only the building key), so the 38 buildings draw on open: by outline source on the first page, by sample assets at high or extreme risk on the risk page.
+- If a map shows the United States instead (an older Desktop can ignore a saved map): select it, then **Format visual** (the paintbrush), **Visual**, **Map settings**, **Map type: Custom map**, **Add map type** (or **Browse**), and choose `..\data\geometry\campus_buildings.topojson`. Under **View map keys** the keys B01 to B38 should match. Projection: Mercator. If the Shape Map is not in the Visualizations pane, turn it on in **File, Options and settings, Options, Preview features, Shape map visual** and restart Desktop.
+- If a Shape Map comes up empty after opening, drag the fields back: Location `Buildings[key]`, Legend `Buildings[outline_source]` (first page) or Color saturation `[Sample high or extreme]` (risk page).
 - Optional, **Azure Maps**: add a reference layer from `..\data\geometry\campus_buildings.geojson`, join property `key`, map style **Grayscale (light)** or **Blank**. Do not publish satellite basemap screenshots.
-
-If the Shape Map comes up empty after opening, drag the fields back: Location `Buildings[key]`, Legend `Buildings[outline_source]`.
 
 ## Save a .pbix too
 
-After the refresh and the map setting: **File, Save as**, type **Power BI file (\*.pbix)**, save as `powerbi\TafeRichmondBuildings.pbix`. It includes the data.
+After the refresh: **File, Save as**, type **Power BI file (\*.pbix)**, save as `powerbi\TafeRichmondBuildings.pbix`. It includes the data.
 
 ## Publish (only if you choose to)
 

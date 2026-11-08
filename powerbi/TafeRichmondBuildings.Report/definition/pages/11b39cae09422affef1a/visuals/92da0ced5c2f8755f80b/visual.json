@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "SampleRisk.Sample high or extreme",
-              "nativeQueryRef": "Sample high or extreme"
+              "nativeQueryRef": "Sample high or extreme",
+              "displayName": "High or extreme"
             }
           ]
         }
@@ -49,6 +50,28 @@
               "expr": {
                 "Literal": {
                   "Value": "'High or extreme (Sample data)'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

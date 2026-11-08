@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "SampleSummary.Sample backlog AUD",
-              "nativeQueryRef": "Sample backlog AUD"
+              "nativeQueryRef": "Sample backlog AUD",
+              "displayName": "Backlog (AUD)"
             }
           ]
         }
@@ -49,6 +50,28 @@
               "expr": {
                 "Literal": {
                   "Value": "'Capital works backlog, AUD (Sample data)'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

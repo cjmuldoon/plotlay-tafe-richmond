@@ -23,11 +23,12 @@
                       "Entity": "SampleWorkOrders"
                     }
                   },
-                  "Property": "raised"
+                  "Property": "raised_month"
                 }
               },
-              "queryRef": "SampleWorkOrders.raised",
-              "nativeQueryRef": "raised"
+              "queryRef": "SampleWorkOrders.raised_month",
+              "nativeQueryRef": "raised_month",
+              "displayName": "Month raised"
             }
           ]
         },
@@ -45,7 +46,8 @@
                 }
               },
               "queryRef": "SampleWorkOrders.Sample work orders",
-              "nativeQueryRef": "Sample work orders"
+              "nativeQueryRef": "Sample work orders",
+              "displayName": "Work orders"
             }
           ]
         },
@@ -63,10 +65,29 @@
                 }
               },
               "queryRef": "SampleWorkOrders.wo_type",
-              "nativeQueryRef": "wo_type"
+              "nativeQueryRef": "wo_type",
+              "displayName": "Type"
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "SampleWorkOrders"
+                  }
+                },
+                "Property": "raised_month"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": false
       }
     },
     "drillFilterOtherVisuals": true,
@@ -85,6 +106,41 @@
               "expr": {
                 "Literal": {
                   "Value": "'Raised each month, reactive and planned (Sample data)'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "valueAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

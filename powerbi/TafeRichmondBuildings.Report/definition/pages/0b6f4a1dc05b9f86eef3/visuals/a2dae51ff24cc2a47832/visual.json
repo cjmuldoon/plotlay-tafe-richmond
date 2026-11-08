@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "SampleWorkOrders.Sample work orders",
-              "nativeQueryRef": "Sample work orders"
+              "nativeQueryRef": "Sample work orders",
+              "displayName": "Work orders"
             }
           ]
         }
@@ -49,6 +50,28 @@
               "expr": {
                 "Literal": {
                   "Value": "'Raised in 12 months (Sample data)'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

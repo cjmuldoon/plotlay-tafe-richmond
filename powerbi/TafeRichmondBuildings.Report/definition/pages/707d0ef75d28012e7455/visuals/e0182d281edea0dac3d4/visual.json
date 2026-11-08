@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "SampleESM.Sample ESM overdue",
-              "nativeQueryRef": "Sample ESM overdue"
+              "nativeQueryRef": "Sample ESM overdue",
+              "displayName": "Overdue"
             }
           ]
         }
@@ -49,6 +50,28 @@
               "expr": {
                 "Literal": {
                   "Value": "'Safety measures overdue (Sample data)'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

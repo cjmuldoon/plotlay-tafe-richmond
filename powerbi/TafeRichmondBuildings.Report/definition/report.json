@@ -29,6 +29,11 @@
           "name": "Plotlay_drafting_film.json",
           "path": "Plotlay_drafting_film.json",
           "type": "CustomTheme"
+        },
+        {
+          "name": "campus_buildings.topojson",
+          "path": "campus_buildings.topojson",
+          "type": "ShapeMap"
         }
       ]
     }

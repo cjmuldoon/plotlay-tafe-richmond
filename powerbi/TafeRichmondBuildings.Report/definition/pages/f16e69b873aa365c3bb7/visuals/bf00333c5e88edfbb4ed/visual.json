@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "Buildings.key",
-              "nativeQueryRef": "key"
+              "nativeQueryRef": "key",
+              "displayName": "Building"
             }
           ]
         },
@@ -45,10 +46,29 @@
                 }
               },
               "queryRef": "Buildings.Microsoft offset median m",
-              "nativeQueryRef": "Microsoft offset median m"
+              "nativeQueryRef": "Microsoft offset median m",
+              "displayName": "Microsoft offset (m)"
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Buildings"
+                  }
+                },
+                "Property": "Microsoft offset median m"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": false
       }
     },
     "drillFilterOtherVisuals": true,
@@ -66,7 +86,55 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Microsoft offset by building, m'"
+                  "Value": "'Microsoft offset by building, m (buildings started from a Microsoft footprint)'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "valueAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "labels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

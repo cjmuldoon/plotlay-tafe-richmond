@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "SamplePM.month",
-              "nativeQueryRef": "month"
+              "nativeQueryRef": "month",
+              "displayName": "Month"
             }
           ]
         },
@@ -45,10 +46,29 @@
                 }
               },
               "queryRef": "SamplePM.Sample PM on time",
-              "nativeQueryRef": "Sample PM on time"
+              "nativeQueryRef": "Sample PM on time",
+              "displayName": "On time"
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "SamplePM"
+                  }
+                },
+                "Property": "month"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": false
       }
     },
     "drillFilterOtherVisuals": true,
@@ -67,6 +87,62 @@
               "expr": {
                 "Literal": {
                   "Value": "'Planned maintenance on time, each month (Sample data)'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryAxis": [
+        {
+          "properties": {
+            "axisType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Categorical'"
+                }
+              }
+            },
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "valueAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "start": {
+              "expr": {
+                "Literal": {
+                  "Value": "0.75D"
+                }
+              }
+            },
+            "end": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
                 }
               }
             }

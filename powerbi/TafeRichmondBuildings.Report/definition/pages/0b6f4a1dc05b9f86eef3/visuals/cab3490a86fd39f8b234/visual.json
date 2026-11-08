@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "SampleWorkOrders.Sample open work orders",
-              "nativeQueryRef": "Sample open work orders"
+              "nativeQueryRef": "Sample open work orders",
+              "displayName": "Open work orders"
             }
           ]
         }
@@ -49,6 +50,28 @@
               "expr": {
                 "Literal": {
                   "Value": "'Open (Sample data)'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

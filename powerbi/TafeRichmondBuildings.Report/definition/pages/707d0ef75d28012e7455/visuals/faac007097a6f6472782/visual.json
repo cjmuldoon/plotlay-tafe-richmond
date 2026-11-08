@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "Buildings.key",
-              "nativeQueryRef": "key"
+              "nativeQueryRef": "key",
+              "displayName": "Building"
             }
           ]
         },
@@ -45,7 +46,8 @@
                 }
               },
               "queryRef": "SampleESM.Sample ESM measures",
-              "nativeQueryRef": "Sample ESM measures"
+              "nativeQueryRef": "Sample ESM measures",
+              "displayName": "Safety measures"
             }
           ]
         },
@@ -63,10 +65,29 @@
                 }
               },
               "queryRef": "SampleESM.status",
-              "nativeQueryRef": "status"
+              "nativeQueryRef": "status",
+              "displayName": "Status"
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Buildings"
+                  }
+                },
+                "Property": "key"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": false
       }
     },
     "drillFilterOtherVisuals": true,
@@ -85,6 +106,41 @@
               "expr": {
                 "Literal": {
                   "Value": "'Essential safety measures by building and status (Sample data)'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "valueAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "SampleWorkOrders.Sample overdue work orders",
-              "nativeQueryRef": "Sample overdue work orders"
+              "nativeQueryRef": "Sample overdue work orders",
+              "displayName": "Overdue"
             }
           ]
         }
@@ -49,6 +50,28 @@
               "expr": {
                 "Literal": {
                   "Value": "'Overdue (Sample data)'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

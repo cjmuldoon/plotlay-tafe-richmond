@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "SamplePM.Sample PM on time",
-              "nativeQueryRef": "Sample PM on time"
+              "nativeQueryRef": "Sample PM on time",
+              "displayName": "On time"
             }
           ]
         }
@@ -49,6 +50,28 @@
               "expr": {
                 "Literal": {
                   "Value": "'Planned maintenance on time (Sample data)'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }
