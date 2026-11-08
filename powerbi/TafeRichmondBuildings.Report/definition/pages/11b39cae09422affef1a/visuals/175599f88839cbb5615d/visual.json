@@ -123,7 +123,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#d6e6ef'"
+                      "Value": "'#ece6d6'"
                     }
                   }
                 }
@@ -170,7 +170,7 @@
                 "name": {
                   "expr": {
                     "Literal": {
-                      "Value": "'campus_buildings.topojson'"
+                      "Value": "'campus_buildings_870x440.topojson'"
                     }
                   }
                 },
@@ -179,7 +179,7 @@
                     "ResourcePackageItem": {
                       "PackageName": "RegisteredResources",
                       "PackageType": 1,
-                      "ItemName": "campus_buildings.topojson"
+                      "ItemName": "campus_buildings_870x440.topojson"
                     }
                   }
                 }
@@ -275,5 +275,11 @@
         }
       ]
     }
-  }
+  },
+  "annotations": [
+    {
+      "name": "plotlay.legend",
+      "value": "[[\"#6b1a10\", \"darker: more\"], [\"#f8dcc6\", \"paler: less\"]]"
+    }
+  ]
 }

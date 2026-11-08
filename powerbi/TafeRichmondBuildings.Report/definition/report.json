@@ -45,6 +45,11 @@
           "name": "campus_buildings.topojson",
           "path": "campus_buildings.topojson",
           "type": "ShapeMap"
+        },
+        {
+          "name": "campus_buildings_870x440.topojson",
+          "path": "campus_buildings_870x440.topojson",
+          "type": "ShapeMap"
         }
       ]
     }
