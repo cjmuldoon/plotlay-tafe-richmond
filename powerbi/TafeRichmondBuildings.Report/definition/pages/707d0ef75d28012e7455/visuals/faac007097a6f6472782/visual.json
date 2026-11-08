@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "faac007097a6f6472782",
   "position": {
     "x": 1010,
@@ -28,7 +28,8 @@
               },
               "queryRef": "Buildings.key",
               "nativeQueryRef": "key",
-              "displayName": "Building"
+              "displayName": "Building",
+              "active": true
             }
           ]
         },
@@ -86,8 +87,7 @@
             },
             "direction": "Ascending"
           }
-        ],
-        "isDefaultSort": false
+        ]
       }
     },
     "drillFilterOtherVisuals": true,
