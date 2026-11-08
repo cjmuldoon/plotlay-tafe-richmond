@@ -23,6 +23,7 @@
                     "textStyle": {
                       "fontSize": "24pt",
                       "color": "#163c6e",
+                      "fontFamily": "Segoe UI Semibold",
                       "fontWeight": "bold"
                     }
                   }
@@ -34,7 +35,8 @@
                     "value": "Open work orders by priority and building, and work orders raised over twelve months, reactive against planned.",
                     "textStyle": {
                       "fontSize": "11pt",
-                      "color": "#5b6573"
+                      "color": "#5b6573",
+                      "fontFamily": "Segoe UI"
                     }
                   }
                 ]

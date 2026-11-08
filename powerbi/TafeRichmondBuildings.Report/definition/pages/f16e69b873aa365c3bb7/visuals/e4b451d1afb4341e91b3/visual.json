@@ -23,6 +23,7 @@
                     "textStyle": {
                       "fontSize": "24pt",
                       "color": "#163c6e",
+                      "fontFamily": "Segoe UI Semibold",
                       "fontWeight": "bold"
                     }
                   }
@@ -34,7 +35,8 @@
                     "value": "Buildings and footprint by source, and how far Microsoft footprints were off the roofs.",
                     "textStyle": {
                       "fontSize": "11pt",
-                      "color": "#5b6573"
+                      "color": "#5b6573",
+                      "fontFamily": "Segoe UI"
                     }
                   }
                 ]

@@ -22,7 +22,8 @@
                     "value": "Sample data",
                     "textStyle": {
                       "fontSize": "10pt",
-                      "color": "#5b6573"
+                      "color": "#5b6573",
+                      "fontFamily": "Segoe UI"
                     }
                   }
                 ]

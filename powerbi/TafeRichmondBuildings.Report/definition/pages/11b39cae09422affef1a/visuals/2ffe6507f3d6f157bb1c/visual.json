@@ -23,6 +23,7 @@
                     "textStyle": {
                       "fontSize": "24pt",
                       "color": "#163c6e",
+                      "fontFamily": "Segoe UI Semibold",
                       "fontWeight": "bold"
                     }
                   }
@@ -34,7 +35,8 @@
                     "value": "Every asset in the sample register by likelihood of failure (rows) and consequence (columns), the assets by risk, and each building by its assets at high or extreme risk.",
                     "textStyle": {
                       "fontSize": "11pt",
-                      "color": "#5b6573"
+                      "color": "#5b6573",
+                      "fontFamily": "Segoe UI"
                     }
                   }
                 ]
