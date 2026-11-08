@@ -1,0 +1,96 @@
+table SampleRisk
+	lineageTag: 599a75d1-4667-f840-acf3-506f5bfb2a25
+
+	/// Sample data: not about TAFE NSW Richmond or any real building
+	measure 'Sample assets scored' = COUNTROWS ( SampleRisk )
+		formatString: #,0
+		displayFolder: Sample data
+		lineageTag: 2df8dd72-d815-26f4-ff07-314a299e75df
+
+	/// Sample data: not about TAFE NSW Richmond or any real building
+	measure 'Sample high or extreme' = CALCULATE ( COUNTROWS ( SampleRisk ), SampleRisk[risk_score] >= 12 )
+		formatString: #,0
+		displayFolder: Sample data
+		lineageTag: 3e33d509-6ec6-7e25-34ee-c0632553f882
+
+	column asset_id
+		dataType: string
+		isHidden
+		lineageTag: 1598c51f-5ff6-a2dd-6d1a-6bc8110bcc39
+		summarizeBy: none
+		sourceColumn: asset_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column likelihood_1to5
+		dataType: int64
+		formatString: 0
+		lineageTag: dc21eb40-0392-7b81-d7cd-cd2ece34712a
+		summarizeBy: none
+		sourceColumn: likelihood_1to5
+
+		annotation SummarizationSetBy = Automatic
+
+	column consequence_1to5
+		dataType: int64
+		formatString: 0
+		lineageTag: ce8a4e00-67bd-4622-50e2-ccb7d85f9d2c
+		summarizeBy: none
+		sourceColumn: consequence_1to5
+
+		annotation SummarizationSetBy = Automatic
+
+	column risk_score
+		dataType: int64
+		formatString: 0
+		lineageTag: 5eb57bbc-94bb-6da8-ff34-147b65c376d9
+		summarizeBy: none
+		sourceColumn: risk_score
+
+		annotation SummarizationSetBy = Automatic
+
+	column risk_rating
+		dataType: string
+		lineageTag: 4b15209b-0cd5-786e-ad8e-069612a44b19
+		summarizeBy: none
+		sourceColumn: risk_rating
+
+		annotation SummarizationSetBy = Automatic
+
+	column risk_drivers
+		dataType: string
+		lineageTag: 578012b8-8001-b9e9-a02e-96debc6210ab
+		summarizeBy: none
+		sourceColumn: risk_drivers
+
+		annotation SummarizationSetBy = Automatic
+
+	column treatment
+		dataType: string
+		lineageTag: bf87cbee-188d-bdcc-656b-5a6b6339856b
+		summarizeBy: none
+		sourceColumn: treatment
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_status
+		dataType: string
+		lineageTag: ccc523bd-9f09-6f35-e6c9-d6e6b8f547bb
+		summarizeBy: none
+		sourceColumn: data_status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition SampleRisk = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(GetFile("sample/asset_risk.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Skipped = Table.Skip(Source, 0),
+				    Promoted = Table.PromoteHeaders(Skipped, [PromoteAllScalars = true]),
+				    Kept = Table.SelectColumns(Promoted, {"asset_id", "likelihood_1to5", "consequence_1to5", "risk_score", "risk_rating", "risk_drivers", "treatment", "data_status"}),
+				    Typed = Table.TransformColumnTypes(Kept, {{"asset_id", type text}, {"likelihood_1to5", Int64.Type}, {"consequence_1to5", Int64.Type}, {"risk_score", Int64.Type}, {"risk_rating", type text}, {"risk_drivers", type text}, {"treatment", type text}, {"data_status", type text}}, "en-AU")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

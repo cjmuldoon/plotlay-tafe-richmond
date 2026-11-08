@@ -1,0 +1,96 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "cc48667533981909a8fc",
+  "position": {
+    "x": 40,
+    "y": 290,
+    "z": 1,
+    "height": 720,
+    "width": 940,
+    "tabOrder": 1
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleRisk"
+                    }
+                  },
+                  "Property": "likelihood_1to5"
+                }
+              },
+              "queryRef": "SampleRisk.likelihood_1to5",
+              "nativeQueryRef": "likelihood_1to5"
+            }
+          ]
+        },
+        "Columns": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleRisk"
+                    }
+                  },
+                  "Property": "consequence_1to5"
+                }
+              },
+              "queryRef": "SampleRisk.consequence_1to5",
+              "nativeQueryRef": "consequence_1to5"
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleRisk"
+                    }
+                  },
+                  "Property": "Sample assets scored"
+                }
+              },
+              "queryRef": "SampleRisk.Sample assets scored",
+              "nativeQueryRef": "Sample assets scored"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Risk matrix: likelihood by consequence (Sample data)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "8058719122a3ecd32a91",
+  "position": {
+    "x": 1010,
+    "y": 130,
+    "z": 1,
+    "height": 880,
+    "width": 870,
+    "tabOrder": 1
+  },
+  "visual": {
+    "visualType": "clusteredColumnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleWorkOrders"
+                    }
+                  },
+                  "Property": "raised"
+                }
+              },
+              "queryRef": "SampleWorkOrders.raised",
+              "nativeQueryRef": "raised"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleWorkOrders"
+                    }
+                  },
+                  "Property": "Sample work orders"
+                }
+              },
+              "queryRef": "SampleWorkOrders.Sample work orders",
+              "nativeQueryRef": "Sample work orders"
+            }
+          ]
+        },
+        "Series": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleWorkOrders"
+                    }
+                  },
+                  "Property": "wo_type"
+                }
+              },
+              "queryRef": "SampleWorkOrders.wo_type",
+              "nativeQueryRef": "wo_type"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Raised each month, reactive and planned (Sample data)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

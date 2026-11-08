@@ -1,0 +1,2 @@
+key,wkt,area_m2,perimeter_m,centroid_lat,centroid_lng,level,source,buildings,footprint_m2,source_licence
+RICH,"POLYGON ((150.7503176 -33.6109381, 150.751605 -33.611921, 150.7567836 -33.6147857, 150.7596284 -33.6124055, 150.7540961 -33.6077766, 150.7503176 -33.6109381))",322788.57,2333.21,-33.6114031,150.7550171,,Drawn over NSW aerial imagery,38,18109.07,

@@ -1,0 +1,79 @@
+table SampleESM
+	lineageTag: f67952ed-524a-cbcc-8ea1-7bb16dd05c38
+
+	/// Sample data: not about TAFE NSW Richmond or any real building
+	measure 'Sample ESM measures' = COUNTROWS ( SampleESM )
+		formatString: #,0
+		displayFolder: Sample data
+		lineageTag: def73235-ff62-57d0-fdea-97214a48fbf8
+
+	/// Sample data: not about TAFE NSW Richmond or any real building
+	measure 'Sample ESM overdue' = CALCULATE ( COUNTROWS ( SampleESM ), SampleESM[status] = "Overdue" )
+		formatString: #,0
+		displayFolder: Sample data
+		lineageTag: 930608d4-caa2-e2f8-aa9d-5b0195512171
+
+	column building
+		dataType: string
+		isHidden
+		lineageTag: c517acea-7e27-dedd-0e86-0f716c0cf2bc
+		summarizeBy: none
+		sourceColumn: building
+
+		annotation SummarizationSetBy = Automatic
+
+	column measure
+		dataType: string
+		lineageTag: 5c58636c-4ddb-87c7-1788-17e8bb173b71
+		summarizeBy: none
+		sourceColumn: measure
+
+		annotation SummarizationSetBy = Automatic
+
+	column status
+		dataType: string
+		lineageTag: e8f9fab7-1ef0-ed16-470a-d20d7ed9e96b
+		summarizeBy: none
+		sourceColumn: status
+
+		annotation SummarizationSetBy = Automatic
+
+	column next_due
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 4a0e22a1-57f9-cda4-9737-4a1901059c13
+		summarizeBy: none
+		sourceColumn: next_due
+
+		annotation SummarizationSetBy = Automatic
+
+	column open_defects
+		dataType: int64
+		formatString: 0
+		lineageTag: 6d1a1bfb-8e84-1992-a1f4-1b57ca900c29
+		summarizeBy: none
+		sourceColumn: open_defects
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_status
+		dataType: string
+		lineageTag: 654c62c8-bb3c-c2c9-0a2e-1725067eaf9e
+		summarizeBy: none
+		sourceColumn: data_status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition SampleESM = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(GetFile("sample/esm_register.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Skipped = Table.Skip(Source, 0),
+				    Promoted = Table.PromoteHeaders(Skipped, [PromoteAllScalars = true]),
+				    Kept = Table.SelectColumns(Promoted, {"building", "measure", "status", "next_due", "open_defects", "data_status"}),
+				    Typed = Table.TransformColumnTypes(Kept, {{"building", type text}, {"measure", type text}, {"status", type text}, {"next_due", type date}, {"open_defects", Int64.Type}, {"data_status", type text}}, "en-AU")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

@@ -1,0 +1,60 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "a2dae51ff24cc2a47832",
+  "position": {
+    "x": 680,
+    "y": 130,
+    "z": 1,
+    "height": 140,
+    "width": 300,
+    "tabOrder": 1
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleWorkOrders"
+                    }
+                  },
+                  "Property": "Sample work orders"
+                }
+              },
+              "queryRef": "SampleWorkOrders.Sample work orders",
+              "nativeQueryRef": "Sample work orders"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Raised in 12 months (Sample data)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

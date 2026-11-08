@@ -1,0 +1,167 @@
+table SampleAssets
+	lineageTag: ca44a1eb-fe18-1339-b9d8-157c41a58e71
+
+	/// Sample data: not about TAFE NSW Richmond or any real building
+	measure 'Sample assets' = COUNTROWS ( SampleAssets )
+		formatString: #,0
+		displayFolder: Sample data
+		lineageTag: e629cf6a-c120-965b-36be-21c3ada6b4fe
+
+	/// Sample data: not about TAFE NSW Richmond or any real building
+	measure 'Sample assets past life' = CALCULATE ( COUNTROWS ( SampleAssets ), SampleAssets[remaining_life_years] = 0 )
+		formatString: #,0
+		displayFolder: Sample data
+		lineageTag: 317fdae9-6baa-0577-de6a-3e005a172bf1
+
+	column asset_id
+		dataType: string
+		lineageTag: 82f143b9-2ca2-cf6b-7baf-b885bbe95fff
+		summarizeBy: none
+		sourceColumn: asset_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column building
+		dataType: string
+		isHidden
+		lineageTag: 6eec525a-ef70-7e1d-7b49-d70ba80c4ce6
+		summarizeBy: none
+		sourceColumn: building
+
+		annotation SummarizationSetBy = Automatic
+
+	column level
+		dataType: string
+		lineageTag: cb8faba4-d7e2-1e31-e012-b8c89faf46ef
+		summarizeBy: none
+		sourceColumn: level
+
+		annotation SummarizationSetBy = Automatic
+
+	column system
+		dataType: string
+		lineageTag: 6ecf0313-5e04-a80b-55d4-1f3fb1b4f6c8
+		summarizeBy: none
+		sourceColumn: system
+
+		annotation SummarizationSetBy = Automatic
+
+	column asset_type
+		dataType: string
+		lineageTag: ae5a6b70-0c74-9030-e0ac-38f1d8ddeb30
+		summarizeBy: none
+		sourceColumn: asset_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column install_year
+		dataType: int64
+		formatString: 0
+		lineageTag: 554a8776-603a-3fff-6696-89be51862a27
+		summarizeBy: none
+		sourceColumn: install_year
+
+		annotation SummarizationSetBy = Automatic
+
+	column expected_life_years
+		dataType: int64
+		formatString: 0
+		lineageTag: 24918260-c5f1-1545-b805-777ccaaa48c8
+		summarizeBy: none
+		sourceColumn: expected_life_years
+
+		annotation SummarizationSetBy = Automatic
+
+	column remaining_life_years
+		dataType: int64
+		formatString: 0
+		lineageTag: 608a5052-d278-a45c-ff9a-bcf708cce810
+		summarizeBy: none
+		sourceColumn: remaining_life_years
+
+		annotation SummarizationSetBy = Automatic
+
+	column condition
+		dataType: string
+		lineageTag: fbbc63f2-3522-7e44-09eb-a225bc13f8b7
+		summarizeBy: none
+		sourceColumn: condition
+
+		annotation SummarizationSetBy = Automatic
+
+	column condition_1to5
+		dataType: int64
+		formatString: 0
+		lineageTag: 19dbb92d-5ece-e734-4742-f0a5d6652152
+		summarizeBy: none
+		sourceColumn: condition_1to5
+
+		annotation SummarizationSetBy = Automatic
+
+	column replacement_cost_aud
+		dataType: double
+		formatString: #,0
+		lineageTag: 67bd2fd5-fb17-2c73-c4ea-6d11d33b7872
+		summarizeBy: none
+		sourceColumn: replacement_cost_aud
+
+		annotation SummarizationSetBy = Automatic
+
+	column next_due
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: e9616d59-3eb8-8b3a-058b-446e3b7650bd
+		summarizeBy: none
+		sourceColumn: next_due
+
+		annotation SummarizationSetBy = Automatic
+
+	column service_status
+		dataType: string
+		lineageTag: 7a56b986-298c-5f1b-6a0c-7624fe2da6ac
+		summarizeBy: none
+		sourceColumn: service_status
+
+		annotation SummarizationSetBy = Automatic
+
+	column lat
+		dataType: double
+		formatString: 0.0000000
+		lineageTag: c82fdb65-56ac-6a5c-b93e-973e84269c87
+		summarizeBy: none
+		sourceColumn: lat
+		dataCategory: Latitude
+
+		annotation SummarizationSetBy = Automatic
+
+	column lng
+		dataType: double
+		formatString: 0.0000000
+		lineageTag: 795e09da-7c37-dae5-0828-0b53925d4bb6
+		summarizeBy: none
+		sourceColumn: lng
+		dataCategory: Longitude
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_status
+		dataType: string
+		lineageTag: 4867d15d-20cb-881b-c385-eb9e01151be3
+		summarizeBy: none
+		sourceColumn: data_status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition SampleAssets = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(GetFile("sample/assets.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Skipped = Table.Skip(Source, 0),
+				    Promoted = Table.PromoteHeaders(Skipped, [PromoteAllScalars = true]),
+				    Kept = Table.SelectColumns(Promoted, {"asset_id", "building", "level", "system", "asset_type", "install_year", "expected_life_years", "remaining_life_years", "condition", "condition_1to5", "replacement_cost_aud", "next_due", "service_status", "lat", "lng", "data_status"}),
+				    Typed = Table.TransformColumnTypes(Kept, {{"asset_id", type text}, {"building", type text}, {"level", type text}, {"system", type text}, {"asset_type", type text}, {"install_year", Int64.Type}, {"expected_life_years", Int64.Type}, {"remaining_life_years", Int64.Type}, {"condition", type text}, {"condition_1to5", Int64.Type}, {"replacement_cost_aud", type number}, {"next_due", type date}, {"service_status", type text}, {"lat", type number}, {"lng", type number}, {"data_status", type text}}, "en-AU")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

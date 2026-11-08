@@ -1,0 +1,373 @@
+asset_id,building,likelihood_1to5,consequence_1to5,risk_score,risk_rating,risk_drivers,treatment,assessed,data_status
+DB-001,B01,1,2,2,Low,None noted,Accept,2026-08-26,Sample data
+EXT-001,B01,2,3,6,Medium,Life safety system,Monitor,2026-07-09,Sample data
+EXL-001,B01,1,2,2,Low,Life safety system,Accept,2026-08-10,Sample data
+EXL-002,B01,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-10-11,Sample data
+ACU-001,B01,3,1,3,Low,Poor condition,Accept,2026-09-21,Sample data
+DB-002,B02,3,3,9,Medium,Poor condition,Monitor,2026-08-28,Sample data
+EXT-002,B02,2,3,6,Medium,Life safety system,Monitor,2026-08-28,Sample data
+EXL-003,B02,4,2,8,Medium,Past expected life; Poor condition; Life safety system,Monitor,2026-10-19,Sample data
+EXL-004,B02,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-10-04,Sample data
+ACU-002,B02,3,2,6,Medium,Poor condition,Monitor,2026-09-20,Sample data
+DB-003,B03,2,3,6,Medium,None noted,Monitor,2026-10-11,Sample data
+EM-001,B03,3,2,6,Medium,Poor condition,Monitor,2026-08-12,Sample data
+EXT-003,B03,3,3,9,Medium,Poor condition; Life safety system,Monitor,2026-07-24,Sample data
+EXT-004,B03,4,2,8,Medium,Past expected life; Poor condition; Life safety system,Monitor,2026-08-20,Sample data
+EXL-005,B03,1,3,3,Low,Life safety system,Accept,2026-08-01,Sample data
+EXL-006,B03,1,3,3,Low,Life safety system,Accept,2026-08-12,Sample data
+EXL-007,B03,1,3,3,Low,Life safety system,Accept,2026-10-10,Sample data
+ACU-003,B03,1,1,1,Low,None noted,Accept,2026-09-02,Sample data
+ACU-004,B03,1,2,2,Low,None noted,Accept,2026-09-10,Sample data
+RAP-001,B03,1,4,4,Low,None noted,Accept,2026-08-24,Sample data
+RAP-002,B03,3,3,9,Medium,Poor condition,Monitor,2026-08-14,Sample data
+HWU-001,B03,1,1,1,Low,None noted,Accept,2026-08-06,Sample data
+DB-004,B04,3,2,6,Medium,Poor condition,Monitor,2026-07-06,Sample data
+DB-005,B04,4,3,12,High,Past expected life; Poor condition,Replace (capital works),2026-10-17,Sample data
+EM-002,B04,3,2,6,Medium,Poor condition,Monitor,2026-10-15,Sample data
+EXT-005,B04,3,2,6,Medium,Poor condition; Life safety system,Monitor,2026-09-09,Sample data
+EXT-006,B04,4,2,8,Medium,Past expected life; Poor condition; Life safety system,Monitor,2026-10-15,Sample data
+EXT-007,B04,3,3,9,Medium,Poor condition; Life safety system,Monitor,2026-09-30,Sample data
+EXT-008,B04,3,3,9,Medium,Poor condition; Life safety system,Monitor,2026-10-07,Sample data
+EXL-008,B04,4,2,8,Medium,Past expected life; Poor condition; Life safety system,Monitor,2026-07-12,Sample data
+EXL-009,B04,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-08-02,Sample data
+EXL-010,B04,1,2,2,Low,Life safety system,Accept,2026-09-14,Sample data
+EXL-011,B04,1,3,3,Low,Life safety system,Accept,2026-10-13,Sample data
+EXL-012,B04,5,2,10,Medium,Past expected life; Poor condition; Life safety system,Monitor,2026-09-25,Sample data
+EXL-013,B04,1,3,3,Low,Life safety system,Accept,2026-08-28,Sample data
+RAP-003,B04,1,3,3,Low,None noted,Accept,2026-08-19,Sample data
+RAP-004,B04,4,4,16,High,Past expected life; Poor condition,Replace (capital works),2026-07-09,Sample data
+HWU-002,B04,1,1,1,Low,None noted,Accept,2026-10-16,Sample data
+WM-001,B04,4,2,8,Medium,Past expected life; Poor condition,Monitor,2026-09-02,Sample data
+FHR-001,B04,1,2,2,Low,Life safety system,Accept,2026-07-23,Sample data
+FHR-002,B04,1,3,3,Low,Life safety system,Accept,2026-10-16,Sample data
+TMV-001,B04,2,3,6,Medium,None noted,Monitor,2026-08-28,Sample data
+FD-001,B04,3,4,12,High,Poor condition; Life safety system,Replace (capital works),2026-09-11,Sample data
+FD-002,B04,4,4,16,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-10-16,Sample data
+AHU-001,B04,1,4,4,Low,None noted,Accept,2026-07-13,Sample data
+FH-001,B04,3,4,12,High,Poor condition; Life safety system,Repair and monitor,2026-08-24,Sample data
+DB-006,B05,4,2,8,Medium,Past expected life; Poor condition,Monitor,2026-07-21,Sample data
+DB-007,B05,3,3,9,Medium,None noted,Monitor,2026-08-29,Sample data
+EM-003,B05,2,2,4,Low,None noted,Accept,2026-09-26,Sample data
+EXT-009,B05,4,2,8,Medium,Past expected life; Poor condition; Life safety system,Monitor,2026-10-20,Sample data
+EXT-010,B05,4,3,12,High,Poor condition; Life safety system,Replace (capital works),2026-08-08,Sample data
+EXT-011,B05,3,2,6,Medium,Poor condition; Life safety system,Monitor,2026-07-22,Sample data
+EXL-014,B05,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-09-16,Sample data
+EXL-015,B05,1,3,3,Low,Life safety system,Accept,2026-08-10,Sample data
+EXL-016,B05,3,2,6,Medium,Poor condition; Life safety system,Monitor,2026-07-04,Sample data
+EXL-017,B05,1,2,2,Low,Life safety system,Accept,2026-09-27,Sample data
+ACU-005,B05,5,2,10,Medium,Past expected life; Poor condition; Service overdue,Service now,2026-09-18,Sample data
+ACU-006,B05,4,1,4,Low,Past expected life; Poor condition,Accept,2026-10-06,Sample data
+ACU-007,B05,4,1,4,Low,Past expected life; Poor condition,Accept,2026-10-18,Sample data
+RAP-005,B05,4,3,12,High,Past expected life; Poor condition,Replace (capital works),2026-10-12,Sample data
+RAP-006,B05,4,3,12,High,Past expected life; Poor condition,Replace (capital works),2026-08-18,Sample data
+HWU-003,B05,2,1,2,Low,None noted,Accept,2026-07-26,Sample data
+WM-002,B05,1,2,2,Low,Service overdue,Service now,2026-08-21,Sample data
+FHR-003,B05,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-09-01,Sample data
+TMV-002,B05,2,3,6,Medium,None noted,Monitor,2026-08-05,Sample data
+FD-003,B05,2,4,8,Medium,Life safety system,Monitor,2026-08-20,Sample data
+FD-004,B05,2,3,6,Medium,Life safety system,Monitor,2026-09-11,Sample data
+DB-008,B06,2,3,6,Medium,None noted,Monitor,2026-08-01,Sample data
+EXT-012,B06,1,3,3,Low,Life safety system,Accept,2026-08-11,Sample data
+EXL-018,B06,2,3,6,Medium,Life safety system,Monitor,2026-08-27,Sample data
+EXL-019,B06,3,3,9,Medium,Poor condition; Life safety system,Monitor,2026-10-21,Sample data
+ACU-008,B06,2,2,4,Low,None noted,Accept,2026-07-07,Sample data
+DB-009,B07,3,2,6,Medium,Poor condition,Monitor,2026-09-30,Sample data
+EXT-013,B07,5,2,10,Medium,Past expected life; Poor condition; Life safety system,Monitor,2026-08-01,Sample data
+EXL-020,B07,1,3,3,Low,Life safety system,Accept,2026-09-03,Sample data
+EXL-021,B07,4,2,8,Medium,Past expected life; Poor condition; Life safety system,Monitor,2026-09-13,Sample data
+ACU-009,B07,1,1,1,Low,None noted,Accept,2026-10-01,Sample data
+DB-010,B08,4,3,12,High,Past expected life; Poor condition,Replace (capital works),2026-10-14,Sample data
+EXT-014,B08,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-07-14,Sample data
+EXL-022,B08,2,3,6,Medium,Life safety system,Monitor,2026-10-02,Sample data
+EXL-023,B08,1,2,2,Low,Life safety system,Accept,2026-09-11,Sample data
+ACU-010,B08,4,2,8,Medium,Past expected life; Poor condition,Monitor,2026-10-14,Sample data
+DB-011,B09,2,3,6,Medium,None noted,Monitor,2026-07-19,Sample data
+DB-012,B09,4,3,12,High,Past expected life; Poor condition,Replace (capital works),2026-10-16,Sample data
+EM-004,B09,3,2,6,Medium,Poor condition,Monitor,2026-08-09,Sample data
+EXT-015,B09,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-08-15,Sample data
+EXT-016,B09,4,2,8,Medium,Past expected life; Poor condition; Life safety system,Monitor,2026-08-29,Sample data
+EXT-017,B09,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-08-26,Sample data
+EXL-024,B09,4,2,8,Medium,Past expected life; Poor condition; Life safety system,Monitor,2026-09-21,Sample data
+EXL-025,B09,4,2,8,Medium,Past expected life; Poor condition; Life safety system,Monitor,2026-10-09,Sample data
+EXL-026,B09,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-10-12,Sample data
+EXL-027,B09,4,2,8,Medium,Past expected life; Poor condition; Life safety system,Monitor,2026-10-13,Sample data
+ACU-011,B09,2,2,4,Low,None noted,Accept,2026-07-22,Sample data
+ACU-012,B09,2,2,4,Low,None noted,Accept,2026-10-04,Sample data
+ACU-013,B09,1,2,2,Low,None noted,Accept,2026-08-10,Sample data
+RAP-007,B09,1,4,4,Low,None noted,Accept,2026-07-15,Sample data
+RAP-008,B09,1,3,3,Low,None noted,Accept,2026-08-08,Sample data
+HWU-004,B09,3,1,3,Low,Poor condition,Accept,2026-08-07,Sample data
+WM-003,B09,4,2,8,Medium,Past expected life; Poor condition,Monitor,2026-10-10,Sample data
+FHR-004,B09,1,3,3,Low,Life safety system,Accept,2026-09-05,Sample data
+TMV-003,B09,1,3,3,Low,None noted,Accept,2026-10-02,Sample data
+FD-005,B09,3,4,12,High,Life safety system,Repair and monitor,2026-08-17,Sample data
+FD-006,B09,2,4,8,Medium,Life safety system,Monitor,2026-10-19,Sample data
+DB-013,B10,2,2,4,Low,None noted,Accept,2026-09-20,Sample data
+EXT-018,B10,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-07-13,Sample data
+EXL-028,B10,1,2,2,Low,Life safety system,Accept,2026-09-14,Sample data
+EXL-029,B10,4,2,8,Medium,Past expected life; Poor condition; Life safety system,Monitor,2026-10-12,Sample data
+ACU-014,B10,1,2,2,Low,None noted,Accept,2026-10-08,Sample data
+DB-014,B11,2,2,4,Low,None noted,Accept,2026-07-30,Sample data
+EXT-019,B11,3,2,6,Medium,Poor condition; Life safety system,Monitor,2026-08-07,Sample data
+EXL-030,B11,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-07-17,Sample data
+EXL-031,B11,3,3,9,Medium,Poor condition; Life safety system,Monitor,2026-09-14,Sample data
+ACU-015,B11,4,2,8,Medium,Past expected life; Poor condition,Monitor,2026-08-27,Sample data
+DB-015,B12,1,2,2,Low,None noted,Accept,2026-10-01,Sample data
+EM-005,B12,1,1,1,Low,None noted,Accept,2026-09-03,Sample data
+EXT-020,B12,1,3,3,Low,Life safety system,Accept,2026-10-05,Sample data
+EXL-032,B12,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-09-18,Sample data
+EXL-033,B12,1,3,3,Low,Life safety system,Accept,2026-07-16,Sample data
+ACU-016,B12,3,2,6,Medium,Poor condition,Monitor,2026-07-16,Sample data
+HWU-005,B12,1,2,2,Low,None noted,Accept,2026-07-31,Sample data
+EXT-021,B13,3,3,9,Medium,Poor condition; Life safety system,Monitor,2026-07-29,Sample data
+DB-016,B14,4,2,8,Medium,Past expected life; Poor condition,Monitor,2026-09-23,Sample data
+EM-006,B14,1,1,1,Low,None noted,Accept,2026-07-15,Sample data
+EXT-022,B14,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-08-06,Sample data
+EXT-023,B14,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-10-16,Sample data
+EXL-034,B14,1,3,3,Low,Life safety system,Accept,2026-07-15,Sample data
+EXL-035,B14,1,3,3,Low,Life safety system,Accept,2026-10-14,Sample data
+EXL-036,B14,3,3,9,Medium,Poor condition; Life safety system,Monitor,2026-09-21,Sample data
+ACU-017,B14,2,1,2,Low,None noted,Accept,2026-07-14,Sample data
+ACU-018,B14,1,2,2,Low,None noted,Accept,2026-07-31,Sample data
+RAP-009,B14,4,3,12,High,Past expected life; Poor condition,Replace (capital works),2026-09-09,Sample data
+RAP-010,B14,4,4,16,High,Past expected life; Poor condition,Replace (capital works),2026-07-19,Sample data
+HWU-006,B14,3,2,6,Medium,Poor condition,Monitor,2026-08-08,Sample data
+EXT-024,B15,2,2,4,Low,Life safety system,Accept,2026-09-08,Sample data
+DB-017,B16,1,3,3,Low,None noted,Accept,2026-10-05,Sample data
+EM-007,B16,2,2,4,Low,None noted,Accept,2026-07-19,Sample data
+EXT-025,B16,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-07-30,Sample data
+EXT-026,B16,1,2,2,Low,Life safety system,Accept,2026-09-26,Sample data
+EXL-037,B16,1,2,2,Low,Life safety system,Accept,2026-09-08,Sample data
+EXL-038,B16,3,3,9,Medium,Poor condition; Life safety system,Monitor,2026-07-07,Sample data
+EXL-039,B16,3,2,6,Medium,Poor condition; Life safety system,Monitor,2026-10-03,Sample data
+ACU-019,B16,3,2,6,Medium,Poor condition,Monitor,2026-09-26,Sample data
+ACU-020,B16,4,1,4,Low,Past expected life; Poor condition,Accept,2026-07-22,Sample data
+RAP-011,B16,4,4,16,High,Past expected life; Poor condition,Replace (capital works),2026-09-06,Sample data
+RAP-012,B16,4,3,12,High,Past expected life; Poor condition,Replace (capital works),2026-10-20,Sample data
+HWU-007,B16,3,2,6,Medium,Poor condition,Monitor,2026-08-31,Sample data
+DB-018,B17,3,3,9,Medium,Poor condition,Monitor,2026-08-24,Sample data
+DB-019,B17,3,3,9,Medium,Poor condition,Monitor,2026-08-18,Sample data
+DB-020,B17,3,3,9,Medium,Poor condition,Monitor,2026-08-26,Sample data
+EM-008,B17,1,1,1,Low,None noted,Accept,2026-09-07,Sample data
+EXT-027,B17,2,3,6,Medium,Life safety system,Monitor,2026-08-16,Sample data
+EXT-028,B17,2,3,6,Medium,Life safety system,Monitor,2026-08-10,Sample data
+EXT-029,B17,1,3,3,Low,Life safety system,Accept,2026-07-06,Sample data
+EXT-030,B17,1,3,3,Low,Life safety system,Accept,2026-09-21,Sample data
+EXT-031,B17,2,3,6,Medium,Life safety system,Monitor,2026-08-02,Sample data
+EXL-040,B17,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-08-13,Sample data
+EXL-041,B17,1,3,3,Low,Life safety system,Accept,2026-10-03,Sample data
+EXL-042,B17,1,2,2,Low,Life safety system,Accept,2026-08-22,Sample data
+EXL-043,B17,1,3,3,Low,Life safety system,Accept,2026-10-10,Sample data
+EXL-044,B17,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-07-09,Sample data
+EXL-045,B17,1,3,3,Low,Life safety system,Accept,2026-09-05,Sample data
+EXL-046,B17,1,3,3,Low,Life safety system,Accept,2026-09-02,Sample data
+RAP-013,B17,1,3,3,Low,None noted,Accept,2026-10-01,Sample data
+RAP-014,B17,1,3,3,Low,None noted,Accept,2026-07-29,Sample data
+HWU-008,B17,3,2,6,Medium,Poor condition,Monitor,2026-08-30,Sample data
+WM-004,B17,1,1,1,Low,None noted,Accept,2026-09-22,Sample data
+FHR-005,B17,1,3,3,Low,Life safety system,Accept,2026-09-19,Sample data
+FHR-006,B17,2,2,4,Low,Life safety system,Accept,2026-09-01,Sample data
+TMV-004,B17,1,3,3,Low,None noted,Accept,2026-09-02,Sample data
+FD-007,B17,3,3,9,Medium,Poor condition; Life safety system,Monitor,2026-07-24,Sample data
+FD-008,B17,2,4,8,Medium,Life safety system,Monitor,2026-09-30,Sample data
+AHU-002,B17,4,3,12,High,Past expected life; Poor condition,Replace (capital works),2026-09-20,Sample data
+FH-002,B17,3,4,12,High,Life safety system,Repair and monitor,2026-10-12,Sample data
+FIP-001,B17,2,4,8,Medium,Life safety system,Monitor,2026-08-02,Sample data
+DB-021,B18,5,2,10,Medium,Past expected life; Poor condition,Monitor,2026-08-13,Sample data
+DB-022,B18,4,2,8,Medium,Past expected life; Poor condition,Monitor,2026-10-16,Sample data
+EM-009,B18,4,1,4,Low,Poor condition,Accept,2026-07-17,Sample data
+EXT-032,B18,2,2,4,Low,Life safety system,Accept,2026-08-10,Sample data
+EXT-033,B18,3,2,6,Medium,Poor condition; Life safety system,Monitor,2026-08-05,Sample data
+EXT-034,B18,3,3,9,Medium,Life safety system,Monitor,2026-09-18,Sample data
+EXL-047,B18,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-07-09,Sample data
+EXL-048,B18,4,2,8,Medium,Past expected life; Poor condition; Life safety system,Monitor,2026-07-20,Sample data
+EXL-049,B18,1,2,2,Low,Life safety system,Accept,2026-10-08,Sample data
+EXL-050,B18,1,3,3,Low,Service overdue; Life safety system,Service now,2026-10-17,Sample data
+ACU-021,B18,1,1,1,Low,None noted,Accept,2026-08-10,Sample data
+ACU-022,B18,4,2,8,Medium,Past expected life; Poor condition,Monitor,2026-09-21,Sample data
+ACU-023,B18,1,2,2,Low,None noted,Accept,2026-09-17,Sample data
+RAP-015,B18,3,4,12,High,Poor condition,Repair and monitor,2026-09-02,Sample data
+RAP-016,B18,3,4,12,High,None noted,Repair and monitor,2026-09-03,Sample data
+HWU-009,B18,1,2,2,Low,None noted,Accept,2026-08-17,Sample data
+WM-005,B18,3,1,3,Low,Poor condition,Accept,2026-08-17,Sample data
+FHR-007,B18,2,3,6,Medium,Life safety system,Monitor,2026-08-31,Sample data
+TMV-005,B18,3,3,9,Medium,Poor condition,Monitor,2026-07-05,Sample data
+FD-009,B18,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-09-21,Sample data
+FD-010,B18,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-09-01,Sample data
+DB-023,B19,1,3,3,Low,None noted,Accept,2026-07-25,Sample data
+EM-010,B19,2,2,4,Low,None noted,Accept,2026-09-22,Sample data
+EXT-035,B19,2,2,4,Low,Life safety system,Accept,2026-08-29,Sample data
+EXL-051,B19,3,3,9,Medium,Service overdue; Life safety system,Service now,2026-07-09,Sample data
+EXL-052,B19,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-08-06,Sample data
+ACU-024,B19,1,2,2,Low,None noted,Accept,2026-08-31,Sample data
+HWU-010,B19,5,2,10,Medium,Past expected life; Poor condition,Monitor,2026-08-21,Sample data
+DB-024,B20,3,3,9,Medium,None noted,Monitor,2026-09-13,Sample data
+EXT-036,B20,1,3,3,Low,Life safety system,Accept,2026-10-14,Sample data
+EXL-053,B20,1,3,3,Low,Life safety system,Accept,2026-08-14,Sample data
+EXT-037,B21,1,2,2,Low,Life safety system,Accept,2026-09-13,Sample data
+EXT-038,B22,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-07-09,Sample data
+DB-025,B23,1,2,2,Low,None noted,Accept,2026-07-11,Sample data
+DB-026,B23,1,2,2,Low,None noted,Accept,2026-09-21,Sample data
+DB-027,B23,1,3,3,Low,None noted,Accept,2026-09-14,Sample data
+DB-028,B23,1,3,3,Low,None noted,Accept,2026-07-11,Sample data
+DB-029,B23,1,3,3,Low,None noted,Accept,2026-08-10,Sample data
+EM-011,B23,4,2,8,Medium,Past expected life; Poor condition,Monitor,2026-09-25,Sample data
+EXT-039,B23,1,3,3,Low,Life safety system,Accept,2026-08-25,Sample data
+EXT-040,B23,1,2,2,Low,Life safety system,Accept,2026-10-16,Sample data
+EXT-041,B23,1,3,3,Low,Life safety system,Accept,2026-09-13,Sample data
+EXT-042,B23,1,3,3,Low,Life safety system,Accept,2026-10-09,Sample data
+EXT-043,B23,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-08-27,Sample data
+EXT-044,B23,1,3,3,Low,Life safety system,Accept,2026-09-02,Sample data
+EXT-045,B23,3,3,9,Medium,Poor condition; Life safety system,Monitor,2026-08-11,Sample data
+EXT-046,B23,4,2,8,Medium,Past expected life; Poor condition; Life safety system,Monitor,2026-10-19,Sample data
+EXT-047,B23,1,3,3,Low,Life safety system,Accept,2026-09-19,Sample data
+EXL-054,B23,4,3,12,High,Poor condition; Life safety system,Replace (capital works),2026-09-25,Sample data
+EXL-055,B23,1,2,2,Low,Service overdue; Life safety system,Service now,2026-10-07,Sample data
+EXL-056,B23,1,3,3,Low,Life safety system,Accept,2026-08-30,Sample data
+EXL-057,B23,1,3,3,Low,Life safety system,Accept,2026-08-07,Sample data
+EXL-058,B23,3,3,9,Medium,Poor condition; Life safety system,Monitor,2026-10-06,Sample data
+EXL-059,B23,5,2,10,Medium,Past expected life; Poor condition; Life safety system,Monitor,2026-08-06,Sample data
+EXL-060,B23,2,3,6,Medium,Life safety system,Monitor,2026-07-04,Sample data
+EXL-061,B23,1,3,3,Low,Life safety system,Accept,2026-07-19,Sample data
+EXL-062,B23,4,2,8,Medium,Past expected life; Poor condition; Life safety system,Monitor,2026-10-19,Sample data
+EXL-063,B23,1,3,3,Low,Life safety system,Accept,2026-09-19,Sample data
+EXL-064,B23,1,3,3,Low,Life safety system,Accept,2026-09-05,Sample data
+EXL-065,B23,1,3,3,Low,Life safety system,Accept,2026-08-13,Sample data
+EXL-066,B23,4,2,8,Medium,Past expected life; Poor condition; Life safety system,Monitor,2026-07-05,Sample data
+RAP-017,B23,4,4,16,High,Past expected life; Poor condition,Replace (capital works),2026-09-07,Sample data
+RAP-018,B23,2,5,10,Medium,None noted,Monitor,2026-08-28,Sample data
+HWU-011,B23,3,1,3,Low,Poor condition,Accept,2026-07-18,Sample data
+WM-006,B23,1,1,1,Low,None noted,Accept,2026-08-25,Sample data
+FHR-008,B23,2,3,6,Medium,Life safety system,Monitor,2026-08-11,Sample data
+FHR-009,B23,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-09-16,Sample data
+FHR-010,B23,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-08-11,Sample data
+FHR-011,B23,1,2,2,Low,Life safety system,Accept,2026-09-12,Sample data
+TMV-006,B23,3,3,9,Medium,None noted,Monitor,2026-09-24,Sample data
+FD-011,B23,1,4,4,Low,Life safety system,Accept,2026-08-22,Sample data
+FD-012,B23,1,4,4,Low,Life safety system,Accept,2026-07-28,Sample data
+AHU-003,B23,4,4,16,High,Past expected life; Poor condition,Replace (capital works),2026-07-06,Sample data
+FH-003,B23,3,4,12,High,Poor condition; Life safety system,Repair and monitor,2026-07-28,Sample data
+FIP-002,B23,1,5,5,Low,Life safety system,Accept,2026-08-25,Sample data
+MECP-001,B23,2,5,10,Medium,Life safety system,Monitor,2026-09-16,Sample data
+MSB-001,B23,3,5,15,High,Poor condition,Replace (capital works),2026-07-25,Sample data
+BFP-001,B23,1,3,3,Low,None noted,Accept,2026-07-16,Sample data
+MSSB-001,B23,2,3,6,Medium,None noted,Monitor,2026-07-18,Sample data
+INV-001,B23,1,1,1,Low,None noted,Accept,2026-09-10,Sample data
+LP-001,B23,3,3,9,Medium,Poor condition,Monitor,2026-09-02,Sample data
+SL-001,B23,2,4,8,Medium,None noted,Monitor,2026-09-22,Sample data
+BLR-001,B23,1,4,4,Low,None noted,Accept,2026-08-13,Sample data
+DB-030,B24,3,2,6,Medium,Poor condition,Monitor,2026-07-13,Sample data
+EXT-048,B24,1,3,3,Low,Life safety system,Accept,2026-07-16,Sample data
+EXL-067,B24,2,2,4,Low,Life safety system,Accept,2026-08-14,Sample data
+DB-031,B25,2,3,6,Medium,None noted,Monitor,2026-09-25,Sample data
+EXT-049,B25,2,3,6,Medium,Life safety system,Monitor,2026-07-21,Sample data
+EXL-068,B25,2,3,6,Medium,Life safety system,Monitor,2026-09-09,Sample data
+DB-032,B26,1,3,3,Low,None noted,Accept,2026-09-06,Sample data
+EXT-050,B26,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-08-31,Sample data
+EXL-069,B26,1,3,3,Low,Life safety system,Accept,2026-07-13,Sample data
+DB-033,B27,1,3,3,Low,None noted,Accept,2026-08-07,Sample data
+EM-012,B27,1,2,2,Low,None noted,Accept,2026-10-20,Sample data
+EXT-051,B27,4,2,8,Medium,Past expected life; Poor condition; Life safety system,Monitor,2026-10-13,Sample data
+EXL-070,B27,4,2,8,Medium,Past expected life; Poor condition; Life safety system,Monitor,2026-08-08,Sample data
+EXL-071,B27,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-09-03,Sample data
+ACU-025,B27,4,2,8,Medium,Past expected life; Poor condition,Monitor,2026-08-11,Sample data
+HWU-012,B27,1,2,2,Low,None noted,Accept,2026-09-03,Sample data
+EXT-052,B28,3,3,9,Medium,Poor condition; Life safety system,Monitor,2026-10-15,Sample data
+DB-034,B29,1,3,3,Low,None noted,Accept,2026-09-03,Sample data
+EXT-053,B29,3,2,6,Medium,Poor condition; Life safety system,Monitor,2026-09-03,Sample data
+EXL-072,B29,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-07-29,Sample data
+EXL-073,B29,3,3,9,Medium,Poor condition; Life safety system,Monitor,2026-08-20,Sample data
+ACU-026,B29,3,1,3,Low,Poor condition,Accept,2026-10-01,Sample data
+EXT-054,B30,4,2,8,Medium,Poor condition; Life safety system,Monitor,2026-07-23,Sample data
+DB-035,B31,1,3,3,Low,None noted,Accept,2026-08-28,Sample data
+DB-036,B31,1,2,2,Low,None noted,Accept,2026-07-23,Sample data
+EM-013,B31,3,1,3,Low,None noted,Accept,2026-10-08,Sample data
+EXT-055,B31,1,2,2,Low,Life safety system,Accept,2026-10-15,Sample data
+EXT-056,B31,1,2,2,Low,Life safety system,Accept,2026-09-30,Sample data
+EXT-057,B31,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-07-14,Sample data
+EXL-074,B31,2,3,6,Medium,Life safety system,Monitor,2026-08-06,Sample data
+EXL-075,B31,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-10-19,Sample data
+EXL-076,B31,1,2,2,Low,Life safety system,Accept,2026-09-13,Sample data
+EXL-077,B31,2,3,6,Medium,Life safety system,Monitor,2026-10-03,Sample data
+EXL-078,B31,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-10-15,Sample data
+ACU-027,B31,4,2,8,Medium,Past expected life; Poor condition,Monitor,2026-08-28,Sample data
+ACU-028,B31,5,2,10,Medium,Past expected life; Poor condition; Service overdue,Service now,2026-09-07,Sample data
+ACU-029,B31,1,1,1,Low,None noted,Accept,2026-09-02,Sample data
+ACU-030,B31,4,2,8,Medium,Past expected life; Poor condition,Monitor,2026-09-11,Sample data
+RAP-019,B31,3,4,12,High,Poor condition,Repair and monitor,2026-08-07,Sample data
+RAP-020,B31,4,4,16,High,Past expected life; Poor condition,Replace (capital works),2026-08-22,Sample data
+HWU-013,B31,1,1,1,Low,None noted,Accept,2026-07-28,Sample data
+WM-007,B31,3,2,6,Medium,Poor condition,Monitor,2026-07-12,Sample data
+FHR-012,B31,2,3,6,Medium,Life safety system,Monitor,2026-07-16,Sample data
+TMV-007,B31,4,2,8,Medium,Past expected life; Poor condition,Monitor,2026-08-10,Sample data
+FD-013,B31,1,3,3,Low,Life safety system,Accept,2026-07-22,Sample data
+FD-014,B31,2,3,6,Medium,Life safety system,Monitor,2026-09-01,Sample data
+DB-037,B32,4,3,12,High,Past expected life; Poor condition,Replace (capital works),2026-10-08,Sample data
+DB-038,B32,4,3,12,High,Past expected life; Poor condition,Replace (capital works),2026-07-11,Sample data
+EM-014,B32,4,2,8,Medium,Past expected life; Poor condition,Monitor,2026-09-01,Sample data
+EXT-058,B32,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-08-04,Sample data
+EXT-059,B32,3,3,9,Medium,Poor condition; Life safety system,Monitor,2026-07-13,Sample data
+EXT-060,B32,3,3,9,Medium,Poor condition; Life safety system,Monitor,2026-08-27,Sample data
+EXL-079,B32,1,3,3,Low,Life safety system,Accept,2026-07-04,Sample data
+EXL-080,B32,1,3,3,Low,Life safety system,Accept,2026-10-08,Sample data
+EXL-081,B32,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-08-25,Sample data
+EXL-082,B32,3,3,9,Medium,Poor condition; Life safety system,Monitor,2026-07-25,Sample data
+ACU-031,B32,1,1,1,Low,None noted,Accept,2026-09-28,Sample data
+ACU-032,B32,1,2,2,Low,Service overdue,Service now,2026-09-03,Sample data
+ACU-033,B32,1,2,2,Low,None noted,Accept,2026-08-10,Sample data
+RAP-021,B32,1,3,3,Low,None noted,Accept,2026-10-11,Sample data
+RAP-022,B32,1,4,4,Low,None noted,Accept,2026-10-13,Sample data
+HWU-014,B32,4,2,8,Medium,Past expected life; Poor condition,Monitor,2026-10-18,Sample data
+WM-008,B32,4,1,4,Low,Past expected life; Poor condition,Accept,2026-09-02,Sample data
+FHR-013,B32,1,2,2,Low,Life safety system,Accept,2026-08-13,Sample data
+TMV-008,B32,3,3,9,Medium,Poor condition,Monitor,2026-08-18,Sample data
+FD-015,B32,4,4,16,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-07-24,Sample data
+FD-016,B32,4,4,16,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-10-03,Sample data
+DB-039,B33,3,2,6,Medium,Poor condition,Monitor,2026-07-11,Sample data
+EXT-061,B33,2,3,6,Medium,Life safety system,Monitor,2026-07-13,Sample data
+EXL-083,B33,1,3,3,Low,Life safety system,Accept,2026-08-27,Sample data
+EXL-084,B33,1,3,3,Low,Life safety system,Accept,2026-07-26,Sample data
+ACU-034,B33,4,2,8,Medium,Past expected life; Poor condition,Monitor,2026-09-29,Sample data
+DB-040,B34,3,3,9,Medium,Poor condition,Monitor,2026-08-30,Sample data
+EXT-062,B34,1,3,3,Low,Service overdue; Life safety system,Service now,2026-10-10,Sample data
+EXL-085,B34,2,3,6,Medium,Life safety system,Monitor,2026-09-27,Sample data
+EXL-086,B34,1,3,3,Low,Life safety system,Accept,2026-09-04,Sample data
+ACU-035,B34,5,2,10,Medium,Past expected life; Poor condition,Monitor,2026-08-18,Sample data
+DB-041,B35,2,3,6,Medium,None noted,Monitor,2026-09-08,Sample data
+EM-015,B35,3,2,6,Medium,Poor condition,Monitor,2026-09-05,Sample data
+EXT-063,B35,4,3,12,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-07-22,Sample data
+EXT-064,B35,3,3,9,Medium,Poor condition; Life safety system,Monitor,2026-10-12,Sample data
+EXL-087,B35,1,2,2,Low,Life safety system,Accept,2026-07-30,Sample data
+EXL-088,B35,1,3,3,Low,Life safety system,Accept,2026-08-04,Sample data
+ACU-036,B35,1,1,1,Low,None noted,Accept,2026-09-08,Sample data
+ACU-037,B35,1,2,2,Low,None noted,Accept,2026-09-17,Sample data
+RAP-023,B35,3,4,12,High,Poor condition,Repair and monitor,2026-09-01,Sample data
+RAP-024,B35,1,4,4,Low,None noted,Accept,2026-07-17,Sample data
+HWU-015,B35,1,2,2,Low,None noted,Accept,2026-08-23,Sample data
+DB-042,B36,1,2,2,Low,None noted,Accept,2026-10-03,Sample data
+DB-043,B36,3,3,9,Medium,Poor condition,Monitor,2026-10-13,Sample data
+EM-016,B36,3,1,3,Low,Poor condition,Accept,2026-08-02,Sample data
+EXT-065,B36,2,3,6,Medium,Life safety system,Monitor,2026-08-22,Sample data
+EXT-066,B36,3,3,9,Medium,Service overdue; Life safety system,Service now,2026-07-22,Sample data
+EXT-067,B36,2,3,6,Medium,Life safety system,Monitor,2026-08-04,Sample data
+EXT-068,B36,3,2,6,Medium,Poor condition; Life safety system,Monitor,2026-08-15,Sample data
+EXL-089,B36,5,3,15,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-07-27,Sample data
+EXL-090,B36,1,3,3,Low,Life safety system,Accept,2026-08-13,Sample data
+EXL-091,B36,2,3,6,Medium,Life safety system,Monitor,2026-09-07,Sample data
+EXL-092,B36,1,2,2,Low,Life safety system,Accept,2026-09-11,Sample data
+EXL-093,B36,4,2,8,Medium,Past expected life; Poor condition; Life safety system,Monitor,2026-09-17,Sample data
+ACU-038,B36,4,2,8,Medium,Past expected life; Poor condition,Monitor,2026-10-21,Sample data
+ACU-039,B36,4,2,8,Medium,Past expected life; Poor condition,Monitor,2026-09-30,Sample data
+ACU-040,B36,3,1,3,Low,Poor condition,Accept,2026-08-22,Sample data
+ACU-041,B36,1,2,2,Low,None noted,Accept,2026-08-31,Sample data
+RAP-025,B36,4,4,16,High,Past expected life; Poor condition,Replace (capital works),2026-07-11,Sample data
+RAP-026,B36,4,4,16,High,Past expected life; Poor condition,Replace (capital works),2026-09-27,Sample data
+HWU-016,B36,2,1,2,Low,Service overdue,Service now,2026-08-25,Sample data
+WM-009,B36,3,2,6,Medium,Poor condition,Monitor,2026-07-22,Sample data
+FHR-014,B36,4,2,8,Medium,Past expected life; Poor condition; Life safety system,Monitor,2026-08-22,Sample data
+TMV-009,B36,3,3,9,Medium,None noted,Monitor,2026-10-17,Sample data
+FD-017,B36,4,4,16,High,Past expected life; Poor condition; Life safety system,Replace (capital works),2026-09-16,Sample data
+FD-018,B36,2,4,8,Medium,Life safety system,Monitor,2026-09-25,Sample data
+EXT-069,B38,3,3,9,Medium,Poor condition; Life safety system,Monitor,2026-10-14,Sample data
+EH-001,,2,3,6,Medium,Life safety system,Monitor,2026-07-20,Sample data
+EH-002,,3,4,12,High,Life safety system,Repair and monitor,2026-07-15,Sample data

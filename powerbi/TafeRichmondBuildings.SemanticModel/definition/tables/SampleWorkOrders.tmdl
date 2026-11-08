@@ -1,0 +1,143 @@
+table SampleWorkOrders
+	lineageTag: a9893222-324a-791c-6916-e3ae2ee5b91a
+
+	/// Sample data: not about TAFE NSW Richmond or any real building
+	measure 'Sample work orders' = COUNTROWS ( SampleWorkOrders )
+		formatString: #,0
+		displayFolder: Sample data
+		lineageTag: e6acc9bf-f5fa-318b-f025-01e73f8a983b
+
+	/// Sample data: not about TAFE NSW Richmond or any real building
+	measure 'Sample open work orders' = CALCULATE ( COUNTROWS ( SampleWorkOrders ), NOT SampleWorkOrders[status] IN { "Completed", "Cancelled, missed" } )
+		formatString: #,0
+		displayFolder: Sample data
+		lineageTag: f9ccc3f8-8f42-06e9-94b2-79434871d16a
+
+	/// Sample data: not about TAFE NSW Richmond or any real building
+	measure 'Sample overdue work orders' = CALCULATE ( COUNTROWS ( SampleWorkOrders ), SampleWorkOrders[overdue] = "Yes" )
+		formatString: #,0
+		displayFolder: Sample data
+		lineageTag: fe4d2e45-69d0-333a-f87d-04eb06a903f8
+
+	column wo_id
+		dataType: string
+		lineageTag: f88027c2-e67f-94ca-7173-d7abc63910b8
+		summarizeBy: none
+		sourceColumn: wo_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column raised
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 4efcf59b-3bcc-ccee-0a15-9dd6b0e0df40
+		summarizeBy: none
+		sourceColumn: raised
+
+		annotation SummarizationSetBy = Automatic
+
+	column building
+		dataType: string
+		isHidden
+		lineageTag: a05e3924-1b7f-8a36-d0e3-3ed830b2ec7c
+		summarizeBy: none
+		sourceColumn: building
+
+		annotation SummarizationSetBy = Automatic
+
+	column asset_id
+		dataType: string
+		lineageTag: 4735c90b-0425-9c31-a398-2dc0c3774845
+		summarizeBy: none
+		sourceColumn: asset_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column wo_type
+		dataType: string
+		lineageTag: 79dd5c9f-e155-5bfd-7def-0873eb4d124f
+		summarizeBy: none
+		sourceColumn: wo_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column trade
+		dataType: string
+		lineageTag: c5aee0ef-3440-e887-b982-bf09c6f6f96d
+		summarizeBy: none
+		sourceColumn: trade
+
+		annotation SummarizationSetBy = Automatic
+
+	column priority
+		dataType: string
+		lineageTag: 6e20620b-6e6a-e9d5-e53e-9a7f02a464fb
+		summarizeBy: none
+		sourceColumn: priority
+
+		annotation SummarizationSetBy = Automatic
+
+	column status
+		dataType: string
+		lineageTag: 5b3bee1b-355a-1132-8a7f-970ca94f182b
+		summarizeBy: none
+		sourceColumn: status
+
+		annotation SummarizationSetBy = Automatic
+
+	column target
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 47960a40-85aa-4586-f546-a6722229af71
+		summarizeBy: none
+		sourceColumn: target
+
+		annotation SummarizationSetBy = Automatic
+
+	column age_days
+		dataType: int64
+		formatString: 0
+		lineageTag: 0befffe6-3462-b9f9-a585-5586450f7a90
+		summarizeBy: none
+		sourceColumn: age_days
+
+		annotation SummarizationSetBy = Automatic
+
+	column overdue
+		dataType: string
+		lineageTag: 56f0e71a-fccc-58df-3ac0-4d10bc6c4c97
+		summarizeBy: none
+		sourceColumn: overdue
+
+		annotation SummarizationSetBy = Automatic
+
+	column cost_aud
+		dataType: double
+		formatString: #,0
+		lineageTag: 5d077c10-38dc-7e39-4843-dbec1d8cafa5
+		summarizeBy: none
+		sourceColumn: cost_aud
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_status
+		dataType: string
+		lineageTag: 84ee6387-edeb-15ae-60f2-35a0ec6c9eb8
+		summarizeBy: none
+		sourceColumn: data_status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition SampleWorkOrders = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(GetFile("sample/work_orders.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Skipped = Table.Skip(Source, 0),
+				    Promoted = Table.PromoteHeaders(Skipped, [PromoteAllScalars = true]),
+				    Kept = Table.SelectColumns(Promoted, {"wo_id", "raised", "building", "asset_id", "wo_type", "trade", "priority", "status", "target", "age_days", "overdue", "cost_aud", "data_status"}),
+				    Typed = Table.TransformColumnTypes(Kept, {{"wo_id", type text}, {"raised", type date}, {"building", type text}, {"asset_id", type text}, {"wo_type", type text}, {"trade", type text}, {"priority", type text}, {"status", type text}, {"target", type date}, {"age_days", Int64.Type}, {"overdue", type text}, {"cost_aud", type number}, {"data_status", type text}}, "en-AU")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

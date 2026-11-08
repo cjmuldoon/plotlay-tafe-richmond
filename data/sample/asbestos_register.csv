@@ -1,0 +1,21 @@
+acm_id,building,level,location,material,friable,sampled,condition,risk,labelled,last_inspected,review_status,action,data_status
+ACM-001,B01,Ground,Store,Bituminous roof membrane,No,Presumed,Fair,Low,No,2026-06-20,Current,Manage in place,Sample data
+ACM-002,B02,Ground,Store,Electrical switchboard backing,No,Presumed,Good,Low,Yes,2026-04-17,Current,Manage in place,Sample data
+ACM-003,B05,Ground,Plant room,Fire door core,No,"Sampled, positive",Poor,Medium,Yes,2026-04-13,Current,Encapsulate,Sample data
+ACM-004,B05,Ground,Classroom,Vinyl floor tiles and mastic,No,"Sampled, positive",Fair,Low,Yes,2026-06-22,Current,Manage in place,Sample data
+ACM-005,B08,Ground,Corridor,Fibre cement sheet eaves lining,No,"Sampled, positive",Fair,Low,Yes,2021-01-07,Review due,Manage in place,Sample data
+ACM-006,B09,Ground,External,Fire door core,No,"Sampled, positive",Good,Low,Yes,2021-11-10,Review due,Manage in place,Sample data
+ACM-007,B09,Ground,External,Bituminous roof membrane,No,"Sampled, positive",Fair,Low,No,2026-07-22,Current,Manage in place,Sample data
+ACM-008,B11,Ground,Roof space,Pipe lagging (plant room),Yes,"Sampled, positive",Good,Medium,No,2021-04-25,Review due,Manage in place,Sample data
+ACM-009,B16,Ground,External,Fibre cement sheet eaves lining,No,Presumed,Good,Low,Yes,2026-04-12,Current,Manage in place,Sample data
+ACM-010,B16,Ground,Classroom,Vinyl floor tiles and mastic,No,Presumed,Good,Low,No,2021-11-09,Review due,Manage in place,Sample data
+ACM-011,B19,Ground,Roof space,Bituminous roof membrane,No,"Sampled, positive",Fair,Low,Yes,2021-08-15,Review due,Manage in place,Sample data
+ACM-012,B25,Ground,External,Vinyl floor tiles and mastic,No,"Sampled, positive",Good,Low,Yes,2021-02-11,Review due,Manage in place,Sample data
+ACM-013,B27,Ground,Store,Fibre cement wall sheeting,No,Presumed,Fair,Low,Yes,2026-03-10,Current,Manage in place,Sample data
+ACM-014,B29,Ground,External,Window putty,No,Presumed,Fair,Low,Yes,2021-11-27,Review due,Manage in place,Sample data
+ACM-015,B31,Ground,Corridor,Vinyl floor tiles and mastic,No,"Sampled, positive",Good,Low,Yes,2021-05-15,Review due,Manage in place,Sample data
+ACM-016,B31,Ground,Plant room,Fibre cement wall sheeting,No,"Sampled, positive",Fair,Low,No,2026-06-02,Current,Manage in place,Sample data
+ACM-017,B31,Ground,Store,Fire door core,No,"Sampled, positive",Poor,Medium,Yes,2026-06-20,Current,Encapsulate,Sample data
+ACM-018,B36,Ground,Roof space,Fibre cement sheet eaves lining,No,"Sampled, positive",Fair,Low,Yes,2021-01-14,Review due,Manage in place,Sample data
+ACM-019,B36,Ground,Plant room,Vinyl floor tiles and mastic,No,"Sampled, positive",Good,Low,Yes,2026-05-28,Current,Manage in place,Sample data
+ACM-020,B36,Ground,External,Pipe lagging (plant room),Yes,"Sampled, positive",Poor,High,No,2026-01-06,Current,Remove (capital works),Sample data

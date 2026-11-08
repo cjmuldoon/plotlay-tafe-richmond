@@ -1,0 +1,23 @@
+relationship 75c2f73f-f8fc-b4f7-8696-200ffcf7d28d
+	fromColumn: SampleSummary.key
+	toColumn: Buildings.key
+
+relationship c003457b-ddfe-8454-7cbc-86f933a3cabb
+	fromColumn: SampleAssets.building
+	toColumn: Buildings.key
+
+relationship fb7b0152-1b41-fb68-1a90-12e40b4b9af0
+	fromColumn: SampleRisk.asset_id
+	toColumn: SampleAssets.asset_id
+
+relationship c122e91d-989e-868a-9bf0-473021764b71
+	fromColumn: SampleWorkOrders.building
+	toColumn: Buildings.key
+
+relationship 1babc7e0-fc3f-6224-83da-a1d37081a14e
+	fromColumn: SamplePM.building
+	toColumn: Buildings.key
+
+relationship b6054b71-fbe6-5dad-ba19-f2735541f4d3
+	fromColumn: SampleESM.building
+	toColumn: Buildings.key

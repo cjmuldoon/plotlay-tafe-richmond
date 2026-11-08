@@ -1,0 +1,39 @@
+key,outline_source,outline_accuracy_m,footprint_m2,perimeter_m,microsoft_offset_m,microsoft_overlap,in_microsoft_footprints,shape
+B01,Traced over NSW Imagery (not in the Microsoft footprints),0.5,202.8,59.0,,,no,rectangle
+B02,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,190.7,64.2,2.83,0.434,yes,rectangle
+B03,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,614.9,100.0,1.67,0.828,yes,rectangle
+B04,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,1373.1,199.3,2.21,0.882,yes,squared polygon
+B05,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,917.6,163.2,2.44,0.862,yes,rectangle
+B06,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,293.9,69.3,1.88,0.735,yes,rectangle
+B07,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,276.3,75.2,2.24,0.667,yes,rectangle
+B08,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,197.7,58.4,2.14,0.641,yes,rectangle
+B09,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,841.4,149.5,2.16,0.841,yes,rectangle
+B10,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,257.3,70.2,2.0,0.666,yes,rectangle
+B11,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,195.0,58.5,2.02,0.648,yes,rectangle
+B12,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,324.4,72.4,2.32,0.753,yes,rectangle
+B13,Traced over NSW Imagery (not in the Microsoft footprints),0.5,39.1,25.0,,,no,rectangle
+B14,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,612.7,109.7,3.13,0.651,yes,rectangle
+B15,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,48.3,27.9,2.43,0.392,yes,rectangle
+B16,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,615.4,117.1,1.5,0.793,yes,squared polygon
+B17,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,1481.6,218.6,4.84,0.664,yes,rectangle
+B18,"Microsoft footprint, picked as it is (a complex roof, not refined)",2.5,862.7,153.6,,,yes,kept as Microsoft drew it
+B19,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,380.6,86.0,2.17,0.808,yes,rectangle
+B20,Traced over NSW Imagery (not in the Microsoft footprints),0.5,122.2,45.9,,,no,rectangle
+B21,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,52.6,29.9,2.29,0.428,yes,rectangle
+B22,Traced over NSW Imagery (not in the Microsoft footprints),0.5,41.6,26.3,,,no,rectangle
+B23,"Microsoft footprint, picked as it is (a complex roof, not refined)",2.5,2946.1,385.3,,,yes,kept as Microsoft drew it
+B24,Traced over NSW Imagery (not in the Microsoft footprints),0.5,142.9,50.1,,,no,rectangle
+B25,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,88.7,42.1,2.13,0.497,yes,rectangle
+B26,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,132.3,46.2,0.9,0.761,yes,rectangle
+B27,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,364.2,76.5,1.66,0.77,yes,rectangle
+B28,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,32.1,22.9,2.16,0.352,yes,rectangle
+B29,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,249.6,65.8,3.29,0.695,yes,rectangle
+B30,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,34.7,23.6,2.45,0.355,yes,rectangle
+B31,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,1058.8,132.3,1.48,0.881,yes,rectangle
+B32,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,823.8,131.2,2.38,0.874,yes,rectangle
+B33,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,282.2,88.1,2.56,0.83,yes,rectangle
+B34,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,188.8,61.2,2.27,0.58,yes,rectangle
+B35,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,496.2,109.7,2.38,0.624,yes,rectangle
+B36,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,1166.9,140.0,2.78,0.83,yes,rectangle
+B37,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,38.3,24.7,2.23,0.412,yes,rectangle
+B38,"Traced over NSW Imagery, started from the Microsoft footprint and fitted to the roof edges",0.5,34.9,23.7,2.17,0.413,yes,rectangle

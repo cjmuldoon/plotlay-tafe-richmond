@@ -1,0 +1,137 @@
+table SampleSummary
+	lineageTag: c903a350-5061-1605-6b2c-3db891fdf740
+
+	/// Sample data: not about TAFE NSW Richmond or any real building
+	measure 'Sample backlog AUD' = SUM ( SampleSummary[backlog_aud] )
+		formatString: #,0
+		displayFolder: Sample data
+		lineageTag: 6d70b727-af9d-6a6c-ef2a-a72d6d7e9ab8
+
+	column key
+		dataType: string
+		isHidden
+		lineageTag: e268b198-6be3-ddbc-ee93-4a7b7a434554
+		summarizeBy: none
+		sourceColumn: key
+
+		annotation SummarizationSetBy = Automatic
+
+	column fabric_condition
+		dataType: string
+		lineageTag: 9556a7e6-d6cd-9480-2cc2-1c24469b1678
+		summarizeBy: none
+		sourceColumn: fabric_condition
+
+		annotation SummarizationSetBy = Automatic
+
+	column fabric_condition_1to5
+		dataType: int64
+		formatString: 0
+		lineageTag: 781b293b-badc-3bc7-7723-f07460667299
+		summarizeBy: none
+		sourceColumn: fabric_condition_1to5
+
+		annotation SummarizationSetBy = Automatic
+
+	column assets
+		dataType: int64
+		formatString: 0
+		lineageTag: 58c2a9b6-6c0e-ea01-1aae-ca2eaed6c14e
+		summarizeBy: none
+		sourceColumn: assets
+
+		annotation SummarizationSetBy = Automatic
+
+	column risk_high_or_extreme
+		dataType: int64
+		formatString: 0
+		lineageTag: 9f3d2345-4f8c-96a3-b05e-f7d26a053cdb
+		summarizeBy: none
+		sourceColumn: risk_high_or_extreme
+
+		annotation SummarizationSetBy = Automatic
+
+	column wo_open
+		dataType: int64
+		formatString: 0
+		lineageTag: d923acb2-6c16-1dd9-f79f-8774a139fd5b
+		summarizeBy: none
+		sourceColumn: wo_open
+
+		annotation SummarizationSetBy = Automatic
+
+	column wo_overdue
+		dataType: int64
+		formatString: 0
+		lineageTag: 3d179884-91b1-9817-1ef7-cbd2f3556743
+		summarizeBy: none
+		sourceColumn: wo_overdue
+
+		annotation SummarizationSetBy = Automatic
+
+	column pm_compliance_pct
+		dataType: double
+		formatString: 0.0
+		lineageTag: 34b00a79-dbb7-0182-7e40-846e888decfc
+		summarizeBy: none
+		sourceColumn: pm_compliance_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column esm_overdue
+		dataType: int64
+		formatString: 0
+		lineageTag: d05d9bd2-562f-5884-540e-fe724c6e456e
+		summarizeBy: none
+		sourceColumn: esm_overdue
+
+		annotation SummarizationSetBy = Automatic
+
+	column asbestos_items
+		dataType: int64
+		formatString: 0
+		lineageTag: d29fc2e8-354b-b400-8168-a1e51ea08cf1
+		summarizeBy: none
+		sourceColumn: asbestos_items
+
+		annotation SummarizationSetBy = Automatic
+
+	column backlog_aud
+		dataType: double
+		formatString: #,0
+		lineageTag: f634b463-689f-2c00-b3af-54adaaf1c4db
+		summarizeBy: none
+		sourceColumn: backlog_aud
+
+		annotation SummarizationSetBy = Automatic
+
+	column after_hours_share_pct
+		dataType: double
+		formatString: 0.0
+		lineageTag: 74c313df-4e3d-f9fa-3c9b-a3dbaf84f617
+		summarizeBy: none
+		sourceColumn: after_hours_share_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_status
+		dataType: string
+		lineageTag: e62b4b4e-9e4e-2bc0-ad26-88bce87d86f6
+		summarizeBy: none
+		sourceColumn: data_status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition SampleSummary = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(GetFile("sample/building_summary.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Skipped = Table.Skip(Source, 0),
+				    Promoted = Table.PromoteHeaders(Skipped, [PromoteAllScalars = true]),
+				    Kept = Table.SelectColumns(Promoted, {"key", "fabric_condition", "fabric_condition_1to5", "assets", "risk_high_or_extreme", "wo_open", "wo_overdue", "pm_compliance_pct", "esm_overdue", "asbestos_items", "backlog_aud", "after_hours_share_pct", "data_status"}),
+				    Typed = Table.TransformColumnTypes(Kept, {{"key", type text}, {"fabric_condition", type text}, {"fabric_condition_1to5", Int64.Type}, {"assets", Int64.Type}, {"risk_high_or_extreme", Int64.Type}, {"wo_open", Int64.Type}, {"wo_overdue", Int64.Type}, {"pm_compliance_pct", type number}, {"esm_overdue", Int64.Type}, {"asbestos_items", Int64.Type}, {"backlog_aud", type number}, {"after_hours_share_pct", type number}, {"data_status", type text}}, "en-AU")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

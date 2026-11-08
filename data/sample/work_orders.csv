@@ -1,0 +1,1011 @@
+wo_id,raised,building,asset_id,wo_type,source,trade,priority,description,status,target,completed,completed_on_time,age_days,overdue,cost_aud,data_status
+WO-2511-0001,2025-11-01,B27,ACU-025,Reactive,Helpdesk,HVAC,P3 Routine,Classroom too hot,Completed,2025-11-08,2025-11-04,Yes,3,No,630.0,Sample data
+WO-2511-0647,2025-11-01,B17,FIP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),Completed,2025-11-15,2025-11-10,Yes,9,No,650.0,Sample data
+WO-2511-0002,2025-11-04,B09,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Lock jammed,Completed,2025-11-11,2025-11-07,Yes,3,No,440.0,Sample data
+WO-2511-0926,2025-11-04,B32,FD-015,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2025-11-18,2025-11-09,Yes,5,No,710.0,Sample data
+WO-2511-0942,2025-11-04,B34,EXL-085,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-11-18,2025-11-11,Yes,7,No,140.0,Sample data
+WO-2511-0003,2025-11-05,B19,HWU-010,Reactive,Helpdesk,Plumbing,P2 Urgent,No hot water,Completed,2025-11-07,2025-11-05,Yes,0,No,230.0,Sample data
+WO-2511-0004,2025-11-05,B22,,Reactive,Helpdesk,Electrical,P2 Urgent,Lights out in classroom,Completed,2025-11-07,2025-11-05,Yes,0,No,580.0,Sample data
+WO-2511-0005,2025-11-06,B23,,Reactive,Helpdesk,HVAC,P3 Routine,Split system not cooling,Completed,2025-11-13,2025-11-13,Yes,7,No,760.0,Sample data
+WO-2511-0006,2025-11-06,B07,DB-009,Reactive,Helpdesk,Electrical,P3 Routine,Lights out in classroom,Completed,2025-11-13,2025-11-09,Yes,3,No,200.0,Sample data
+WO-2511-0007,2025-11-06,B15,,Reactive,Helpdesk,HVAC,P3 Routine,Heating not working,Completed,2025-11-13,2025-11-08,Yes,2,No,320.0,Sample data
+WO-2511-0369,2025-11-06,B02,EXL-004,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-11-20,2025-11-11,Yes,5,No,180.0,Sample data
+WO-2511-0593,2025-11-06,B16,ACU-019,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2025-11-20,2025-11-12,Yes,6,No,500.0,Sample data
+WO-2511-0845,2025-11-06,B28,EXT-052,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2025-11-20,2025-11-20,Yes,14,No,80.0,Sample data
+WO-2511-0992,2025-11-06,B36,ACU-041,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2025-11-20,2025-12-16,No,40,No,320.0,Sample data
+WO-2511-0008,2025-11-07,B36,,Reactive,Helpdesk,Grounds,P3 Routine,Fallen branch,Completed,2025-11-14,2025-11-11,Yes,4,No,460.0,Sample data
+WO-2511-0009,2025-11-07,B35,ACU-036,Reactive,Helpdesk,HVAC,P2 Urgent,Split system not cooling,Completed,2025-11-09,2025-11-08,Yes,1,No,960.0,Sample data
+WO-2511-0010,2025-11-07,B06,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Door closer leaking,Completed,2025-11-14,2025-11-19,No,12,No,440.0,Sample data
+WO-2511-0011,2025-11-07,B29,,Reactive,Helpdesk,Painting,P2 Urgent,Water-stained ceiling,Completed,2025-11-09,2025-11-07,Yes,0,No,210.0,Sample data
+WO-2511-0012,2025-11-07,B34,,Reactive,Helpdesk,Plumbing,P4 Planned,Blocked toilet,Completed,2025-12-05,2025-11-27,Yes,20,No,360.0,Sample data
+WO-2511-0877,2025-11-07,B31,ACU-027,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2025-11-21,2025-11-17,Yes,10,No,310.0,Sample data
+WO-2511-0905,2025-11-08,B32,EXL-079,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-11-22,2025-11-20,Yes,12,No,80.0,Sample data
+WO-2511-0606,2025-11-09,B17,EXT-028,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2025-11-23,2025-11-11,Yes,2,No,140.0,Sample data
+WO-2511-0612,2025-11-09,B17,EXT-031,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2025-11-23,2025-11-11,Yes,2,No,110.0,Sample data
+WO-2511-0013,2025-11-10,B18,,Reactive,Helpdesk,HVAC,P4 Planned,Noisy fan,Awaiting quote,2025-12-08,,,355,Yes,,Sample data
+WO-2511-0014,2025-11-10,B18,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Door closer leaking,Completed,2025-11-17,2025-11-19,No,9,No,120.0,Sample data
+WO-2511-0015,2025-11-10,B23,,Reactive,Helpdesk,HVAC,P2 Urgent,Heating not working,Completed,2025-11-12,2025-11-13,No,3,No,300.0,Sample data
+WO-2511-0587,2025-11-10,B16,EXL-037,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-11-24,2025-11-24,Yes,14,No,120.0,Sample data
+WO-2511-0757,2025-11-10,B23,EXL-064,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-11-24,2025-11-20,Yes,10,No,210.0,Sample data
+WO-2511-0016,2025-11-11,B17,,Reactive,Helpdesk,Carpentry and joinery,P4 Planned,Door sticking,Completed,2025-12-09,2025-12-24,No,43,No,350.0,Sample data
+WO-2511-0403,2025-11-11,B04,EXL-008,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-11-25,2025-11-13,Yes,2,No,140.0,Sample data
+WO-2511-0423,2025-11-11,B04,TMV-001,Planned,PM schedule,Plumbing,P4 Planned,Routine service: thermostatic mixing valve (AS 4032.3),Completed,2025-11-25,2025-11-25,Yes,14,No,190.0,Sample data
+WO-2511-0017,2025-11-12,B05,WM-002,Reactive,Helpdesk,Plumbing,P4 Planned,Blocked toilet,Completed,2025-12-10,2025-12-16,No,34,No,590.0,Sample data
+WO-2511-0956,2025-11-12,B35,EXL-088,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-11-26,2025-11-23,Yes,11,No,90.0,Sample data
+WO-2511-0018,2025-11-13,B03,HWU-001,Reactive,Helpdesk,Plumbing,P3 Routine,Bubbler not working,Completed,2025-11-20,2025-11-24,No,11,No,420.0,Sample data
+WO-2511-0019,2025-11-13,B36,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Key cut request,Completed,2025-11-20,2025-11-18,Yes,5,No,320.0,Sample data
+WO-2511-0020,2025-11-13,B02,,Reactive,Helpdesk,Roofing and gutters,P4 Planned,Roof leak over classroom,Completed,2025-12-11,2025-11-25,Yes,12,No,820.0,Sample data
+WO-2511-0960,2025-11-13,B35,ACU-037,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2025-11-27,2025-11-16,Yes,3,No,740.0,Sample data
+WO-2511-0504,2025-11-14,B09,EXL-024,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-11-28,2026-01-03,No,50,No,190.0,Sample data
+WO-2511-0704,2025-11-14,B20,DB-024,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2025-11-28,2025-11-28,Yes,14,No,940.0,Sample data
+WO-2511-0755,2025-11-14,B23,EXL-063,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-11-28,2025-12-05,No,21,No,180.0,Sample data
+WO-2511-0021,2025-11-17,B33,,Reactive,Helpdesk,Roofing and gutters,P3 Routine,Gutter overflowing,Completed,2025-11-24,2025-11-20,Yes,3,No,270.0,Sample data
+WO-2511-0022,2025-11-17,B18,WM-005,Reactive,Helpdesk,Plumbing,P3 Routine,Leaking tap,Completed,2025-11-24,2025-11-24,Yes,7,No,760.0,Sample data
+WO-2511-0023,2025-11-18,B04,,Reactive,Helpdesk,Carpentry and joinery,P2 Urgent,Cupboard door off hinge,Completed,2025-11-20,2025-11-19,Yes,1,No,90.0,Sample data
+WO-2511-0780,2025-11-18,B23,AHU-003,Planned,PM schedule,HVAC,P4 Planned,Routine service: air handling unit (AS/NZS 3666.2),Completed,2025-12-02,2025-11-24,Yes,6,No,810.0,Sample data
+WO-2511-0024,2025-11-19,B34,DB-040,Reactive,Helpdesk,Electrical,P3 Routine,Emergency light failed test,Completed,2025-11-26,2025-11-21,Yes,2,No,130.0,Sample data
+WO-2511-0025,2025-11-19,B32,EXT-060,Reactive,Helpdesk,Fire services,P3 Routine,Fire door not closing,Completed,2025-11-26,2025-12-07,No,18,No,1000.0,Sample data
+WO-2511-0026,2025-11-20,B03,ACU-004,Reactive,Helpdesk,HVAC,P3 Routine,Noisy fan,Completed,2025-11-27,2025-11-27,Yes,7,No,90.0,Sample data
+WO-2511-0371,2025-11-20,B02,ACU-002,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2025-12-04,2025-12-31,No,41,No,1000.0,Sample data
+WO-2511-0848,2025-11-20,B29,EXT-053,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2025-12-04,2025-11-27,Yes,7,No,210.0,Sample data
+WO-2511-0027,2025-11-21,B32,WM-008,Reactive,Helpdesk,Plumbing,P2 Urgent,Bubbler not working,Completed,2025-11-23,2025-11-22,Yes,1,No,1760.0,Sample data
+WO-2511-0028,2025-11-21,B36,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Key cut request,Completed,2025-11-28,2025-11-25,Yes,4,No,370.0,Sample data
+WO-2511-0421,2025-11-21,B04,FHR-002,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2025-12-05,2025-11-25,Yes,4,No,80.0,Sample data
+WO-2511-0541,2025-11-21,B11,EXL-030,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-12-05,2025-12-04,Yes,13,No,190.0,Sample data
+WO-2511-0907,2025-11-21,B32,EXL-080,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-12-05,2025-11-25,Yes,4,No,80.0,Sample data
+WO-2511-0883,2025-11-22,B31,ACU-030,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2025-12-06,2025-11-24,Yes,2,No,320.0,Sample data
+WO-2511-0534,2025-11-23,B10,EXL-029,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-12-07,2025-12-02,Yes,9,No,110.0,Sample data
+WO-2511-0641,2025-11-23,B17,AHU-002,Planned,PM schedule,HVAC,P4 Planned,Routine service: air handling unit (AS/NZS 3666.2),Completed,2025-12-07,2025-12-13,No,20,No,1250.0,Sample data
+WO-2511-0741,2025-11-23,B23,EXL-056,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-12-07,2025-11-29,Yes,6,No,150.0,Sample data
+WO-2511-0909,2025-11-23,B32,EXL-081,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-12-07,2025-11-28,Yes,5,No,160.0,Sample data
+WO-2511-0029,2025-11-24,B09,DB-011,Reactive,Helpdesk,Electrical,P3 Routine,Lights out in classroom,Completed,2025-12-01,2025-11-26,Yes,2,No,310.0,Sample data
+WO-2511-0579,2025-11-24,B15,EXT-024,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2025-12-08,2025-11-28,Yes,4,No,140.0,Sample data
+WO-2511-0637,2025-11-24,B17,FD-007,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2025-12-08,2025-11-29,Yes,5,No,1190.0,Sample data
+WO-2511-0030,2025-11-25,B36,ACU-040,Reactive,Helpdesk,HVAC,P2 Urgent,Heating not working,Completed,2025-11-27,2025-11-26,Yes,1,No,290.0,Sample data
+WO-2511-0031,2025-11-25,B31,,Reactive,Helpdesk,Plumbing,P3 Routine,Blocked toilet,Completed,2025-12-02,2025-12-04,No,9,No,1130.0,Sample data
+WO-2511-0602,2025-11-25,B17,DB-020,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2025-12-09,2025-12-01,Yes,6,No,700.0,Sample data
+WO-2511-0662,2025-11-25,B18,EXT-032,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2025-12-09,2025-11-29,Yes,4,No,170.0,Sample data
+WO-2511-0032,2025-11-26,B23,,Reactive,Helpdesk,Electrical,P3 Routine,RCD tripping,Completed,2025-12-03,2025-12-03,Yes,7,No,420.0,Sample data
+WO-2511-0033,2025-11-26,B31,ACU-030,Reactive,Helpdesk,HVAC,P3 Routine,Noisy fan,Completed,2025-12-03,2025-11-30,Yes,4,No,170.0,Sample data
+WO-2511-0034,2025-11-26,B17,DB-020,Reactive,Helpdesk,Electrical,P3 Routine,RCD tripping,"On hold, parts",2025-12-03,,,339,Yes,,Sample data
+WO-2511-0599,2025-11-26,B16,HWU-007,Planned,PM schedule,Plumbing,P4 Planned,Routine service: hot water unit (AS/NZS 3500.4),Completed,2025-12-10,2025-12-07,Yes,11,No,1170.0,Sample data
+WO-2511-0860,2025-11-26,B31,EM-013,Planned,PM schedule,HVAC,P4 Planned,Routine service: electricity meter (NCC Section J),Completed,2025-12-10,2025-11-28,Yes,2,No,210.0,Sample data
+WO-2511-0871,2025-11-26,B31,EXL-076,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-12-10,2025-11-30,Yes,4,No,180.0,Sample data
+WO-2511-0035,2025-11-27,B18,,Reactive,Helpdesk,Grounds,P3 Routine,Fallen branch,Completed,2025-12-04,2026-01-06,No,40,No,190.0,Sample data
+WO-2511-0518,2025-11-27,B09,RAP-007,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2025-12-11,2025-12-24,No,27,No,70.0,Sample data
+WO-2511-0797,2025-11-27,B23,MECP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: master emergency control panel (AS 1851),Completed,2025-12-11,2025-12-01,Yes,4,No,1070.0,Sample data
+WO-2511-0036,2025-11-28,B32,,Reactive,Helpdesk,Grounds,P4 Planned,Trip hazard on path,"On hold, parts",2025-12-26,,,337,Yes,,Sample data
+WO-2511-0037,2025-11-28,B09,ACU-012,Reactive,Helpdesk,HVAC,P3 Routine,Noisy fan,Completed,2025-12-05,2025-12-01,Yes,3,No,720.0,Sample data
+WO-2511-0553,2025-11-28,B12,EXL-033,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-12-12,2025-12-02,Yes,4,No,220.0,Sample data
+WO-2511-0572,2025-11-29,B14,ACU-017,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2025-12-13,2025-12-11,Yes,12,No,1090.0,Sample data
+WO-2511-0705,2025-11-29,B20,EXT-036,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2025-12-13,2025-12-30,No,31,No,220.0,Sample data
+WO-2511-0482,2025-11-30,B07,EXL-021,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-12-14,2025-12-07,Yes,7,No,80.0,Sample data
+WO-2511-0725,2025-11-30,B23,EXT-042,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2025-12-14,2025-12-08,Yes,8,No,180.0,Sample data
+WO-2511-0786,2025-11-30,B23,FIP-002,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),Completed,2025-12-14,2025-12-05,Yes,5,No,250.0,Sample data
+WO-2512-0038,2025-12-01,B36,,Reactive,Helpdesk,Electrical,P2 Urgent,Power point not working,Completed,2025-12-03,2025-12-04,No,3,No,510.0,Sample data
+WO-2512-0039,2025-12-01,B33,ACU-034,Reactive,Helpdesk,HVAC,P3 Routine,Noisy fan,Completed,2025-12-08,2025-12-04,Yes,3,No,620.0,Sample data
+WO-2512-0040,2025-12-01,B05,,Reactive,Helpdesk,HVAC,P2 Urgent,Noisy fan,Completed,2025-12-03,2025-12-02,Yes,1,No,400.0,Sample data
+WO-2512-0432,2025-12-01,B04,FH-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: internal fire hydrant (AS 1851),Completed,2025-12-15,2025-12-07,Yes,6,No,140.0,Sample data
+WO-2512-0581,2025-12-01,B16,DB-017,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2025-12-15,2025-12-11,Yes,10,No,1280.0,Sample data
+WO-2512-0591,2025-12-01,B16,EXL-039,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-12-15,2025-12-12,Yes,11,No,60.0,Sample data
+WO-2512-0648,2025-12-01,B17,FIP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),Completed,2025-12-15,2025-12-04,Yes,3,No,610.0,Sample data
+WO-2512-0041,2025-12-02,B32,,Reactive,Helpdesk,Glazing,P3 Routine,Cracked window,Completed,2025-12-09,2025-12-11,No,9,No,190.0,Sample data
+WO-2512-0042,2025-12-02,B08,,Reactive,Helpdesk,Plumbing,P3 Routine,Bubbler not working,Completed,2025-12-09,2025-12-05,Yes,3,No,730.0,Sample data
+WO-2512-0767,2025-12-02,B23,FHR-008,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2025-12-16,2025-12-12,Yes,10,No,150.0,Sample data
+WO-2512-0812,2025-12-02,B23,INV-001,Planned,PM schedule,Electrical,P4 Planned,Routine service: solar inverter (AS/NZS 4777),Completed,2025-12-16,2025-12-14,Yes,12,No,1030.0,Sample data
+WO-2512-1005,2025-12-02,B38,EXT-069,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2025-12-16,2025-12-06,Yes,4,No,160.0,Sample data
+WO-2512-0608,2025-12-03,B17,EXT-029,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2025-12-17,2025-12-14,Yes,11,No,190.0,Sample data
+WO-2512-0937,2025-12-03,B33,ACU-034,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2025-12-17,2026-01-25,No,53,No,330.0,Sample data
+WO-2512-0358,2025-12-04,B01,EXL-001,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-12-18,2025-12-13,Yes,9,No,120.0,Sample data
+WO-2512-0570,2025-12-04,B14,EXL-036,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-12-18,2025-12-11,Yes,7,No,200.0,Sample data
+WO-2512-0856,2025-12-05,B30,EXT-054,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2025-12-19,2025-12-15,Yes,10,No,170.0,Sample data
+WO-2512-0892,2025-12-05,B31,FD-013,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2025-12-19,2025-12-16,Yes,11,No,940.0,Sample data
+WO-2512-0919,2025-12-05,B32,RAP-021,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2025-12-19,2025-12-12,Yes,7,No,180.0,Sample data
+WO-2512-0355,2025-12-06,B01,DB-001,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2025-12-20,2025-12-11,Yes,5,No,1140.0,Sample data
+WO-2512-0922,2025-12-06,B32,WM-008,Planned,PM schedule,Plumbing,P4 Planned,Routine service: water meter (AS 3565),Completed,2025-12-20,2025-12-12,Yes,6,No,160.0,Sample data
+WO-2512-0043,2025-12-07,B23,BLR-001,Reactive,Helpdesk,HVAC,P1 Emergency,Heating not working,Completed,2025-12-08,2025-12-07,Yes,0,No,500.0,Sample data
+WO-2512-0413,2025-12-07,B04,EXL-013,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-12-21,2025-12-09,Yes,2,No,120.0,Sample data
+WO-2512-0965,2025-12-07,B36,DB-042,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2025-12-21,2026-01-17,No,41,No,1060.0,Sample data
+WO-2512-0466,2025-12-08,B05,FD-004,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2025-12-22,2025-12-20,Yes,12,No,970.0,Sample data
+WO-2512-0551,2025-12-08,B12,EXL-032,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-12-22,2025-12-15,Yes,7,No,210.0,Sample data
+WO-2512-0585,2025-12-08,B16,EXT-026,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2025-12-22,2025-12-22,Yes,14,No,160.0,Sample data
+WO-2512-0044,2025-12-09,B01,ACU-001,Reactive,Helpdesk,HVAC,P3 Routine,Noisy fan,Completed,2025-12-16,2025-12-16,Yes,7,No,400.0,Sample data
+WO-2512-0045,2025-12-09,B32,,Reactive,Helpdesk,Grounds,P3 Routine,Fallen branch,Completed,2025-12-16,2025-12-17,No,8,No,770.0,Sample data
+WO-2512-0428,2025-12-09,B04,AHU-001,Planned,PM schedule,HVAC,P4 Planned,Routine service: air handling unit (AS/NZS 3666.2),Completed,2025-12-23,2025-12-23,Yes,14,No,930.0,Sample data
+WO-2512-0447,2025-12-09,B05,EXL-016,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-12-23,2025-12-18,Yes,9,No,180.0,Sample data
+WO-2512-0784,2025-12-09,B23,FH-003,Planned,PM schedule,Fire services,P4 Planned,Routine service: internal fire hydrant (AS 1851),Completed,2025-12-23,2025-12-14,Yes,5,No,160.0,Sample data
+WO-2512-0046,2025-12-10,B38,,Reactive,Helpdesk,HVAC,P3 Routine,Noisy fan,Completed,2025-12-17,2025-12-22,No,12,No,380.0,Sample data
+WO-2512-0047,2025-12-10,B09,,Reactive,Helpdesk,Roofing and gutters,P3 Routine,Gutter overflowing,Completed,2025-12-17,2025-12-19,No,9,No,210.0,Sample data
+WO-2512-0721,2025-12-10,B23,EXT-040,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2025-12-24,2025-12-18,Yes,8,No,70.0,Sample data
+WO-2512-0048,2025-12-11,B17,AHU-002,Reactive,Helpdesk,HVAC,P3 Routine,Noisy fan,Completed,2025-12-18,2025-12-13,Yes,2,No,220.0,Sample data
+WO-2512-0049,2025-12-11,B33,,Reactive,Helpdesk,Plumbing,P3 Routine,No hot water,Completed,2025-12-18,2025-12-16,Yes,5,No,120.0,Sample data
+WO-2512-0050,2025-12-11,B05,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Broken desk,Completed,2025-12-18,2025-12-15,Yes,4,No,670.0,Sample data
+WO-2512-0051,2025-12-11,B04,DB-004,Reactive,Helpdesk,Electrical,P2 Urgent,Lights out in classroom,Completed,2025-12-13,2025-12-12,Yes,1,No,120.0,Sample data
+WO-2512-0455,2025-12-11,B05,ACU-007,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2025-12-25,2025-12-15,Yes,4,No,1340.0,Sample data
+WO-2512-0557,2025-12-11,B12,HWU-005,Planned,PM schedule,Plumbing,P4 Planned,Routine service: hot water unit (AS/NZS 3500.4),Completed,2025-12-25,2025-12-14,Yes,3,No,990.0,Sample data
+WO-2512-0645,2025-12-11,B17,FH-002,Planned,PM schedule,Fire services,P4 Planned,Routine service: internal fire hydrant (AS 1851),Completed,2025-12-25,2025-12-22,Yes,11,No,110.0,Sample data
+WO-2512-0820,2025-12-11,B24,EXT-048,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2025-12-25,2025-12-14,Yes,3,No,70.0,Sample data
+WO-2512-0052,2025-12-12,B36,DB-043,Reactive,Helpdesk,Electrical,P3 Routine,Emergency light failed test,Completed,2025-12-19,2025-12-20,No,8,No,870.0,Sample data
+WO-2512-0053,2025-12-12,B24,,Reactive,Helpdesk,Locksmith and hardware,P2 Urgent,Lock jammed,Completed,2025-12-14,2025-12-13,Yes,1,No,450.0,Sample data
+WO-2512-0815,2025-12-12,B23,BLR-001,Planned,PM schedule,HVAC,P4 Planned,Routine service: boiler (AIRAH DA19),Completed,2025-12-26,2025-12-14,Yes,2,No,460.0,Sample data
+WO-2512-0850,2025-12-12,B29,EXL-072,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-12-26,2025-12-25,Yes,13,No,140.0,Sample data
+WO-2512-0933,2025-12-12,B33,EXL-083,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-12-26,2025-12-18,Yes,6,No,120.0,Sample data
+WO-2512-0972,2025-12-12,B36,EXT-067,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2025-12-26,2025-12-24,Yes,12,No,180.0,Sample data
+WO-2512-0054,2025-12-14,B26,,Reactive,Helpdesk,Grounds,P3 Routine,Trip hazard on path,Completed,2025-12-21,2025-12-20,Yes,6,No,80.0,Sample data
+WO-2512-0469,2025-12-14,B06,EXT-012,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2025-12-28,2025-12-16,Yes,2,No,110.0,Sample data
+WO-2512-0595,2025-12-14,B16,ACU-020,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2025-12-28,2026-01-31,No,48,No,290.0,Sample data
+WO-2512-0703,2025-12-14,B19,HWU-010,Planned,PM schedule,Plumbing,P4 Planned,Routine service: hot water unit (AS/NZS 3500.4),Completed,2025-12-28,2025-12-24,Yes,10,No,1120.0,Sample data
+WO-2512-0865,2025-12-14,B31,EXT-057,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2025-12-28,2025-12-17,Yes,3,No,70.0,Sample data
+WO-2512-0944,2025-12-14,B34,EXL-086,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-12-28,2025-12-23,Yes,9,No,80.0,Sample data
+WO-2512-0976,2025-12-14,B36,EXL-089,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2025-12-28,2025-12-22,Yes,8,No,60.0,Sample data
+WO-2512-1009,2025-12-14,,EH-002,Planned,PM schedule,Fire services,P4 Planned,Routine service: external fire hydrant (AS 1851),Completed,2025-12-28,2025-12-21,Yes,7,No,1160.0,Sample data
+WO-2512-0055,2025-12-15,B17,DB-018,Reactive,Helpdesk,Electrical,P3 Routine,Emergency light failed test,Completed,2025-12-22,2025-12-22,Yes,7,No,190.0,Sample data
+WO-2512-0056,2025-12-15,B12,,Reactive,Helpdesk,HVAC,P3 Routine,Split system not cooling,Completed,2025-12-22,2025-12-20,Yes,5,No,80.0,Sample data
+WO-2512-0057,2025-12-16,B23,,Reactive,Helpdesk,HVAC,P3 Routine,Noisy fan,Completed,2025-12-23,2025-12-22,Yes,6,No,120.0,Sample data
+WO-2512-0719,2025-12-18,B23,EXT-039,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-01-01,2025-12-30,Yes,12,No,140.0,Sample data
+WO-2512-0058,2025-12-19,B05,DB-006,Reactive,Helpdesk,Electrical,P3 Routine,Emergency light failed test,Completed,2025-12-26,2025-12-25,Yes,6,No,540.0,Sample data
+WO-2512-0439,2025-12-19,B05,EXT-010,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-01-02,2025-12-27,Yes,8,No,190.0,Sample data
+WO-2512-0624,2025-12-19,B17,EXL-045,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),"Cancelled, missed",2026-01-02,,,316,No,,Sample data
+WO-2512-0059,2025-12-20,B14,,Reactive,Helpdesk,Painting,P3 Routine,Water-stained ceiling,Completed,2025-12-27,2026-01-04,No,15,No,410.0,Sample data
+WO-2512-0411,2025-12-20,B04,EXL-012,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-01-03,2025-12-29,Yes,9,No,170.0,Sample data
+WO-2512-0838,2025-12-20,B27,EXL-070,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-01-03,2026-01-02,Yes,13,No,70.0,Sample data
+WO-2512-0614,2025-12-21,B17,EXL-040,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-01-04,2025-12-31,Yes,10,No,100.0,Sample data
+WO-2512-0928,2025-12-21,B32,FD-016,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-01-04,2025-12-27,Yes,6,No,380.0,Sample data
+WO-2512-0060,2025-12-22,B02,,Reactive,Helpdesk,Locksmith and hardware,P2 Urgent,Key cut request,Completed,2025-12-24,2025-12-23,Yes,1,No,210.0,Sample data
+WO-2512-0365,2025-12-22,B02,EXT-002,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-01-05,2025-12-25,Yes,3,No,210.0,Sample data
+WO-2512-0618,2025-12-22,B17,EXL-042,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-01-05,2025-12-24,Yes,2,No,180.0,Sample data
+WO-2512-0903,2025-12-23,B32,EXT-060,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-01-06,2026-01-05,Yes,13,No,200.0,Sample data
+WO-2512-0830,2025-12-24,B26,EXT-050,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-01-07,2026-01-23,No,30,No,130.0,Sample data
+WO-2512-0453,2025-12-25,B05,ACU-006,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-01-08,2026-01-01,Yes,7,No,1210.0,Sample data
+WO-2512-0717,2025-12-26,B23,DB-029,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-01-09,2025-12-28,Yes,2,No,430.0,Sample data
+WO-2512-0061,2025-12-27,B36,,Reactive,Helpdesk,HVAC,P3 Routine,Noisy fan,Completed,2026-01-03,2026-01-01,Yes,5,No,790.0,Sample data
+WO-2512-0889,2025-12-27,B31,FHR-012,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-01-10,2026-01-09,Yes,13,No,100.0,Sample data
+WO-2512-0771,2025-12-28,B23,FHR-010,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-01-11,2026-01-10,Yes,13,No,150.0,Sample data
+WO-2512-0798,2025-12-28,B23,MECP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: master emergency control panel (AS 1851),Completed,2026-01-11,2026-01-08,Yes,11,No,1110.0,Sample data
+WO-2512-0449,2025-12-30,B05,EXL-017,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-01-13,2026-01-02,Yes,3,No,180.0,Sample data
+WO-2512-0787,2025-12-31,B23,FIP-002,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),Completed,2026-01-14,2026-01-13,Yes,13,No,440.0,Sample data
+WO-2601-0062,2026-01-01,B05,TMV-002,Reactive,Helpdesk,Plumbing,P3 Routine,Leaking tap,Completed,2026-01-08,2026-01-07,Yes,6,No,500.0,Sample data
+WO-2601-0649,2026-01-01,B17,FIP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),Completed,2026-01-15,2026-01-03,Yes,2,No,340.0,Sample data
+WO-2601-0923,2026-01-01,B32,FHR-013,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-01-15,2026-02-12,No,42,No,120.0,Sample data
+WO-2601-0063,2026-01-02,B34,ACU-035,Reactive,Helpdesk,HVAC,P3 Routine,Noisy fan,Completed,2026-01-09,2026-01-13,No,11,No,230.0,Sample data
+WO-2601-0735,2026-01-02,B23,EXT-047,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-01-16,2026-01-10,Yes,8,No,170.0,Sample data
+WO-2601-0775,2026-01-02,B23,TMV-006,Planned,PM schedule,Plumbing,P4 Planned,Routine service: thermostatic mixing valve (AS 4032.3),Completed,2026-01-16,2026-01-10,Yes,8,No,90.0,Sample data
+WO-2601-0064,2026-01-03,B17,,Reactive,Helpdesk,Locksmith and hardware,P4 Planned,Door closer leaking,Completed,2026-01-31,2026-01-15,Yes,12,No,140.0,Sample data
+WO-2601-0749,2026-01-03,B23,EXL-060,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-01-17,2026-01-28,No,25,No,150.0,Sample data
+WO-2601-0950,2026-01-04,B35,EXT-063,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-01-18,2026-01-11,Yes,7,No,200.0,Sample data
+WO-2601-0997,2026-01-04,B36,WM-009,Planned,PM schedule,Plumbing,P4 Planned,Routine service: water meter (AS 3565),Completed,2026-01-18,2026-01-08,Yes,4,No,130.0,Sample data
+WO-2601-0065,2026-01-05,B35,,Reactive,Helpdesk,Painting,P2 Urgent,Graffiti removal,Completed,2026-01-07,2026-01-06,Yes,1,No,300.0,Sample data
+WO-2601-0536,2026-01-05,B10,ACU-014,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-01-19,2026-01-11,Yes,6,No,1360.0,Sample data
+WO-2601-0497,2026-01-06,B09,EM-004,Planned,PM schedule,HVAC,P4 Planned,Routine service: electricity meter (NCC Section J),Completed,2026-01-20,2026-02-02,No,27,No,190.0,Sample data
+WO-2601-0672,2026-01-06,B18,EXL-049,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-01-20,2026-01-18,Yes,12,No,220.0,Sample data
+WO-2601-0711,2026-01-06,B22,EXT-038,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-01-20,2026-01-12,Yes,6,No,220.0,Sample data
+WO-2601-0375,2026-01-07,B03,EXT-003,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-01-21,2026-01-10,Yes,3,No,60.0,Sample data
+WO-2601-0978,2026-01-07,B36,EXL-090,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),"Cancelled, missed",2026-01-21,,,297,No,,Sample data
+WO-2601-0356,2026-01-09,B01,EXT-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-01-23,2026-01-20,Yes,11,No,70.0,Sample data
+WO-2601-0397,2026-01-09,B04,EXT-006,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-01-23,2026-01-11,Yes,2,No,80.0,Sample data
+WO-2601-0521,2026-01-09,B09,WM-003,Planned,PM schedule,Plumbing,P4 Planned,Routine service: water meter (AS 3565),Completed,2026-01-23,2026-02-01,No,23,No,100.0,Sample data
+WO-2601-0471,2026-01-10,B06,EXL-018,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-01-24,2026-01-17,Yes,7,No,80.0,Sample data
+WO-2601-0524,2026-01-10,B09,TMV-003,Planned,PM schedule,Plumbing,P4 Planned,Routine service: thermostatic mixing valve (AS 4032.3),Completed,2026-01-24,2026-01-24,Yes,14,No,120.0,Sample data
+WO-2601-0564,2026-01-10,B14,EXT-023,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-01-24,2026-01-23,Yes,13,No,200.0,Sample data
+WO-2601-0709,2026-01-10,B21,EXT-037,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-01-24,2026-01-17,Yes,7,No,180.0,Sample data
+WO-2601-0745,2026-01-10,B23,EXL-058,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-01-24,2026-01-18,Yes,8,No,60.0,Sample data
+WO-2601-0958,2026-01-10,B35,ACU-036,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-01-24,2026-01-28,No,18,No,390.0,Sample data
+WO-2601-0514,2026-01-11,B09,ACU-012,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-01-25,2026-01-21,Yes,10,No,580.0,Sample data
+WO-2601-0819,2026-01-11,B24,DB-030,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-01-25,2026-02-20,No,40,No,500.0,Sample data
+WO-2601-0832,2026-01-11,B26,EXL-069,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-01-25,2026-01-19,Yes,8,No,150.0,Sample data
+WO-2601-0419,2026-01-12,B04,FHR-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-01-26,2026-01-26,Yes,14,No,80.0,Sample data
+WO-2601-0980,2026-01-12,B36,EXL-091,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-01-26,2026-01-15,Yes,3,No,140.0,Sample data
+WO-2601-0496,2026-01-13,B09,DB-012,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-01-27,2026-01-25,Yes,12,No,1250.0,Sample data
+WO-2601-0761,2026-01-13,B23,EXL-066,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-01-27,2026-02-25,No,43,No,210.0,Sample data
+WO-2601-0968,2026-01-13,B36,EXT-065,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-01-27,2026-01-27,Yes,14,No,150.0,Sample data
+WO-2601-0988,2026-01-13,B36,ACU-039,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-01-27,2026-01-22,Yes,9,No,840.0,Sample data
+WO-2601-0377,2026-01-14,B03,EXT-004,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-01-28,2026-01-18,Yes,4,No,160.0,Sample data
+WO-2601-0516,2026-01-14,B09,ACU-013,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-01-28,2026-01-28,Yes,14,No,1220.0,Sample data
+WO-2601-0530,2026-01-14,B10,EXT-018,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-01-28,2026-03-08,No,53,No,160.0,Sample data
+WO-2601-0639,2026-01-14,B17,FD-008,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-01-28,2026-01-26,Yes,12,No,1290.0,Sample data
+WO-2601-0686,2026-01-14,B18,FHR-007,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-01-28,2026-01-16,Yes,2,No,180.0,Sample data
+WO-2601-0842,2026-01-14,B27,ACU-025,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-01-28,2026-01-20,Yes,6,No,420.0,Sample data
+WO-2601-0873,2026-01-14,B31,EXL-077,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-01-28,2026-01-28,Yes,14,No,160.0,Sample data
+WO-2601-0066,2026-01-16,B23,FD-012,Reactive,Helpdesk,Fire services,P3 Routine,Detector fault on panel,Completed,2026-01-23,2026-01-26,No,10,No,450.0,Sample data
+WO-2601-0067,2026-01-17,B19,EXT-035,Reactive,Helpdesk,Fire services,P4 Planned,Fire door not closing,Completed,2026-02-14,2026-01-28,Yes,11,No,610.0,Sample data
+WO-2601-0668,2026-01-18,B18,EXL-047,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-02-01,2026-01-26,Yes,8,No,180.0,Sample data
+WO-2601-0731,2026-01-18,B23,EXT-045,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-02-01,2026-01-20,Yes,2,No,120.0,Sample data
+WO-2601-0562,2026-01-20,B14,EXT-022,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-02-03,2026-01-22,Yes,2,No,190.0,Sample data
+WO-2601-0727,2026-01-20,B23,EXT-043,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-02-03,2026-01-26,Yes,6,No,160.0,Sample data
+WO-2601-0729,2026-01-20,B23,EXT-044,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-02-03,2026-01-25,Yes,5,No,200.0,Sample data
+WO-2601-0911,2026-01-20,B32,EXL-082,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-02-03,2026-01-23,Yes,3,No,120.0,Sample data
+WO-2601-0068,2026-01-21,B14,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Door sticking,Completed,2026-01-28,2026-01-25,Yes,4,No,640.0,Sample data
+WO-2601-0069,2026-01-21,B04,AHU-001,Reactive,Helpdesk,HVAC,P3 Routine,Split system not cooling,Completed,2026-01-28,2026-01-27,Yes,6,No,690.0,Sample data
+WO-2601-0426,2026-01-21,B04,FD-002,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-02-04,2026-01-24,Yes,3,No,1070.0,Sample data
+WO-2601-0695,2026-01-21,B19,EXT-035,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-02-04,2026-01-24,Yes,3,No,70.0,Sample data
+WO-2601-0990,2026-01-21,B36,ACU-040,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-02-04,2026-01-27,Yes,6,No,520.0,Sample data
+WO-2601-0070,2026-01-22,B16,,Reactive,Helpdesk,Carpentry and joinery,P2 Urgent,Door sticking,Completed,2026-01-24,2026-01-22,Yes,0,No,460.0,Sample data
+WO-2601-0859,2026-01-22,B31,DB-036,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-02-05,2026-01-28,Yes,6,No,1220.0,Sample data
+WO-2601-0952,2026-01-23,B35,EXT-064,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-02-06,2026-01-30,Yes,7,No,150.0,Sample data
+WO-2601-0071,2026-01-24,B05,EXT-010,Reactive,Helpdesk,Fire services,P2 Urgent,Extinguisher missing,Completed,2026-01-26,2026-01-25,Yes,1,No,390.0,Sample data
+WO-2601-0776,2026-01-24,B23,FD-011,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-02-07,2026-02-01,Yes,8,No,1160.0,Sample data
+WO-2601-0852,2026-01-24,B29,EXL-073,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-02-07,2026-02-06,Yes,13,No,150.0,Sample data
+WO-2601-0931,2026-01-24,B33,EXT-061,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-02-07,2026-01-28,Yes,4,No,160.0,Sample data
+WO-2601-0962,2026-01-24,B35,RAP-023,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2026-02-07,2026-02-24,No,31,No,190.0,Sample data
+WO-2601-0532,2026-01-25,B10,EXL-028,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-02-08,2026-02-04,Yes,10,No,210.0,Sample data
+WO-2601-0381,2026-01-26,B03,EXL-006,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),"Cancelled, missed",2026-02-09,,,278,No,,Sample data
+WO-2601-0548,2026-01-26,B12,EM-005,Planned,PM schedule,HVAC,P4 Planned,Routine service: electricity meter (NCC Section J),Completed,2026-02-09,2026-01-29,Yes,3,No,120.0,Sample data
+WO-2601-1003,2026-01-27,B36,FD-018,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-02-10,2026-02-06,Yes,10,No,490.0,Sample data
+WO-2601-0072,2026-01-28,B01,,Reactive,Helpdesk,HVAC,P2 Urgent,Heating not working,Completed,2026-01-30,2026-01-31,No,3,No,280.0,Sample data
+WO-2601-0073,2026-01-28,B36,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Broken desk,Completed,2026-02-04,2026-01-31,Yes,3,No,610.0,Sample data
+WO-2601-0799,2026-01-28,B23,MECP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: master emergency control panel (AS 1851),Completed,2026-02-11,2026-02-19,No,22,No,330.0,Sample data
+WO-2601-0891,2026-01-28,B31,TMV-007,Planned,PM schedule,Plumbing,P4 Planned,Routine service: thermostatic mixing valve (AS 4032.3),Completed,2026-02-11,2026-02-08,Yes,11,No,80.0,Sample data
+WO-2601-0074,2026-01-29,B31,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Door sticking,Completed,2026-02-05,2026-01-31,Yes,2,No,270.0,Sample data
+WO-2601-0399,2026-01-29,B04,EXT-007,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-02-12,2026-02-11,Yes,13,No,200.0,Sample data
+WO-2601-0075,2026-01-30,B27,ACU-025,Reactive,Helpdesk,HVAC,P3 Routine,Classroom too hot,Completed,2026-02-06,2026-02-10,No,11,No,600.0,Sample data
+WO-2601-0360,2026-01-30,B01,EXL-002,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-02-13,2026-02-09,Yes,10,No,70.0,Sample data
+WO-2601-0691,2026-01-30,B18,FD-010,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-02-13,2026-02-07,Yes,8,No,1130.0,Sample data
+WO-2601-0949,2026-01-30,B35,EM-015,Planned,PM schedule,HVAC,P4 Planned,Routine service: electricity meter (NCC Section J),Completed,2026-02-13,2026-02-06,Yes,7,No,80.0,Sample data
+WO-2601-0788,2026-01-31,B23,FIP-002,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),Completed,2026-02-14,2026-02-07,Yes,7,No,680.0,Sample data
+WO-2602-0473,2026-02-01,B06,EXL-019,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-02-15,2026-02-04,Yes,3,No,140.0,Sample data
+WO-2602-0650,2026-02-01,B17,FIP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),Completed,2026-02-15,2026-02-10,Yes,9,No,760.0,Sample data
+WO-2602-0076,2026-02-02,B09,ACU-013,Reactive,Helpdesk,HVAC,P4 Planned,Split system not cooling,Completed,2026-03-02,2026-02-28,Yes,26,No,330.0,Sample data
+WO-2602-0077,2026-02-02,B05,ACU-006,Reactive,Helpdesk,HVAC,P3 Routine,Classroom too hot,Completed,2026-02-09,2026-02-09,Yes,7,No,1460.0,Sample data
+WO-2602-0078,2026-02-02,B01,DB-001,Reactive,Helpdesk,Electrical,P2 Urgent,RCD tripping,Completed,2026-02-04,2026-02-03,Yes,1,No,800.0,Sample data
+WO-2602-0508,2026-02-02,B09,EXL-026,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-02-16,2026-02-08,Yes,6,No,110.0,Sample data
+WO-2602-0079,2026-02-03,B08,,Reactive,Helpdesk,Grounds,P3 Routine,Trip hazard on path,Completed,2026-02-10,2026-02-13,No,10,No,510.0,Sample data
+WO-2602-0080,2026-02-03,B13,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Door sticking,Completed,2026-02-10,2026-02-09,Yes,6,No,410.0,Sample data
+WO-2602-0558,2026-02-03,B13,EXT-021,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-02-17,2026-02-15,Yes,12,No,70.0,Sample data
+WO-2602-0081,2026-02-04,B12,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Broken desk,Completed,2026-02-11,2026-02-05,Yes,1,No,190.0,Sample data
+WO-2602-0082,2026-02-04,B03,HWU-001,Reactive,Helpdesk,Plumbing,P3 Routine,Bubbler not working,Completed,2026-02-11,2026-02-05,Yes,1,No,420.0,Sample data
+WO-2602-0083,2026-02-04,B27,,Reactive,Helpdesk,Carpentry and joinery,P2 Urgent,Broken desk,Completed,2026-02-06,2026-02-05,Yes,1,No,430.0,Sample data
+WO-2602-0084,2026-02-04,B12,,Reactive,Helpdesk,Locksmith and hardware,P2 Urgent,Key cut request,Completed,2026-02-06,2026-02-06,Yes,2,No,2390.0,Sample data
+WO-2602-0913,2026-02-04,B32,ACU-031,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-02-18,2026-02-16,Yes,12,No,1010.0,Sample data
+WO-2602-0085,2026-02-05,B04,,Reactive,Helpdesk,Carpentry and joinery,P2 Urgent,Broken desk,Completed,2026-02-07,2026-02-06,Yes,1,No,360.0,Sample data
+WO-2602-0086,2026-02-05,B04,TMV-001,Reactive,Helpdesk,Plumbing,P3 Routine,Leaking tap,Completed,2026-02-12,2026-02-07,Yes,2,No,160.0,Sample data
+WO-2602-0087,2026-02-05,B17,,Reactive,Helpdesk,Painting,P3 Routine,Water-stained ceiling,Completed,2026-02-12,2026-02-09,Yes,4,No,290.0,Sample data
+WO-2602-0982,2026-02-05,B36,EXL-092,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-02-19,2026-02-15,Yes,10,No,200.0,Sample data
+WO-2602-0088,2026-02-06,B16,,Reactive,Helpdesk,Roofing and gutters,P3 Routine,Roof leak over classroom,Completed,2026-02-13,2026-02-18,No,12,No,360.0,Sample data
+WO-2602-0364,2026-02-07,B02,DB-002,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-02-21,2026-02-14,Yes,7,No,770.0,Sample data
+WO-2602-0457,2026-02-07,B05,RAP-005,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2026-02-21,2026-02-09,Yes,2,No,170.0,Sample data
+WO-2602-0946,2026-02-07,B34,ACU-035,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-02-21,2026-03-16,No,37,No,820.0,Sample data
+WO-2602-0089,2026-02-09,B17,,Reactive,Helpdesk,Glazing,P3 Routine,Cracked window,Completed,2026-02-16,2026-02-13,Yes,4,No,520.0,Sample data
+WO-2602-0090,2026-02-09,B08,ACU-010,Reactive,Helpdesk,HVAC,P2 Urgent,Noisy fan,Completed,2026-02-11,2026-02-12,No,3,No,110.0,Sample data
+WO-2602-0091,2026-02-09,B35,ACU-037,Reactive,Helpdesk,HVAC,P3 Routine,Classroom too hot,Completed,2026-02-16,2026-03-02,No,21,No,2360.0,Sample data
+WO-2602-0092,2026-02-09,B05,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Door sticking,Completed,2026-02-16,2026-02-12,Yes,3,No,90.0,Sample data
+WO-2602-0374,2026-02-09,B03,EM-001,Planned,PM schedule,HVAC,P4 Planned,Routine service: electricity meter (NCC Section J),Completed,2026-02-23,2026-02-17,Yes,8,No,130.0,Sample data
+WO-2602-0093,2026-02-10,B15,EXT-024,Reactive,Helpdesk,Fire services,P3 Routine,Extinguisher missing,Completed,2026-02-17,2026-02-17,Yes,7,No,150.0,Sample data
+WO-2602-0094,2026-02-10,B36,,Reactive,Helpdesk,Locksmith and hardware,P2 Urgent,Key cut request,Completed,2026-02-12,2026-02-11,Yes,1,No,150.0,Sample data
+WO-2602-0626,2026-02-10,B17,EXL-046,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-02-24,2026-02-15,Yes,5,No,160.0,Sample data
+WO-2602-0764,2026-02-10,B23,RAP-018,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2026-02-24,2026-02-17,Yes,7,No,90.0,Sample data
+WO-2602-0095,2026-02-11,B04,AHU-001,Reactive,Helpdesk,HVAC,P3 Routine,Classroom too hot,Completed,2026-02-18,2026-02-28,No,17,No,190.0,Sample data
+WO-2602-0096,2026-02-11,B32,ACU-032,Reactive,Helpdesk,HVAC,P3 Routine,Classroom too hot,Completed,2026-02-18,2026-02-13,Yes,2,No,290.0,Sample data
+WO-2602-0097,2026-02-12,B06,,Reactive,Helpdesk,Electrical,P3 Routine,RCD tripping,Completed,2026-02-19,2026-02-18,Yes,6,No,160.0,Sample data
+WO-2602-0098,2026-02-12,B36,,Reactive,Helpdesk,Electrical,P4 Planned,Lights out in classroom,Completed,2026-03-12,2026-03-01,Yes,17,No,250.0,Sample data
+WO-2602-0737,2026-02-12,B23,EXL-054,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-02-26,2026-02-16,Yes,4,No,210.0,Sample data
+WO-2602-0813,2026-02-12,B23,LP-001,Planned,PM schedule,Electrical,P4 Planned,Routine service: lightning protection (AS/NZS 1768),Completed,2026-02-26,2026-02-19,Yes,7,No,780.0,Sample data
+WO-2602-0099,2026-02-13,B17,TMV-004,Reactive,Helpdesk,Plumbing,P3 Routine,Leaking tap,Completed,2026-02-20,2026-02-18,Yes,5,No,850.0,Sample data
+WO-2602-0510,2026-02-13,B09,EXL-027,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-02-27,2026-02-16,Yes,3,No,110.0,Sample data
+WO-2602-0769,2026-02-13,B23,FHR-009,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-02-27,2026-02-17,Yes,4,No,180.0,Sample data
+WO-2602-0974,2026-02-13,B36,EXT-068,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-02-27,2026-04-05,No,51,No,80.0,Sample data
+WO-2602-0545,2026-02-14,B11,ACU-015,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-02-28,2026-02-16,Yes,2,No,1010.0,Sample data
+WO-2602-0751,2026-02-14,B23,EXL-061,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-02-28,2026-02-24,Yes,10,No,210.0,Sample data
+WO-2602-0827,2026-02-14,B25,EXL-068,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-02-28,2026-02-23,Yes,9,No,140.0,Sample data
+WO-2602-0875,2026-02-14,B31,EXL-078,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-02-28,2026-02-21,Yes,7,No,170.0,Sample data
+WO-2602-0100,2026-02-15,B17,EXT-029,Reactive,Helpdesk,Fire services,P2 Urgent,Extinguisher missing,Completed,2026-02-17,2026-02-17,Yes,2,No,770.0,Sample data
+WO-2602-0487,2026-02-15,B08,EXT-014,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-03-01,2026-03-01,Yes,14,No,110.0,Sample data
+WO-2602-0597,2026-02-15,B16,RAP-011,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2026-03-01,2026-02-21,Yes,6,No,100.0,Sample data
+WO-2602-0603,2026-02-15,B17,EM-008,Planned,PM schedule,HVAC,P4 Planned,Routine service: electricity meter (NCC Section J),Completed,2026-03-01,2026-02-23,Yes,8,No,120.0,Sample data
+WO-2602-0879,2026-02-15,B31,ACU-028,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),"Cancelled, missed",2026-03-01,,,258,No,,Sample data
+WO-2602-0917,2026-02-15,B32,ACU-033,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-03-01,2026-02-20,Yes,5,No,1130.0,Sample data
+WO-2602-0781,2026-02-16,B23,AHU-003,Planned,PM schedule,HVAC,P4 Planned,Routine service: air handling unit (AS/NZS 3666.2),Completed,2026-03-02,2026-02-21,Yes,5,No,830.0,Sample data
+WO-2602-0101,2026-02-17,B03,,Reactive,Helpdesk,Locksmith and hardware,P2 Urgent,Lock jammed,Completed,2026-02-19,2026-02-18,Yes,1,No,220.0,Sample data
+WO-2602-0102,2026-02-17,B36,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Cupboard door off hinge,Completed,2026-02-24,2026-02-20,Yes,3,No,190.0,Sample data
+WO-2602-0103,2026-02-17,B13,,Reactive,Helpdesk,HVAC,P3 Routine,Split system not cooling,Completed,2026-02-24,2026-02-21,Yes,4,No,820.0,Sample data
+WO-2602-0104,2026-02-18,B31,,Reactive,Helpdesk,Painting,P4 Planned,Graffiti removal,Completed,2026-03-18,2026-03-01,Yes,11,No,280.0,Sample data
+WO-2602-0468,2026-02-18,B06,DB-008,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-03-04,2026-02-25,Yes,7,No,380.0,Sample data
+WO-2602-0674,2026-02-18,B18,EXL-050,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-03-04,2026-03-24,No,34,No,180.0,Sample data
+WO-2602-0105,2026-02-19,B18,ACU-021,Reactive,Helpdesk,HVAC,P4 Planned,Classroom too hot,Completed,2026-03-19,2026-03-10,Yes,19,No,1760.0,Sample data
+WO-2602-0630,2026-02-19,B17,HWU-008,Planned,PM schedule,Plumbing,P4 Planned,Routine service: hot water unit (AS/NZS 3500.4),Completed,2026-03-05,2026-03-04,Yes,13,No,1120.0,Sample data
+WO-2602-0915,2026-02-19,B32,ACU-032,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-03-05,2026-03-02,Yes,11,No,770.0,Sample data
+WO-2602-0106,2026-02-20,B03,,Reactive,Helpdesk,Grounds,P4 Planned,Trip hazard on path,Completed,2026-03-20,2026-04-30,No,69,No,870.0,Sample data
+WO-2602-0107,2026-02-20,B05,DB-006,Reactive,Helpdesk,Electrical,P3 Routine,Power point not working,Completed,2026-02-27,2026-02-23,Yes,3,No,850.0,Sample data
+WO-2602-0108,2026-02-20,B03,HWU-001,Reactive,Helpdesk,Plumbing,P3 Routine,No hot water,Completed,2026-02-27,2026-03-02,No,10,No,590.0,Sample data
+WO-2602-0964,2026-02-20,B35,HWU-015,Planned,PM schedule,Plumbing,P4 Planned,Routine service: hot water unit (AS/NZS 3500.4),Completed,2026-03-06,2026-02-22,Yes,2,No,980.0,Sample data
+WO-2602-0642,2026-02-21,B17,AHU-002,Planned,PM schedule,HVAC,P4 Planned,Routine service: air handling unit (AS/NZS 3666.2),Completed,2026-03-07,2026-02-28,Yes,7,No,390.0,Sample data
+WO-2602-0664,2026-02-21,B18,EXT-033,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-03-07,2026-02-25,Yes,4,No,100.0,Sample data
+WO-2602-0954,2026-02-21,B35,EXL-087,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-03-07,2026-02-28,Yes,7,No,60.0,Sample data
+WO-2602-0451,2026-02-22,B05,ACU-005,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-03-08,2026-02-28,Yes,6,No,490.0,Sample data
+WO-2602-0493,2026-02-22,B08,ACU-010,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-03-08,2026-03-01,Yes,7,No,1100.0,Sample data
+WO-2602-0539,2026-02-22,B11,EXT-019,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-03-08,2026-03-05,Yes,11,No,190.0,Sample data
+WO-2602-0589,2026-02-22,B16,EXL-038,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-03-08,2026-02-24,Yes,2,No,190.0,Sample data
+WO-2602-0739,2026-02-22,B23,EXL-055,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-03-08,2026-03-06,Yes,12,No,160.0,Sample data
+WO-2602-0109,2026-02-23,B14,DB-016,Reactive,Helpdesk,Electrical,P3 Routine,Emergency light failed test,Completed,2026-03-02,2026-03-02,Yes,7,No,1390.0,Sample data
+WO-2602-0110,2026-02-23,B17,AHU-002,Reactive,Helpdesk,HVAC,P3 Routine,Noisy fan,Completed,2026-03-02,2026-03-01,Yes,6,No,220.0,Sample data
+WO-2602-0405,2026-02-23,B04,EXL-009,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-03-09,2026-03-06,Yes,11,No,90.0,Sample data
+WO-2602-0506,2026-02-23,B09,EXL-025,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-03-09,2026-03-01,Yes,6,No,70.0,Sample data
+WO-2602-0111,2026-02-24,B09,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Door closer leaking,Completed,2026-03-03,2026-02-26,Yes,2,No,180.0,Sample data
+WO-2602-0112,2026-02-24,B02,DB-002,Reactive,Helpdesk,Electrical,P3 Routine,Emergency light failed test,Completed,2026-03-03,2026-03-03,Yes,7,No,230.0,Sample data
+WO-2602-0113,2026-02-24,B32,,Reactive,Helpdesk,Plumbing,P3 Routine,No hot water,Completed,2026-03-03,2026-02-27,Yes,3,No,590.0,Sample data
+WO-2602-0114,2026-02-24,B23,FD-011,Reactive,Helpdesk,Fire services,P3 Routine,Detector fault on panel,Completed,2026-03-03,2026-03-02,Yes,6,No,400.0,Sample data
+WO-2602-0527,2026-02-24,B09,FD-006,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-03-10,2026-03-04,Yes,8,No,570.0,Sample data
+WO-2602-0547,2026-02-24,B12,DB-015,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-03-10,2026-03-03,Yes,7,No,850.0,Sample data
+WO-2602-0622,2026-02-24,B17,EXL-044,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-03-10,2026-03-09,Yes,13,No,110.0,Sample data
+WO-2602-0628,2026-02-24,B17,RAP-013,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2026-03-10,2026-02-27,Yes,3,No,80.0,Sample data
+WO-2602-0836,2026-02-24,B27,EXT-051,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-03-10,2026-03-09,Yes,13,No,190.0,Sample data
+WO-2602-0899,2026-02-24,B32,EXT-058,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-03-10,2026-02-26,Yes,2,No,100.0,Sample data
+WO-2602-0115,2026-02-25,B03,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Key cut request,Completed,2026-03-04,2026-02-28,Yes,3,No,340.0,Sample data
+WO-2602-0445,2026-02-25,B05,EXL-015,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-03-11,2026-03-07,Yes,10,No,180.0,Sample data
+WO-2602-0800,2026-02-25,B23,MECP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: master emergency control panel (AS 1851),Completed,2026-03-11,2026-03-02,Yes,5,No,1300.0,Sample data
+WO-2602-0116,2026-02-26,B03,,Reactive,Helpdesk,Painting,P4 Planned,Water-stained ceiling,Completed,2026-03-26,2026-04-22,No,55,No,540.0,Sample data
+WO-2602-0117,2026-02-26,B36,ACU-039,Reactive,Helpdesk,HVAC,P3 Routine,Heating not working,Completed,2026-03-05,2026-02-27,Yes,1,No,790.0,Sample data
+WO-2602-0118,2026-02-26,B33,,Reactive,Helpdesk,Plumbing,P3 Routine,Blocked toilet,Completed,2026-03-05,2026-03-08,No,10,No,600.0,Sample data
+WO-2602-0119,2026-02-26,B29,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Lock jammed,Completed,2026-03-05,2026-03-14,No,16,No,310.0,Sample data
+WO-2602-0555,2026-02-26,B12,ACU-016,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-03-12,2026-03-04,Yes,6,No,720.0,Sample data
+WO-2602-0120,2026-02-27,B12,,Reactive,Helpdesk,Electrical,P3 Routine,Emergency light failed test,Completed,2026-03-06,2026-02-28,Yes,1,No,100.0,Sample data
+WO-2602-0121,2026-02-27,B09,DB-012,Reactive,Helpdesk,Electrical,P4 Planned,Emergency light failed test,Completed,2026-03-27,2026-03-07,Yes,8,No,920.0,Sample data
+WO-2602-0122,2026-02-27,B16,,Reactive,Helpdesk,Electrical,P3 Routine,Lights out in classroom,Completed,2026-03-06,2026-03-07,No,8,No,420.0,Sample data
+WO-2602-0670,2026-02-27,B18,EXL-048,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-03-13,2026-03-03,Yes,4,No,100.0,Sample data
+WO-2602-0747,2026-02-28,B23,EXL-059,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-03-14,2026-03-03,Yes,3,No,120.0,Sample data
+WO-2602-0789,2026-02-28,B23,FIP-002,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),Completed,2026-03-14,2026-03-06,Yes,6,No,770.0,Sample data
+WO-2603-0651,2026-03-01,B17,FIP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),Completed,2026-03-15,2026-03-08,Yes,7,No,910.0,Sample data
+WO-2603-0689,2026-03-01,B18,FD-009,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-03-15,2026-03-06,Yes,5,No,1210.0,Sample data
+WO-2603-0940,2026-03-01,B34,EXT-062,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-03-15,2026-03-05,Yes,4,No,170.0,Sample data
+WO-2603-0123,2026-03-02,B05,,Reactive,Helpdesk,HVAC,P3 Routine,Noisy fan,Completed,2026-03-09,2026-03-28,No,26,No,210.0,Sample data
+WO-2603-0464,2026-03-02,B05,FD-003,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-03-16,2026-03-14,Yes,12,No,470.0,Sample data
+WO-2603-0773,2026-03-02,B23,FHR-011,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-03-16,2026-03-04,Yes,2,No,210.0,Sample data
+WO-2603-0124,2026-03-03,B23,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Door sticking,Completed,2026-03-10,2026-03-07,Yes,4,No,330.0,Sample data
+WO-2603-0543,2026-03-03,B11,EXL-031,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-03-17,2026-03-12,Yes,9,No,130.0,Sample data
+WO-2603-0867,2026-03-03,B31,EXL-074,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-03-17,2026-03-14,Yes,11,No,210.0,Sample data
+WO-2603-0125,2026-03-04,B24,,Reactive,Helpdesk,Carpentry and joinery,P2 Urgent,Door sticking,Completed,2026-03-06,2026-03-05,Yes,1,No,170.0,Sample data
+WO-2603-0126,2026-03-04,B02,,Reactive,Helpdesk,Electrical,P4 Planned,Lights out in classroom,Completed,2026-04-01,2026-04-06,No,33,No,620.0,Sample data
+WO-2603-0620,2026-03-04,B17,EXL-043,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-03-18,2026-03-10,Yes,6,No,180.0,Sample data
+WO-2603-0127,2026-03-05,B23,,Reactive,Helpdesk,Glazing,P3 Routine,Cracked window,Completed,2026-03-12,2026-03-08,Yes,3,No,680.0,Sample data
+WO-2603-0128,2026-03-05,B18,,Reactive,Helpdesk,Painting,P3 Routine,Graffiti removal,Completed,2026-03-12,2026-03-10,Yes,5,No,250.0,Sample data
+WO-2603-0935,2026-03-05,B33,EXL-084,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-03-19,2026-03-14,Yes,9,No,170.0,Sample data
+WO-2603-0129,2026-03-06,B19,,Reactive,Helpdesk,Carpentry and joinery,P2 Urgent,Door sticking,Completed,2026-03-08,2026-03-08,Yes,2,No,630.0,Sample data
+WO-2603-0568,2026-03-06,B14,EXL-035,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-03-20,2026-03-15,Yes,9,No,110.0,Sample data
+WO-2603-0778,2026-03-06,B23,FD-012,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-03-20,2026-03-12,Yes,6,No,530.0,Sample data
+WO-2603-0491,2026-03-07,B08,EXL-023,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-03-21,2026-03-11,Yes,4,No,140.0,Sample data
+WO-2603-0743,2026-03-07,B23,EXL-057,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-03-21,2026-03-13,Yes,6,No,120.0,Sample data
+WO-2603-0522,2026-03-08,B09,FHR-004,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-03-22,2026-03-12,Yes,4,No,170.0,Sample data
+WO-2603-0549,2026-03-08,B12,EXT-020,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-03-22,2026-03-18,Yes,10,No,170.0,Sample data
+WO-2603-0566,2026-03-08,B14,EXL-034,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-03-22,2026-03-18,Yes,10,No,170.0,Sample data
+WO-2603-0863,2026-03-08,B31,EXT-056,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-03-22,2026-03-15,Yes,7,No,180.0,Sample data
+WO-2603-0130,2026-03-09,B29,,Reactive,Helpdesk,Roofing and gutters,P3 Routine,Gutter overflowing,Completed,2026-03-16,2026-03-14,Yes,5,No,750.0,Sample data
+WO-2603-0131,2026-03-09,B05,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Lock jammed,Completed,2026-03-16,2026-03-17,No,8,No,1030.0,Sample data
+WO-2603-0132,2026-03-09,B24,,Reactive,Helpdesk,Painting,P2 Urgent,Water-stained ceiling,Completed,2026-03-11,2026-03-10,Yes,1,No,410.0,Sample data
+WO-2603-0429,2026-03-09,B04,AHU-001,Planned,PM schedule,HVAC,P4 Planned,Routine service: air handling unit (AS/NZS 3666.2),Completed,2026-03-23,2026-03-23,Yes,14,No,1220.0,Sample data
+WO-2603-0500,2026-03-09,B09,EXT-016,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-03-23,2026-03-11,Yes,2,No,90.0,Sample data
+WO-2603-0701,2026-03-09,B19,ACU-024,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-03-23,2026-03-14,Yes,5,No,1300.0,Sample data
+WO-2603-1001,2026-03-09,B36,FD-017,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-03-23,2026-03-14,Yes,5,No,540.0,Sample data
+WO-2603-0133,2026-03-10,B31,ACU-030,Reactive,Helpdesk,HVAC,P3 Routine,Split system not cooling,Completed,2026-03-17,2026-03-12,Yes,2,No,310.0,Sample data
+WO-2603-0676,2026-03-10,B18,ACU-021,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-03-24,2026-03-19,Yes,9,No,680.0,Sample data
+WO-2603-0888,2026-03-10,B31,WM-007,Planned,PM schedule,Plumbing,P4 Planned,Routine service: water meter (AS 3565),Completed,2026-03-24,2026-03-22,Yes,12,No,140.0,Sample data
+WO-2603-0998,2026-03-10,B36,FHR-014,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-03-24,2026-03-13,Yes,3,No,110.0,Sample data
+WO-2603-0134,2026-03-11,B36,FD-018,Reactive,Helpdesk,Fire services,P3 Routine,Detector fault on panel,Completed,2026-03-18,2026-03-13,Yes,2,No,160.0,Sample data
+WO-2603-0678,2026-03-11,B18,ACU-022,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),"Cancelled, missed",2026-03-25,,,234,No,,Sample data
+WO-2603-0733,2026-03-11,B23,EXT-046,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-03-25,2026-03-16,Yes,5,No,170.0,Sample data
+WO-2603-0135,2026-03-12,B05,,Reactive,Helpdesk,Grounds,P3 Routine,Fallen branch,Completed,2026-03-19,2026-03-21,No,9,No,400.0,Sample data
+WO-2603-0136,2026-03-12,B04,AHU-001,Reactive,Helpdesk,HVAC,P3 Routine,Classroom too hot,Completed,2026-03-19,2026-03-16,Yes,4,No,450.0,Sample data
+WO-2603-0137,2026-03-12,B17,,Reactive,Helpdesk,Painting,P3 Routine,Graffiti removal,Completed,2026-03-19,2026-03-15,Yes,3,No,290.0,Sample data
+WO-2603-0816,2026-03-12,B23,BLR-001,Planned,PM schedule,HVAC,P4 Planned,Routine service: boiler (AIRAH DA19),Completed,2026-03-26,2026-03-26,Yes,14,No,1070.0,Sample data
+WO-2603-0138,2026-03-13,B17,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Key cut request,Completed,2026-03-20,2026-03-17,Yes,4,No,370.0,Sample data
+WO-2603-0139,2026-03-13,B27,ACU-025,Reactive,Helpdesk,HVAC,P2 Urgent,Classroom too hot,Completed,2026-03-15,2026-03-17,No,4,No,420.0,Sample data
+WO-2603-0966,2026-03-13,B36,DB-043,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-03-27,2026-04-08,No,26,No,720.0,Sample data
+WO-2603-0387,2026-03-14,B03,ACU-004,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-03-28,2026-03-21,Yes,7,No,690.0,Sample data
+WO-2603-0407,2026-03-14,B04,EXL-010,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-03-28,2026-03-27,Yes,13,No,60.0,Sample data
+WO-2603-0583,2026-03-14,B16,EXT-025,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-03-28,2026-03-26,Yes,12,No,70.0,Sample data
+WO-2603-0616,2026-03-14,B17,EXL-041,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-03-28,2026-03-23,Yes,9,No,180.0,Sample data
+WO-2603-0697,2026-03-14,B19,EXL-051,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-03-28,2026-03-21,Yes,7,No,110.0,Sample data
+WO-2603-0963,2026-03-14,B35,RAP-024,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),"Cancelled, missed",2026-03-28,,,231,No,,Sample data
+WO-2603-0140,2026-03-16,B16,ACU-019,Reactive,Helpdesk,HVAC,P3 Routine,Heating not working,Completed,2026-03-23,2026-03-28,No,12,No,410.0,Sample data
+WO-2603-0141,2026-03-17,B18,,Reactive,Helpdesk,Carpentry and joinery,P1 Emergency,Door sticking,Completed,2026-03-18,2026-03-18,Yes,1,No,1250.0,Sample data
+WO-2603-0142,2026-03-17,B05,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Door sticking,Completed,2026-03-24,2026-03-20,Yes,3,No,400.0,Sample data
+WO-2603-0143,2026-03-18,B19,,Reactive,Helpdesk,Plumbing,P3 Routine,Blocked toilet,Completed,2026-03-25,2026-03-25,Yes,7,No,260.0,Sample data
+WO-2603-0144,2026-03-18,B36,ACU-040,Reactive,Helpdesk,HVAC,P4 Planned,Noisy fan,Completed,2026-04-15,2026-04-13,Yes,26,No,1250.0,Sample data
+WO-2603-0383,2026-03-18,B03,EXL-007,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-04-01,2026-03-23,Yes,5,No,190.0,Sample data
+WO-2603-0145,2026-03-19,B17,EXT-027,Reactive,Helpdesk,Fire services,P3 Routine,Detector fault on panel,Completed,2026-03-26,2026-03-22,Yes,3,No,1230.0,Sample data
+WO-2603-0146,2026-03-19,B04,TMV-001,Reactive,Helpdesk,Plumbing,P4 Planned,Blocked toilet,Completed,2026-04-16,2026-04-19,No,31,No,760.0,Sample data
+WO-2603-0824,2026-03-19,B25,DB-031,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-04-02,2026-03-31,Yes,12,No,380.0,Sample data
+WO-2603-1007,2026-03-19,,EH-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: external fire hydrant (AS 1851),Completed,2026-04-02,2026-03-31,Yes,12,No,1080.0,Sample data
+WO-2603-0147,2026-03-20,B33,,Reactive,Helpdesk,Plumbing,P4 Planned,Blocked toilet,Completed,2026-04-17,2026-04-01,Yes,12,No,460.0,Sample data
+WO-2603-0475,2026-03-20,B06,ACU-008,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-04-03,2026-04-02,Yes,13,No,1370.0,Sample data
+WO-2603-0683,2026-03-21,B18,RAP-016,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2026-04-04,2026-03-24,Yes,3,No,220.0,Sample data
+WO-2603-0484,2026-03-22,B07,ACU-009,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-04-05,2026-03-31,Yes,9,No,870.0,Sample data
+WO-2603-0148,2026-03-23,B35,,Reactive,Helpdesk,Electrical,P3 Routine,Emergency light failed test,Completed,2026-03-30,2026-03-26,Yes,3,No,250.0,Sample data
+WO-2603-0149,2026-03-23,B11,,Reactive,Helpdesk,Locksmith and hardware,P2 Urgent,Key cut request,Completed,2026-03-25,2026-03-24,Yes,1,No,860.0,Sample data
+WO-2603-0441,2026-03-23,B05,EXT-011,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-04-06,2026-04-04,Yes,12,No,170.0,Sample data
+WO-2603-0538,2026-03-23,B11,DB-014,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-04-06,2026-04-03,Yes,11,No,740.0,Sample data
+WO-2603-0901,2026-03-23,B32,EXT-059,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-04-06,2026-03-30,Yes,7,No,60.0,Sample data
+WO-2603-0150,2026-03-24,B04,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Door closer leaking,Completed,2026-03-31,2026-03-31,Yes,7,No,590.0,Sample data
+WO-2603-0461,2026-03-24,B05,FHR-003,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-04-07,2026-04-05,Yes,12,No,190.0,Sample data
+WO-2603-0502,2026-03-24,B09,EXT-017,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-04-07,2026-04-07,Yes,14,No,160.0,Sample data
+WO-2603-0894,2026-03-24,B31,FD-014,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-04-07,2026-03-26,Yes,2,No,300.0,Sample data
+WO-2603-0394,2026-03-25,B04,EM-002,Planned,PM schedule,HVAC,P4 Planned,Routine service: electricity meter (NCC Section J),Completed,2026-04-08,2026-03-29,Yes,4,No,110.0,Sample data
+WO-2603-0401,2026-03-25,B04,EXT-008,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-04-08,2026-04-07,Yes,13,No,150.0,Sample data
+WO-2603-0693,2026-03-25,B19,DB-023,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-04-08,2026-03-27,Yes,2,No,1100.0,Sample data
+WO-2603-0699,2026-03-25,B19,EXL-052,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-04-08,2026-04-02,Yes,8,No,190.0,Sample data
+WO-2603-0151,2026-03-26,B04,DB-005,Reactive,Helpdesk,Electrical,P3 Routine,RCD tripping,Completed,2026-04-02,2026-03-28,Yes,2,No,830.0,Sample data
+WO-2603-0152,2026-03-26,B34,,Reactive,Helpdesk,Roofing and gutters,P3 Routine,Roof leak over classroom,Awaiting quote,2026-04-02,,,219,Yes,,Sample data
+WO-2603-0434,2026-03-26,B05,DB-006,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-04-09,2026-04-05,Yes,10,No,1190.0,Sample data
+WO-2603-0153,2026-03-27,B23,TMV-006,Reactive,Helpdesk,Plumbing,P3 Routine,Bubbler not working,Completed,2026-04-03,2026-04-01,Yes,5,No,480.0,Sample data
+WO-2603-0395,2026-03-27,B04,EXT-005,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-04-10,2026-04-08,Yes,12,No,70.0,Sample data
+WO-2603-0801,2026-03-28,B23,MECP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: master emergency control panel (AS 1851),Completed,2026-04-11,2026-04-03,Yes,6,No,1000.0,Sample data
+WO-2603-0822,2026-03-28,B24,EXL-067,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-04-11,2026-04-01,Yes,4,No,120.0,Sample data
+WO-2603-0154,2026-03-30,B12,DB-015,Reactive,Helpdesk,Electrical,P3 Routine,Lights out in classroom,Completed,2026-04-06,2026-04-22,No,23,No,320.0,Sample data
+WO-2603-0155,2026-03-30,B07,,Reactive,Helpdesk,Plumbing,P3 Routine,Bubbler not working,Completed,2026-04-06,2026-04-01,Yes,2,No,400.0,Sample data
+WO-2603-0379,2026-03-30,B03,EXL-005,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-04-13,2026-04-10,Yes,11,No,200.0,Sample data
+WO-2603-0970,2026-03-30,B36,EXT-066,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-04-13,2026-04-02,Yes,3,No,140.0,Sample data
+WO-2603-0156,2026-03-31,B03,,Reactive,Helpdesk,Carpentry and joinery,P2 Urgent,Cupboard door off hinge,Completed,2026-04-02,2026-03-31,Yes,0,No,300.0,Sample data
+WO-2603-0790,2026-03-31,B23,FIP-002,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),Completed,2026-04-14,2026-04-13,Yes,13,No,1390.0,Sample data
+WO-2603-0881,2026-03-31,B31,ACU-029,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-04-14,2026-04-02,Yes,2,No,1290.0,Sample data
+WO-2604-0157,2026-04-01,B36,,Reactive,Helpdesk,Carpentry and joinery,P1 Emergency,Door sticking,Completed,2026-04-02,2026-04-02,Yes,1,No,790.0,Sample data
+WO-2604-0158,2026-04-01,B36,,Reactive,Helpdesk,Fire services,P3 Routine,Detector fault on panel,Completed,2026-04-08,2026-04-03,Yes,2,No,600.0,Sample data
+WO-2604-0652,2026-04-01,B17,FIP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),Completed,2026-04-15,2026-04-05,Yes,4,No,1400.0,Sample data
+WO-2604-0753,2026-04-01,B23,EXL-062,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-04-15,2026-04-03,Yes,2,No,130.0,Sample data
+WO-2604-0861,2026-04-01,B31,EXT-055,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-04-15,2026-04-07,Yes,6,No,120.0,Sample data
+WO-2604-0159,2026-04-02,B03,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Cupboard door off hinge,Completed,2026-04-09,2026-04-03,Yes,1,No,190.0,Sample data
+WO-2604-0160,2026-04-02,B16,,Reactive,Helpdesk,HVAC,P2 Urgent,Classroom too hot,Completed,2026-04-04,2026-04-06,No,4,No,550.0,Sample data
+WO-2604-0161,2026-04-02,B15,,Reactive,Helpdesk,Painting,P3 Routine,Graffiti removal,Completed,2026-04-09,2026-04-10,No,8,No,450.0,Sample data
+WO-2604-0162,2026-04-03,B36,WM-009,Reactive,Helpdesk,Plumbing,P3 Routine,Blocked toilet,Completed,2026-04-10,2026-04-06,Yes,3,No,290.0,Sample data
+WO-2604-0362,2026-04-03,B01,ACU-001,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-04-17,2026-04-16,Yes,13,No,510.0,Sample data
+WO-2604-0478,2026-04-03,B07,EXT-013,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-04-17,2026-04-16,Yes,13,No,90.0,Sample data
+WO-2604-0512,2026-04-03,B09,ACU-011,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-04-17,2026-04-17,Yes,14,No,850.0,Sample data
+WO-2604-0759,2026-04-04,B23,EXL-065,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-04-18,2026-04-11,Yes,7,No,120.0,Sample data
+WO-2604-0424,2026-04-05,B04,FD-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-04-19,2026-04-13,Yes,8,No,1390.0,Sample data
+WO-2604-0986,2026-04-05,B36,ACU-038,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-04-19,2026-04-15,Yes,10,No,720.0,Sample data
+WO-2604-0163,2026-04-06,B05,,Reactive,Helpdesk,Electrical,P2 Urgent,Lights out in classroom,Completed,2026-04-08,2026-04-08,Yes,2,No,110.0,Sample data
+WO-2604-0498,2026-04-06,B09,EXT-015,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-04-20,2026-04-13,Yes,7,No,150.0,Sample data
+WO-2604-0574,2026-04-06,B14,ACU-018,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-04-20,2026-04-15,Yes,9,No,920.0,Sample data
+WO-2604-0409,2026-04-07,B04,EXL-011,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-04-21,2026-04-11,Yes,4,No,70.0,Sample data
+WO-2604-0443,2026-04-07,B05,EXL-014,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-04-21,2026-04-13,Yes,6,No,130.0,Sample data
+WO-2604-0994,2026-04-07,B36,RAP-025,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2026-04-21,2026-04-09,Yes,2,No,210.0,Sample data
+WO-2604-0631,2026-04-08,B17,WM-004,Planned,PM schedule,Plumbing,P4 Planned,Routine service: water meter (AS 3565),Completed,2026-04-22,2026-04-20,Yes,12,No,180.0,Sample data
+WO-2604-0809,2026-04-09,B23,MSB-001,Planned,PM schedule,Electrical,P4 Planned,Routine service: main switchboard (AS/NZS 3000),Completed,2026-04-23,2026-04-14,Yes,5,No,1030.0,Sample data
+WO-2604-0869,2026-04-09,B31,EXL-075,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-04-23,2026-04-20,Yes,11,No,220.0,Sample data
+WO-2604-0367,2026-04-11,B02,EXL-003,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-04-25,2026-04-16,Yes,5,No,190.0,Sample data
+WO-2604-0525,2026-04-11,B09,FD-005,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-04-25,2026-04-20,Yes,9,No,360.0,Sample data
+WO-2604-0854,2026-04-11,B29,ACU-026,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-04-25,2026-05-09,No,28,No,1050.0,Sample data
+WO-2604-0925,2026-04-11,B32,TMV-008,Planned,PM schedule,Plumbing,P4 Planned,Routine service: thermostatic mixing valve (AS 4032.3),Completed,2026-04-25,2026-04-19,Yes,8,No,150.0,Sample data
+WO-2604-0685,2026-04-13,B18,WM-005,Planned,PM schedule,Plumbing,P4 Planned,Routine service: water meter (AS 3565),Completed,2026-04-27,2026-04-24,Yes,11,No,190.0,Sample data
+WO-2604-0939,2026-04-14,B34,DB-040,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),"Cancelled, missed",2026-04-28,,,200,No,,Sample data
+WO-2604-0995,2026-04-14,B36,RAP-026,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2026-04-28,2026-04-21,Yes,7,No,160.0,Sample data
+WO-2604-0164,2026-04-15,B09,DB-012,Reactive,Helpdesk,Electrical,P3 Routine,Power point not working,Completed,2026-04-22,2026-04-17,Yes,2,No,240.0,Sample data
+WO-2604-0632,2026-04-17,B17,FHR-005,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-05-01,2026-04-19,Yes,2,No,120.0,Sample data
+WO-2604-0765,2026-04-18,B23,HWU-011,Planned,PM schedule,Plumbing,P4 Planned,Routine service: hot water unit (AS/NZS 3500.4),Completed,2026-05-02,2026-04-24,Yes,6,No,1230.0,Sample data
+WO-2604-0636,2026-04-19,B17,TMV-004,Planned,PM schedule,Plumbing,P4 Planned,Routine service: thermostatic mixing valve (AS 4032.3),Completed,2026-05-03,2026-05-01,Yes,12,No,130.0,Sample data
+WO-2604-0165,2026-04-20,B05,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Lock jammed,Completed,2026-04-27,2026-05-09,No,19,No,360.0,Sample data
+WO-2604-0166,2026-04-20,B07,,Reactive,Helpdesk,Plumbing,P3 Routine,Bubbler not working,Completed,2026-04-27,2026-04-23,Yes,3,No,1320.0,Sample data
+WO-2604-0167,2026-04-20,B19,DB-023,Reactive,Helpdesk,Electrical,P3 Routine,Lights out in classroom,Completed,2026-04-27,2026-04-21,Yes,1,No,210.0,Sample data
+WO-2604-0168,2026-04-21,B34,,Reactive,Helpdesk,Roofing and gutters,P2 Urgent,Gutter overflowing,Completed,2026-04-23,2026-04-22,Yes,1,No,430.0,Sample data
+WO-2604-0169,2026-04-22,B07,,Reactive,Helpdesk,Locksmith and hardware,P4 Planned,Lock jammed,Completed,2026-05-20,2026-05-07,Yes,15,No,130.0,Sample data
+WO-2604-0170,2026-04-22,B04,,Reactive,Helpdesk,Painting,P2 Urgent,Water-stained ceiling,Completed,2026-04-24,2026-04-27,No,5,No,1380.0,Sample data
+WO-2604-0171,2026-04-22,B04,,Reactive,Helpdesk,Roofing and gutters,P4 Planned,Roof leak over classroom,Completed,2026-05-20,2026-05-20,Yes,28,No,210.0,Sample data
+WO-2604-0172,2026-04-22,B32,,Reactive,Helpdesk,Roofing and gutters,P4 Planned,Gutter overflowing,Completed,2026-05-20,2026-05-04,Yes,12,No,670.0,Sample data
+WO-2604-0480,2026-04-22,B07,EXL-020,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-05-06,2026-05-03,Yes,11,No,220.0,Sample data
+WO-2604-0634,2026-04-22,B17,FHR-006,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-05-06,2026-05-04,Yes,12,No,220.0,Sample data
+WO-2604-0173,2026-04-23,B27,,Reactive,Helpdesk,Electrical,P2 Urgent,Lights out in classroom,Completed,2026-04-25,2026-04-25,Yes,2,No,360.0,Sample data
+WO-2604-0174,2026-04-23,B32,,Reactive,Helpdesk,Roofing and gutters,P2 Urgent,Gutter overflowing,Completed,2026-04-25,2026-04-24,Yes,1,No,290.0,Sample data
+WO-2604-0385,2026-04-23,B03,ACU-003,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-05-07,2026-05-24,No,31,No,1320.0,Sample data
+WO-2604-0610,2026-04-23,B17,EXT-030,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-05-07,2026-05-01,Yes,8,No,80.0,Sample data
+WO-2604-0666,2026-04-24,B18,EXT-034,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-05-08,2026-05-07,Yes,13,No,160.0,Sample data
+WO-2604-0707,2026-04-24,B20,EXL-053,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-05-08,2026-05-14,No,20,No,190.0,Sample data
+WO-2604-0825,2026-04-24,B25,EXT-049,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-05-08,2026-04-29,Yes,5,No,210.0,Sample data
+WO-2604-0840,2026-04-24,B27,EXL-071,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-05-08,2026-05-07,Yes,13,No,80.0,Sample data
+WO-2604-0437,2026-04-25,B05,EXT-009,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-05-09,2026-05-24,No,29,No,200.0,Sample data
+WO-2604-0489,2026-04-26,B08,EXL-022,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-05-10,2026-05-03,Yes,7,No,170.0,Sample data
+WO-2604-0175,2026-04-27,B09,WM-003,Reactive,Helpdesk,Plumbing,P3 Routine,No hot water,Completed,2026-05-04,2026-05-03,Yes,6,No,160.0,Sample data
+WO-2604-0176,2026-04-27,B05,DB-007,Reactive,Helpdesk,Electrical,P3 Routine,Lights out in classroom,Completed,2026-05-04,2026-05-01,Yes,4,No,210.0,Sample data
+WO-2604-0373,2026-04-27,B03,DB-003,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-05-11,2026-05-05,Yes,8,No,330.0,Sample data
+WO-2604-0680,2026-04-27,B18,ACU-023,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),"Cancelled, missed",2026-05-11,,,187,No,,Sample data
+WO-2604-0802,2026-04-27,B23,MECP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: master emergency control panel (AS 1851),Completed,2026-05-11,2026-05-04,Yes,7,No,560.0,Sample data
+WO-2604-0177,2026-04-28,B17,DB-018,Reactive,Helpdesk,Electrical,P4 Planned,Lights out in classroom,Completed,2026-05-26,2026-05-24,Yes,26,No,400.0,Sample data
+WO-2604-0984,2026-04-28,B36,EXL-093,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-05-12,2026-05-09,Yes,11,No,140.0,Sample data
+WO-2604-0178,2026-04-29,B19,EXT-035,Reactive,Helpdesk,Fire services,P3 Routine,Extinguisher missing,Completed,2026-05-06,2026-05-01,Yes,2,No,260.0,Sample data
+WO-2604-0604,2026-04-29,B17,EXT-027,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-05-13,2026-05-03,Yes,4,No,60.0,Sample data
+WO-2604-0723,2026-04-29,B23,EXT-041,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-05-13,2026-05-02,Yes,3,No,150.0,Sample data
+WO-2604-0179,2026-04-30,B34,,Reactive,Helpdesk,Painting,P3 Routine,Graffiti removal,Completed,2026-05-07,2026-05-05,Yes,5,No,230.0,Sample data
+WO-2604-0791,2026-04-30,B23,FIP-002,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),Completed,2026-05-14,2026-05-06,Yes,6,No,730.0,Sample data
+WO-2605-0180,2026-05-01,B04,,Reactive,Helpdesk,HVAC,P3 Routine,Noisy fan,Completed,2026-05-08,2026-05-11,No,10,No,730.0,Sample data
+WO-2605-0181,2026-05-01,B27,HWU-012,Reactive,Helpdesk,Plumbing,P3 Routine,Blocked toilet,Completed,2026-05-08,2026-05-16,No,15,No,290.0,Sample data
+WO-2605-0182,2026-05-01,B11,,Reactive,Helpdesk,Carpentry and joinery,P4 Planned,Broken desk,Completed,2026-05-29,2026-05-16,Yes,15,No,1160.0,Sample data
+WO-2605-0415,2026-05-01,B04,RAP-003,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2026-05-15,2026-05-13,Yes,12,No,150.0,Sample data
+WO-2605-0653,2026-05-01,B17,FIP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),Completed,2026-05-15,2026-05-13,Yes,12,No,1110.0,Sample data
+WO-2605-0920,2026-05-03,B32,RAP-022,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2026-05-17,2026-05-08,Yes,5,No,150.0,Sample data
+WO-2605-0927,2026-05-04,B32,FD-015,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-05-18,2026-05-18,Yes,14,No,330.0,Sample data
+WO-2605-0943,2026-05-04,B34,EXL-085,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-05-18,2026-05-07,Yes,3,No,100.0,Sample data
+WO-2605-0183,2026-05-05,B36,DB-042,Reactive,Helpdesk,Electrical,P3 Routine,Power point not working,Completed,2026-05-12,2026-05-10,Yes,5,No,140.0,Sample data
+WO-2605-0184,2026-05-05,B14,,Reactive,Helpdesk,Fire services,P2 Urgent,Extinguisher missing,Completed,2026-05-07,2026-05-07,Yes,2,No,360.0,Sample data
+WO-2605-0185,2026-05-06,B10,EXT-018,Reactive,Helpdesk,Fire services,P1 Emergency,Extinguisher missing,Completed,2026-05-07,2026-05-07,Yes,1,No,1050.0,Sample data
+WO-2605-0186,2026-05-06,B37,,Reactive,Helpdesk,Carpentry and joinery,P2 Urgent,Door sticking,Completed,2026-05-08,2026-05-06,Yes,0,No,170.0,Sample data
+WO-2605-0370,2026-05-06,B02,EXL-004,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-05-20,2026-05-19,Yes,13,No,70.0,Sample data
+WO-2605-0594,2026-05-06,B16,ACU-019,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-05-20,2026-05-10,Yes,4,No,540.0,Sample data
+WO-2605-0846,2026-05-06,B28,EXT-052,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-05-20,2026-05-08,Yes,2,No,210.0,Sample data
+WO-2605-0993,2026-05-06,B36,ACU-041,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-05-20,2026-06-27,No,52,No,540.0,Sample data
+WO-2605-0187,2026-05-07,B03,EXT-004,Reactive,Helpdesk,Fire services,P3 Routine,Extinguisher missing,Completed,2026-05-14,2026-05-15,No,8,No,430.0,Sample data
+WO-2605-0188,2026-05-07,B16,,Reactive,Helpdesk,Plumbing,P4 Planned,Bubbler not working,Completed,2026-06-04,2026-05-18,Yes,11,No,340.0,Sample data
+WO-2605-0878,2026-05-07,B31,ACU-027,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-05-21,2026-05-17,Yes,10,No,1360.0,Sample data
+WO-2605-0189,2026-05-08,B38,,Reactive,Helpdesk,Electrical,P2 Urgent,Power point not working,Completed,2026-05-10,2026-05-10,Yes,2,No,650.0,Sample data
+WO-2605-0190,2026-05-08,B23,,Reactive,Helpdesk,Painting,P3 Routine,Graffiti removal,Completed,2026-05-15,2026-05-13,Yes,5,No,540.0,Sample data
+WO-2605-0191,2026-05-08,B03,,Reactive,Helpdesk,Plumbing,P2 Urgent,No hot water,Completed,2026-05-10,2026-05-09,Yes,1,No,770.0,Sample data
+WO-2605-0844,2026-05-08,B27,HWU-012,Planned,PM schedule,Plumbing,P4 Planned,Routine service: hot water unit (AS/NZS 3500.4),Completed,2026-05-22,2026-05-15,Yes,7,No,1300.0,Sample data
+WO-2605-0906,2026-05-08,B32,EXL-079,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-05-22,2026-05-10,Yes,2,No,170.0,Sample data
+WO-2605-0607,2026-05-09,B17,EXT-028,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-05-23,2026-05-13,Yes,4,No,60.0,Sample data
+WO-2605-0613,2026-05-09,B17,EXT-031,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-05-23,2026-05-11,Yes,2,No,150.0,Sample data
+WO-2605-0718,2026-05-09,B23,EM-011,Planned,PM schedule,HVAC,P4 Planned,Routine service: electricity meter (NCC Section J),Completed,2026-05-23,2026-05-22,Yes,13,No,160.0,Sample data
+WO-2605-0588,2026-05-10,B16,EXL-037,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-05-24,2026-05-21,Yes,11,No,210.0,Sample data
+WO-2605-0758,2026-05-10,B23,EXL-064,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-05-24,2026-05-15,Yes,5,No,170.0,Sample data
+WO-2605-0898,2026-05-10,B32,EM-014,Planned,PM schedule,HVAC,P4 Planned,Routine service: electricity meter (NCC Section J),Completed,2026-05-24,2026-05-18,Yes,8,No,220.0,Sample data
+WO-2605-0392,2026-05-11,B04,DB-004,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-05-25,2026-06-19,No,39,No,1190.0,Sample data
+WO-2605-0404,2026-05-11,B04,EXL-008,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-05-25,2026-05-25,Yes,14,No,220.0,Sample data
+WO-2605-0601,2026-05-12,B17,DB-019,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-05-26,2026-05-17,Yes,5,No,670.0,Sample data
+WO-2605-0957,2026-05-12,B35,EXL-088,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-05-26,2026-05-20,Yes,8,No,160.0,Sample data
+WO-2605-0192,2026-05-13,B25,,Reactive,Helpdesk,Locksmith and hardware,P4 Planned,Key cut request,Completed,2026-06-10,2026-05-29,Yes,16,No,400.0,Sample data
+WO-2605-0714,2026-05-13,B23,DB-026,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-05-27,2026-05-22,Yes,9,No,720.0,Sample data
+WO-2605-0961,2026-05-13,B35,ACU-037,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-05-27,2026-05-25,Yes,12,No,800.0,Sample data
+WO-2605-0458,2026-05-14,B05,RAP-006,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2026-05-28,2026-05-20,Yes,6,No,150.0,Sample data
+WO-2605-0505,2026-05-14,B09,EXL-024,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-05-28,2026-05-27,Yes,13,No,80.0,Sample data
+WO-2605-0713,2026-05-14,B23,DB-025,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-05-28,2026-05-28,Yes,14,No,1230.0,Sample data
+WO-2605-0715,2026-05-14,B23,DB-027,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-05-28,2026-05-17,Yes,3,No,840.0,Sample data
+WO-2605-0756,2026-05-14,B23,EXL-063,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-05-28,2026-05-25,Yes,11,No,160.0,Sample data
+WO-2605-0193,2026-05-15,B38,,Reactive,Helpdesk,Locksmith and hardware,P4 Planned,Door closer leaking,Completed,2026-06-12,2026-06-05,Yes,21,No,120.0,Sample data
+WO-2605-0194,2026-05-17,B36,TMV-009,Reactive,Helpdesk,Plumbing,P3 Routine,No hot water,Completed,2026-05-24,2026-06-20,No,34,No,1040.0,Sample data
+WO-2605-0195,2026-05-18,B08,,Reactive,Helpdesk,Painting,P3 Routine,Water-stained ceiling,Completed,2026-05-25,2026-05-21,Yes,3,No,270.0,Sample data
+WO-2605-0196,2026-05-18,B23,DB-025,Reactive,Helpdesk,Electrical,P2 Urgent,RCD tripping,Completed,2026-05-20,2026-05-19,Yes,1,No,730.0,Sample data
+WO-2605-0197,2026-05-19,B05,TMV-002,Reactive,Helpdesk,Plumbing,P2 Urgent,Bubbler not working,Completed,2026-05-21,2026-05-20,Yes,1,No,690.0,Sample data
+WO-2605-0198,2026-05-19,B14,HWU-006,Reactive,Helpdesk,Plumbing,P4 Planned,Leaking tap,Completed,2026-06-16,2026-06-16,Yes,28,No,170.0,Sample data
+WO-2605-0782,2026-05-19,B23,AHU-003,Planned,PM schedule,HVAC,P4 Planned,Routine service: air handling unit (AS/NZS 3666.2),Completed,2026-06-02,2026-05-31,Yes,12,No,1260.0,Sample data
+WO-2605-0199,2026-05-20,B06,ACU-008,Reactive,Helpdesk,HVAC,P3 Routine,Heating not working,Completed,2026-05-27,2026-05-24,Yes,4,No,820.0,Sample data
+WO-2605-0200,2026-05-21,B19,,Reactive,Helpdesk,Carpentry and joinery,P2 Urgent,Door sticking,Completed,2026-05-23,2026-05-24,No,3,No,410.0,Sample data
+WO-2605-0201,2026-05-21,B38,,Reactive,Helpdesk,Electrical,P3 Routine,RCD tripping,Completed,2026-05-28,2026-05-24,Yes,3,No,650.0,Sample data
+WO-2605-0202,2026-05-21,B17,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Broken desk,Completed,2026-05-28,2026-05-28,Yes,7,No,750.0,Sample data
+WO-2605-0372,2026-05-21,B02,ACU-002,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-06-04,2026-05-28,Yes,7,No,860.0,Sample data
+WO-2605-0849,2026-05-21,B29,EXT-053,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-06-04,2026-06-01,Yes,11,No,140.0,Sample data
+WO-2605-0422,2026-05-22,B04,FHR-002,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-06-05,2026-05-29,Yes,7,No,220.0,Sample data
+WO-2605-0542,2026-05-22,B11,EXL-030,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),"Cancelled, missed",2026-06-05,,,162,No,,Sample data
+WO-2605-0908,2026-05-22,B32,EXL-080,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-06-05,2026-05-24,Yes,2,No,150.0,Sample data
+WO-2605-0884,2026-05-23,B31,ACU-030,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-06-06,2026-06-05,Yes,13,No,870.0,Sample data
+WO-2605-0535,2026-05-24,B10,EXL-029,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-06-07,2026-06-02,Yes,9,No,80.0,Sample data
+WO-2605-0561,2026-05-24,B14,EM-006,Planned,PM schedule,HVAC,P4 Planned,Routine service: electricity meter (NCC Section J),Completed,2026-06-07,2026-06-03,Yes,10,No,100.0,Sample data
+WO-2605-0643,2026-05-24,B17,AHU-002,Planned,PM schedule,HVAC,P4 Planned,Routine service: air handling unit (AS/NZS 3666.2),Completed,2026-06-07,2026-05-31,Yes,7,No,360.0,Sample data
+WO-2605-0742,2026-05-24,B23,EXL-056,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-06-07,2026-06-06,Yes,13,No,80.0,Sample data
+WO-2605-0910,2026-05-24,B32,EXL-081,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-06-07,2026-05-31,Yes,7,No,100.0,Sample data
+WO-2605-0203,2026-05-25,B14,,Reactive,Helpdesk,HVAC,P3 Routine,Split system not cooling,Completed,2026-06-01,2026-05-31,Yes,6,No,490.0,Sample data
+WO-2605-0580,2026-05-25,B15,EXT-024,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-06-08,2026-07-09,No,45,No,80.0,Sample data
+WO-2605-0638,2026-05-25,B17,FD-007,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-06-08,2026-06-05,Yes,11,No,260.0,Sample data
+WO-2605-0663,2026-05-26,B18,EXT-032,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-06-09,2026-06-08,Yes,13,No,70.0,Sample data
+WO-2605-0204,2026-05-27,B03,,Reactive,Helpdesk,Roofing and gutters,P3 Routine,Roof leak over classroom,Completed,2026-06-03,2026-06-12,No,16,No,600.0,Sample data
+WO-2605-0390,2026-05-27,B03,RAP-002,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2026-06-10,2026-06-10,Yes,14,No,210.0,Sample data
+WO-2605-0560,2026-05-27,B14,DB-016,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-06-10,2026-06-07,Yes,11,No,840.0,Sample data
+WO-2605-0766,2026-05-27,B23,WM-006,Planned,PM schedule,Plumbing,P4 Planned,Routine service: water meter (AS 3565),Completed,2026-06-10,2026-06-05,Yes,9,No,200.0,Sample data
+WO-2605-0872,2026-05-27,B31,EXL-076,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-06-10,2026-06-07,Yes,11,No,130.0,Sample data
+WO-2605-0205,2026-05-28,B11,,Reactive,Helpdesk,Plumbing,P3 Routine,Leaking tap,Completed,2026-06-04,2026-06-08,No,11,No,120.0,Sample data
+WO-2605-0206,2026-05-28,B07,,Reactive,Helpdesk,Plumbing,P4 Planned,Leaking tap,Completed,2026-06-25,2026-06-10,Yes,13,No,260.0,Sample data
+WO-2605-0803,2026-05-28,B23,MECP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: master emergency control panel (AS 1851),Completed,2026-06-11,2026-06-02,Yes,5,No,570.0,Sample data
+WO-2605-0207,2026-05-29,B03,,Reactive,Helpdesk,Carpentry and joinery,P2 Urgent,Broken desk,Completed,2026-05-31,2026-05-30,Yes,1,No,660.0,Sample data
+WO-2605-0208,2026-05-29,B36,,Reactive,Helpdesk,Grounds,P2 Urgent,Fallen branch,Completed,2026-05-31,2026-05-29,Yes,0,No,240.0,Sample data
+WO-2605-0209,2026-05-29,B29,,Reactive,Helpdesk,Glazing,P1 Emergency,Cracked window,Completed,2026-05-30,2026-05-30,Yes,1,No,600.0,Sample data
+WO-2605-0554,2026-05-29,B12,EXL-033,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-06-12,2026-06-08,Yes,10,No,160.0,Sample data
+WO-2605-0930,2026-05-29,B33,DB-039,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-06-12,2026-06-11,Yes,13,No,930.0,Sample data
+WO-2605-0573,2026-05-30,B14,ACU-017,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-06-13,2026-06-04,Yes,5,No,1160.0,Sample data
+WO-2605-0706,2026-05-30,B20,EXT-036,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),"Cancelled, missed",2026-06-13,,,154,No,,Sample data
+WO-2605-0483,2026-05-31,B07,EXL-021,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-06-14,2026-06-05,Yes,5,No,80.0,Sample data
+WO-2605-0577,2026-05-31,B14,RAP-010,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2026-06-14,2026-06-06,Yes,6,No,190.0,Sample data
+WO-2605-0726,2026-05-31,B23,EXT-042,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-06-14,2026-06-04,Yes,4,No,140.0,Sample data
+WO-2605-0792,2026-05-31,B23,FIP-002,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),"Cancelled, missed",2026-06-14,,,153,No,,Sample data
+WO-2606-0433,2026-06-01,B04,FH-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: internal fire hydrant (AS 1851),Completed,2026-06-15,2026-06-10,Yes,9,No,70.0,Sample data
+WO-2606-0592,2026-06-01,B16,EXL-039,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-06-15,2026-06-15,Yes,14,No,140.0,Sample data
+WO-2606-0654,2026-06-01,B17,FIP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),Completed,2026-06-15,2026-06-07,Yes,6,No,980.0,Sample data
+WO-2606-0210,2026-06-02,B32,TMV-008,Reactive,Helpdesk,Plumbing,P3 Routine,Bubbler not working,Completed,2026-06-09,2026-06-05,Yes,3,No,430.0,Sample data
+WO-2606-0768,2026-06-02,B23,FHR-008,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-06-16,2026-06-07,Yes,5,No,130.0,Sample data
+WO-2606-1006,2026-06-02,B38,EXT-069,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-06-16,2026-06-21,No,19,No,190.0,Sample data
+WO-2606-0211,2026-06-03,B36,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Door closer leaking,Completed,2026-06-10,2026-06-04,Yes,1,No,340.0,Sample data
+WO-2606-0609,2026-06-03,B17,EXT-029,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-06-17,2026-06-13,Yes,10,No,180.0,Sample data
+WO-2606-0938,2026-06-03,B33,ACU-034,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-06-17,2026-06-14,Yes,11,No,570.0,Sample data
+WO-2606-0212,2026-06-04,B23,,Reactive,Helpdesk,Roofing and gutters,P3 Routine,Roof leak over classroom,Completed,2026-06-11,2026-06-12,No,8,No,120.0,Sample data
+WO-2606-0359,2026-06-04,B01,EXL-001,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-06-18,2026-06-06,Yes,2,No,200.0,Sample data
+WO-2606-0571,2026-06-04,B14,EXL-036,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-06-18,2026-06-11,Yes,7,No,160.0,Sample data
+WO-2606-0213,2026-06-05,B17,DB-020,Reactive,Helpdesk,Electrical,P2 Urgent,Power point not working,Completed,2026-06-07,2026-06-08,No,3,No,140.0,Sample data
+WO-2606-0214,2026-06-05,B12,,Reactive,Helpdesk,HVAC,P3 Routine,Noisy fan,Completed,2026-06-12,2026-06-14,No,9,No,70.0,Sample data
+WO-2606-0857,2026-06-05,B30,EXT-054,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-06-19,2026-06-10,Yes,5,No,140.0,Sample data
+WO-2606-0893,2026-06-05,B31,FD-013,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-06-19,2026-06-14,Yes,9,No,910.0,Sample data
+WO-2606-0896,2026-06-05,B32,DB-037,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-06-19,2026-06-14,Yes,9,No,1280.0,Sample data
+WO-2606-0215,2026-06-06,B02,DB-002,Reactive,Helpdesk,Electrical,P3 Routine,RCD tripping,Completed,2026-06-13,2026-06-15,No,9,No,270.0,Sample data
+WO-2606-0459,2026-06-06,B05,HWU-003,Planned,PM schedule,Plumbing,P4 Planned,Routine service: hot water unit (AS/NZS 3500.4),Completed,2026-06-20,2026-06-12,Yes,6,No,1250.0,Sample data
+WO-2606-0216,2026-06-07,B18,,Reactive,Helpdesk,Grounds,P3 Routine,Fallen branch,Completed,2026-06-14,2026-06-13,Yes,6,No,640.0,Sample data
+WO-2606-0414,2026-06-07,B04,EXL-013,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-06-21,2026-06-17,Yes,10,No,100.0,Sample data
+WO-2606-0217,2026-06-08,B17,DB-018,Reactive,Helpdesk,Electrical,P3 Routine,Emergency light failed test,Completed,2026-06-15,2026-06-13,Yes,5,No,310.0,Sample data
+WO-2606-0218,2026-06-08,B26,,Reactive,Helpdesk,Fire services,P4 Planned,Fire door not closing,Completed,2026-07-06,2026-06-26,Yes,18,No,590.0,Sample data
+WO-2606-0219,2026-06-08,B05,,Reactive,Helpdesk,Carpentry and joinery,P2 Urgent,Broken desk,Completed,2026-06-10,2026-06-11,No,3,No,260.0,Sample data
+WO-2606-0467,2026-06-08,B05,FD-004,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-06-22,2026-06-17,Yes,9,No,1280.0,Sample data
+WO-2606-0552,2026-06-08,B12,EXL-032,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-06-22,2026-06-13,Yes,5,No,120.0,Sample data
+WO-2606-0586,2026-06-08,B16,EXT-026,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-06-22,2026-06-17,Yes,9,No,100.0,Sample data
+WO-2606-0220,2026-06-09,B29,,Reactive,Helpdesk,Carpentry and joinery,P4 Planned,Cupboard door off hinge,Completed,2026-07-07,2026-06-14,Yes,5,No,150.0,Sample data
+WO-2606-0221,2026-06-09,B23,FHR-011,Reactive,Helpdesk,Fire services,P4 Planned,Detector fault on panel,Completed,2026-07-07,2026-06-18,Yes,9,No,660.0,Sample data
+WO-2606-0430,2026-06-09,B04,AHU-001,Planned,PM schedule,HVAC,P4 Planned,Routine service: air handling unit (AS/NZS 3666.2),Completed,2026-06-23,2026-06-22,Yes,13,No,820.0,Sample data
+WO-2606-0448,2026-06-09,B05,EXL-016,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-06-23,2026-06-16,Yes,7,No,150.0,Sample data
+WO-2606-0785,2026-06-09,B23,FH-003,Planned,PM schedule,Fire services,P4 Planned,Routine service: internal fire hydrant (AS 1851),Completed,2026-06-23,2026-06-11,Yes,2,No,190.0,Sample data
+WO-2606-0222,2026-06-10,B05,HWU-003,Reactive,Helpdesk,Plumbing,P3 Routine,Leaking tap,Completed,2026-06-17,2026-06-16,Yes,6,No,830.0,Sample data
+WO-2606-0223,2026-06-10,B23,TMV-006,Reactive,Helpdesk,Plumbing,P3 Routine,Blocked toilet,Completed,2026-06-17,2026-06-14,Yes,4,No,410.0,Sample data
+WO-2606-0722,2026-06-10,B23,EXT-040,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-06-24,2026-06-24,Yes,14,No,200.0,Sample data
+WO-2606-0224,2026-06-11,B04,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Cupboard door off hinge,Completed,2026-06-18,2026-06-18,Yes,7,No,320.0,Sample data
+WO-2606-0456,2026-06-11,B05,ACU-007,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-06-25,2026-07-10,No,29,No,1320.0,Sample data
+WO-2606-0646,2026-06-11,B17,FH-002,Planned,PM schedule,Fire services,P4 Planned,Routine service: internal fire hydrant (AS 1851),Completed,2026-06-25,2026-06-20,Yes,9,No,180.0,Sample data
+WO-2606-0821,2026-06-11,B24,EXT-048,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-06-25,2026-06-17,Yes,6,No,200.0,Sample data
+WO-2606-0814,2026-06-12,B23,SL-001,Planned,PM schedule,Height safety,P4 Planned,Routine service: static line (AS/NZS 1891.4),Completed,2026-06-26,2026-06-19,Yes,7,No,990.0,Sample data
+WO-2606-0817,2026-06-12,B23,BLR-001,Planned,PM schedule,HVAC,P4 Planned,Routine service: boiler (AIRAH DA19),Completed,2026-06-26,2026-07-06,No,24,No,1030.0,Sample data
+WO-2606-0851,2026-06-12,B29,EXL-072,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-06-26,2026-07-31,No,49,No,160.0,Sample data
+WO-2606-0934,2026-06-12,B33,EXL-083,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-06-26,2026-06-17,Yes,5,No,190.0,Sample data
+WO-2606-0973,2026-06-12,B36,EXT-067,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-06-26,2026-07-21,No,39,No,150.0,Sample data
+WO-2606-0225,2026-06-14,B04,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Door closer leaking,Completed,2026-06-21,2026-06-19,Yes,5,No,760.0,Sample data
+WO-2606-0470,2026-06-14,B06,EXT-012,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-06-28,2026-06-17,Yes,3,No,130.0,Sample data
+WO-2606-0596,2026-06-14,B16,ACU-020,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-06-28,2026-06-20,Yes,6,No,270.0,Sample data
+WO-2606-0866,2026-06-14,B31,EXT-057,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-06-28,2026-06-24,Yes,10,No,90.0,Sample data
+WO-2606-0886,2026-06-14,B31,RAP-020,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2026-06-28,2026-06-22,Yes,8,No,80.0,Sample data
+WO-2606-0945,2026-06-14,B34,EXL-086,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),"Cancelled, missed",2026-06-28,,,139,No,,Sample data
+WO-2606-0977,2026-06-14,B36,EXL-089,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-06-28,2026-06-27,Yes,13,No,160.0,Sample data
+WO-2606-1010,2026-06-14,,EH-002,Planned,PM schedule,Fire services,P4 Planned,Routine service: external fire hydrant (AS 1851),Completed,2026-06-28,2026-06-18,Yes,4,No,380.0,Sample data
+WO-2606-0226,2026-06-15,B18,,Reactive,Helpdesk,Glazing,P4 Planned,Cracked window,Completed,2026-07-13,2026-07-06,Yes,21,No,480.0,Sample data
+WO-2606-0227,2026-06-15,B27,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Cupboard door off hinge,Completed,2026-06-22,2026-06-16,Yes,1,No,930.0,Sample data
+WO-2606-0228,2026-06-16,B31,WM-007,Reactive,Helpdesk,Plumbing,P3 Routine,Bubbler not working,Completed,2026-06-23,2026-06-18,Yes,2,No,280.0,Sample data
+WO-2606-0229,2026-06-17,B02,,Reactive,Helpdesk,Painting,P3 Routine,Graffiti removal,Completed,2026-06-24,2026-06-22,Yes,5,No,1510.0,Sample data
+WO-2606-0230,2026-06-17,B04,,Reactive,Helpdesk,Grounds,P3 Routine,Trip hazard on path,Completed,2026-06-24,2026-06-19,Yes,2,No,170.0,Sample data
+WO-2606-0720,2026-06-17,B23,EXT-039,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-07-01,2026-06-20,Yes,3,No,80.0,Sample data
+WO-2606-0440,2026-06-18,B05,EXT-010,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-07-02,2026-07-02,Yes,14,No,70.0,Sample data
+WO-2606-0625,2026-06-18,B17,EXL-045,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-07-02,2026-06-29,Yes,11,No,150.0,Sample data
+WO-2606-0231,2026-06-19,B37,,Reactive,Helpdesk,Fire services,P1 Emergency,Fire door not closing,Completed,2026-06-20,2026-06-19,Yes,0,No,1650.0,Sample data
+WO-2606-0412,2026-06-19,B04,EXL-012,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-07-03,2026-06-27,Yes,8,No,100.0,Sample data
+WO-2606-0839,2026-06-19,B27,EXL-070,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-07-03,2026-06-24,Yes,5,No,80.0,Sample data
+WO-2606-0232,2026-06-20,B10,,Reactive,Helpdesk,Glazing,P2 Urgent,Cracked window,Completed,2026-06-22,2026-06-22,Yes,2,No,180.0,Sample data
+WO-2606-0615,2026-06-20,B17,EXL-040,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-07-04,2026-06-25,Yes,5,No,190.0,Sample data
+WO-2606-0929,2026-06-20,B32,FD-016,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-07-04,2026-06-26,Yes,6,No,590.0,Sample data
+WO-2606-0366,2026-06-21,B02,EXT-002,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-07-05,2026-07-03,Yes,12,No,220.0,Sample data
+WO-2606-0417,2026-06-21,B04,HWU-002,Planned,PM schedule,Plumbing,P4 Planned,Routine service: hot water unit (AS/NZS 3500.4),Completed,2026-07-05,2026-06-28,Yes,7,No,940.0,Sample data
+WO-2606-0619,2026-06-21,B17,EXL-042,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-07-05,2026-06-27,Yes,6,No,80.0,Sample data
+WO-2606-0904,2026-06-22,B32,EXT-060,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-07-06,2026-06-24,Yes,2,No,180.0,Sample data
+WO-2606-0233,2026-06-23,B17,HWU-008,Reactive,Helpdesk,Plumbing,P3 Routine,Bubbler not working,Completed,2026-06-30,2026-06-26,Yes,3,No,1130.0,Sample data
+WO-2606-0234,2026-06-23,B11,,Reactive,Helpdesk,Plumbing,P3 Routine,Blocked toilet,Completed,2026-06-30,2026-06-29,Yes,6,No,360.0,Sample data
+WO-2606-0831,2026-06-23,B26,EXT-050,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-07-07,2026-07-07,Yes,14,No,120.0,Sample data
+WO-2606-0235,2026-06-24,B14,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Key cut request,Completed,2026-07-01,2026-06-28,Yes,4,No,310.0,Sample data
+WO-2606-0236,2026-06-24,B07,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Broken desk,Completed,2026-07-01,2026-07-07,No,13,No,380.0,Sample data
+WO-2606-0454,2026-06-24,B05,ACU-006,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-07-08,2026-06-27,Yes,3,No,1080.0,Sample data
+WO-2606-0477,2026-06-24,B07,DB-009,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-07-08,2026-07-15,No,21,No,1140.0,Sample data
+WO-2606-0237,2026-06-25,B34,,Reactive,Helpdesk,HVAC,P4 Planned,Split system not cooling,Completed,2026-07-23,2026-07-04,Yes,9,No,230.0,Sample data
+WO-2606-0238,2026-06-26,B11,ACU-015,Reactive,Helpdesk,HVAC,P2 Urgent,Heating not working,Completed,2026-06-28,2026-06-30,No,4,No,410.0,Sample data
+WO-2606-0890,2026-06-26,B31,FHR-012,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-07-10,2026-07-03,Yes,7,No,90.0,Sample data
+WO-2606-0772,2026-06-27,B23,FHR-010,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-07-11,2026-06-29,Yes,2,No,180.0,Sample data
+WO-2606-0804,2026-06-27,B23,MECP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: master emergency control panel (AS 1851),Completed,2026-07-11,2026-07-02,Yes,5,No,1070.0,Sample data
+WO-2606-0887,2026-06-27,B31,HWU-013,Planned,PM schedule,Plumbing,P4 Planned,Routine service: hot water unit (AS/NZS 3500.4),Completed,2026-07-11,2026-06-30,Yes,3,No,860.0,Sample data
+WO-2606-0239,2026-06-28,B04,HWU-002,Reactive,Helpdesk,Plumbing,P3 Routine,No hot water,Completed,2026-07-05,2026-06-30,Yes,2,No,600.0,Sample data
+WO-2606-0416,2026-06-28,B04,RAP-004,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2026-07-12,2026-07-05,Yes,7,No,150.0,Sample data
+WO-2606-0450,2026-06-29,B05,EXL-017,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-07-13,2026-07-02,Yes,3,No,180.0,Sample data
+WO-2606-0240,2026-06-30,B18,WM-005,Reactive,Helpdesk,Plumbing,P3 Routine,Blocked toilet,Completed,2026-07-07,2026-07-03,Yes,3,No,260.0,Sample data
+WO-2606-0460,2026-06-30,B05,WM-002,Planned,PM schedule,Plumbing,P4 Planned,Routine service: water meter (AS 3565),Completed,2026-07-14,2026-07-14,Yes,14,No,180.0,Sample data
+WO-2606-0793,2026-06-30,B23,FIP-002,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),Completed,2026-07-14,2026-07-05,Yes,5,No,1090.0,Sample data
+WO-2607-0655,2026-07-01,B17,FIP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),Completed,2026-07-15,2026-07-08,Yes,7,No,1010.0,Sample data
+WO-2607-0924,2026-07-01,B32,FHR-013,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-07-15,2026-07-13,Yes,12,No,170.0,Sample data
+WO-2607-0736,2026-07-02,B23,EXT-047,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-07-16,2026-07-07,Yes,5,No,130.0,Sample data
+WO-2607-0750,2026-07-03,B23,EXL-060,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-07-17,2026-07-15,Yes,12,No,80.0,Sample data
+WO-2607-0948,2026-07-03,B35,DB-041,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-07-17,2026-07-10,Yes,7,No,1030.0,Sample data
+WO-2607-0951,2026-07-04,B35,EXT-063,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-07-18,2026-07-18,Yes,14,No,110.0,Sample data
+WO-2607-0537,2026-07-05,B10,ACU-014,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-07-19,2026-07-08,Yes,3,No,720.0,Sample data
+WO-2607-0463,2026-07-06,B05,TMV-002,Planned,PM schedule,Plumbing,P4 Planned,Routine service: thermostatic mixing valve (AS 4032.3),Completed,2026-07-20,2026-07-14,Yes,8,No,160.0,Sample data
+WO-2607-0673,2026-07-06,B18,EXL-049,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-07-20,2026-07-12,Yes,6,No,210.0,Sample data
+WO-2607-0712,2026-07-06,B22,EXT-038,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-07-20,2026-07-10,Yes,4,No,150.0,Sample data
+WO-2607-0241,2026-07-07,B36,DB-042,Reactive,Helpdesk,Electrical,P3 Routine,Lights out in classroom,Completed,2026-07-14,2026-07-12,Yes,5,No,330.0,Sample data
+WO-2607-0242,2026-07-07,B23,WM-006,Reactive,Helpdesk,Plumbing,P1 Emergency,Blocked toilet,Completed,2026-07-08,2026-07-07,Yes,0,No,900.0,Sample data
+WO-2607-0376,2026-07-07,B03,EXT-003,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-07-21,2026-07-20,Yes,13,No,70.0,Sample data
+WO-2607-0811,2026-07-07,B23,MSSB-001,Planned,PM schedule,HVAC,P4 Planned,Routine service: mechanical services switchboard (AS/NZS 3000),Completed,2026-07-21,2026-07-17,Yes,10,No,710.0,Sample data
+WO-2607-0979,2026-07-07,B36,EXL-090,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-07-21,2026-07-17,Yes,10,No,160.0,Sample data
+WO-2607-0243,2026-07-08,B01,,Reactive,Helpdesk,Electrical,P2 Urgent,RCD tripping,Completed,2026-07-10,2026-07-09,Yes,1,No,290.0,Sample data
+WO-2607-1000,2026-07-08,B36,TMV-009,Planned,PM schedule,Plumbing,P4 Planned,Routine service: thermostatic mixing valve (AS 4032.3),Completed,2026-07-22,2026-07-19,Yes,11,No,110.0,Sample data
+WO-2607-0244,2026-07-09,B32,DB-038,Reactive,Helpdesk,Electrical,P3 Routine,RCD tripping,Completed,2026-07-16,2026-07-14,Yes,5,No,590.0,Sample data
+WO-2607-0357,2026-07-09,B01,EXT-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-07-23,2026-07-21,Yes,12,No,80.0,Sample data
+WO-2607-0398,2026-07-09,B04,EXT-006,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-07-23,2026-07-13,Yes,4,No,110.0,Sample data
+WO-2607-0418,2026-07-10,B04,WM-001,Planned,PM schedule,Plumbing,P4 Planned,Routine service: water meter (AS 3565),Completed,2026-07-24,2026-07-19,Yes,9,No,180.0,Sample data
+WO-2607-0472,2026-07-10,B06,EXL-018,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-07-24,2026-08-29,No,50,No,80.0,Sample data
+WO-2607-0565,2026-07-10,B14,EXT-023,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-07-24,2026-07-14,Yes,4,No,80.0,Sample data
+WO-2607-0710,2026-07-10,B21,EXT-037,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-07-24,2026-08-05,No,26,No,110.0,Sample data
+WO-2607-0746,2026-07-10,B23,EXL-058,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-07-24,2026-07-15,Yes,5,No,190.0,Sample data
+WO-2607-0959,2026-07-10,B35,ACU-036,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-07-24,2026-07-15,Yes,5,No,880.0,Sample data
+WO-2607-0515,2026-07-11,B09,ACU-012,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),"Cancelled, missed",2026-07-25,,,112,No,,Sample data
+WO-2607-0833,2026-07-11,B26,EXL-069,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-07-25,2026-07-23,Yes,12,No,80.0,Sample data
+WO-2607-0420,2026-07-12,B04,FHR-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-07-26,2026-07-14,Yes,2,No,100.0,Sample data
+WO-2607-0981,2026-07-12,B36,EXL-091,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-07-26,2026-07-16,Yes,4,No,110.0,Sample data
+WO-2607-0245,2026-07-13,B19,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Key cut request,Completed,2026-07-20,2026-07-20,Yes,7,No,340.0,Sample data
+WO-2607-0762,2026-07-13,B23,EXL-066,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-07-27,2026-07-16,Yes,3,No,140.0,Sample data
+WO-2607-0969,2026-07-13,B36,EXT-065,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-07-27,2026-08-06,No,24,No,160.0,Sample data
+WO-2607-0989,2026-07-13,B36,ACU-039,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-07-27,2026-07-23,Yes,10,No,860.0,Sample data
+WO-2607-0246,2026-07-14,B03,ACU-003,Reactive,Helpdesk,HVAC,P2 Urgent,Classroom too hot,Completed,2026-07-16,2026-07-15,Yes,1,No,380.0,Sample data
+WO-2607-0247,2026-07-14,B18,,Reactive,Helpdesk,Plumbing,P2 Urgent,Blocked toilet,Completed,2026-07-16,2026-07-16,Yes,2,No,130.0,Sample data
+WO-2607-0378,2026-07-14,B03,EXT-004,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-07-28,2026-07-21,Yes,7,No,90.0,Sample data
+WO-2607-0517,2026-07-14,B09,ACU-013,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-07-28,2026-07-24,Yes,10,No,720.0,Sample data
+WO-2607-0531,2026-07-14,B10,EXT-018,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-07-28,2026-07-17,Yes,3,No,190.0,Sample data
+WO-2607-0598,2026-07-14,B16,RAP-012,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2026-07-28,2026-08-26,No,43,No,90.0,Sample data
+WO-2607-0640,2026-07-14,B17,FD-008,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-07-28,2026-07-20,Yes,6,No,390.0,Sample data
+WO-2607-0687,2026-07-14,B18,FHR-007,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-07-28,2026-07-21,Yes,7,No,150.0,Sample data
+WO-2607-0694,2026-07-14,B19,EM-010,Planned,PM schedule,HVAC,P4 Planned,Routine service: electricity meter (NCC Section J),Completed,2026-07-28,2026-07-16,Yes,2,No,180.0,Sample data
+WO-2607-0843,2026-07-14,B27,ACU-025,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-07-28,2026-07-21,Yes,7,No,820.0,Sample data
+WO-2607-0874,2026-07-14,B31,EXL-077,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-07-28,2026-07-21,Yes,7,No,170.0,Sample data
+WO-2607-0248,2026-07-17,B33,,Reactive,Helpdesk,Painting,P3 Routine,Graffiti removal,Completed,2026-07-24,2026-07-22,Yes,5,No,190.0,Sample data
+WO-2607-0249,2026-07-17,B32,DB-038,Reactive,Helpdesk,Electrical,P3 Routine,RCD tripping,Completed,2026-07-24,2026-07-19,Yes,2,No,370.0,Sample data
+WO-2607-0669,2026-07-18,B18,EXL-047,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-08-01,2026-07-21,Yes,3,No,70.0,Sample data
+WO-2607-0732,2026-07-18,B23,EXT-045,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-08-01,2026-07-29,Yes,11,No,210.0,Sample data
+WO-2607-0250,2026-07-20,B11,DB-014,Reactive,Helpdesk,Electrical,P3 Routine,Lights out in classroom,Completed,2026-07-27,2026-07-29,No,9,No,790.0,Sample data
+WO-2607-0251,2026-07-20,B12,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Cupboard door off hinge,Completed,2026-07-27,2026-07-21,Yes,1,No,350.0,Sample data
+WO-2607-0563,2026-07-20,B14,EXT-022,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-08-03,2026-07-30,Yes,10,No,90.0,Sample data
+WO-2607-0728,2026-07-20,B23,EXT-043,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-08-03,2026-08-01,Yes,12,No,130.0,Sample data
+WO-2607-0730,2026-07-20,B23,EXT-044,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-08-03,2026-07-31,Yes,11,No,180.0,Sample data
+WO-2607-0912,2026-07-20,B32,EXL-082,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-08-03,2026-08-02,Yes,13,No,220.0,Sample data
+WO-2607-0252,2026-07-21,B15,,Reactive,Helpdesk,Painting,P1 Emergency,Graffiti removal,Completed,2026-07-22,2026-07-22,Yes,1,No,1780.0,Sample data
+WO-2607-0253,2026-07-21,B03,ACU-004,Reactive,Helpdesk,HVAC,P3 Routine,Classroom too hot,Completed,2026-07-28,2026-08-02,No,12,No,430.0,Sample data
+WO-2607-0427,2026-07-21,B04,FD-002,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-08-04,2026-08-03,Yes,13,No,330.0,Sample data
+WO-2607-0696,2026-07-21,B19,EXT-035,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-08-04,2026-07-27,Yes,6,No,160.0,Sample data
+WO-2607-0991,2026-07-21,B36,ACU-040,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-08-04,2026-07-24,Yes,3,No,1360.0,Sample data
+WO-2607-0254,2026-07-23,B16,ACU-019,Reactive,Helpdesk,HVAC,P3 Routine,Split system not cooling,Completed,2026-07-30,2026-07-28,Yes,5,No,460.0,Sample data
+WO-2607-0391,2026-07-23,B03,HWU-001,Planned,PM schedule,Plumbing,P4 Planned,Routine service: hot water unit (AS/NZS 3500.4),Completed,2026-08-06,2026-07-25,Yes,2,No,1200.0,Sample data
+WO-2607-0763,2026-07-23,B23,RAP-017,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2026-08-06,2026-07-26,Yes,3,No,90.0,Sample data
+WO-2607-0953,2026-07-23,B35,EXT-064,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-08-06,2026-07-25,Yes,2,No,150.0,Sample data
+WO-2607-0255,2026-07-24,B05,TMV-002,Reactive,Helpdesk,Plumbing,P3 Routine,Blocked toilet,Completed,2026-07-31,2026-07-30,Yes,6,No,130.0,Sample data
+WO-2607-0256,2026-07-24,B20,,Reactive,Helpdesk,Carpentry and joinery,P1 Emergency,Broken desk,Completed,2026-07-25,2026-07-25,Yes,1,No,730.0,Sample data
+WO-2607-0257,2026-07-24,B23,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Door closer leaking,Completed,2026-07-31,2026-07-27,Yes,3,No,800.0,Sample data
+WO-2607-0688,2026-07-24,B18,TMV-005,Planned,PM schedule,Plumbing,P4 Planned,Routine service: thermostatic mixing valve (AS 4032.3),Completed,2026-08-07,2026-07-26,Yes,2,No,180.0,Sample data
+WO-2607-0777,2026-07-24,B23,FD-011,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-08-07,2026-07-26,Yes,2,No,740.0,Sample data
+WO-2607-0853,2026-07-24,B29,EXL-073,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-08-07,2026-08-07,Yes,14,No,90.0,Sample data
+WO-2607-0932,2026-07-24,B33,EXT-061,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),"Cancelled, missed",2026-08-07,,,99,No,,Sample data
+WO-2607-0533,2026-07-25,B10,EXL-028,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-08-08,2026-07-31,Yes,6,No,220.0,Sample data
+WO-2607-0661,2026-07-25,B18,EM-009,Planned,PM schedule,HVAC,P4 Planned,Routine service: electricity meter (NCC Section J),Completed,2026-08-08,2026-08-06,Yes,12,No,110.0,Sample data
+WO-2607-0382,2026-07-26,B03,EXL-006,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-08-09,2026-08-04,Yes,9,No,190.0,Sample data
+WO-2607-0258,2026-07-27,B18,,Reactive,Helpdesk,Electrical,P3 Routine,Power point not working,Completed,2026-08-03,2026-08-03,Yes,7,No,470.0,Sample data
+WO-2607-0259,2026-07-27,B32,DB-038,Reactive,Helpdesk,Electrical,P2 Urgent,Emergency light failed test,Completed,2026-07-29,2026-07-29,Yes,2,No,540.0,Sample data
+WO-2607-0260,2026-07-27,B05,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Key cut request,Completed,2026-08-03,2026-07-28,Yes,1,No,360.0,Sample data
+WO-2607-0261,2026-07-27,B16,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Door sticking,Completed,2026-08-03,2026-08-04,No,8,No,460.0,Sample data
+WO-2607-0262,2026-07-27,B12,,Reactive,Helpdesk,Carpentry and joinery,P1 Emergency,Broken desk,Completed,2026-07-28,2026-07-28,Yes,1,No,1130.0,Sample data
+WO-2607-0847,2026-07-27,B29,DB-034,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-08-10,2026-08-31,No,35,No,1180.0,Sample data
+WO-2607-1004,2026-07-27,B36,FD-018,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-08-10,2026-07-30,Yes,3,No,640.0,Sample data
+WO-2607-0805,2026-07-28,B23,MECP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: master emergency control panel (AS 1851),Completed,2026-08-11,2026-08-03,Yes,6,No,460.0,Sample data
+WO-2607-0400,2026-07-29,B04,EXT-007,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-08-12,2026-08-03,Yes,5,No,160.0,Sample data
+WO-2607-0361,2026-07-30,B01,EXL-002,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-08-13,2026-08-12,Yes,13,No,170.0,Sample data
+WO-2607-0692,2026-07-30,B18,FD-010,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-08-13,2026-08-03,Yes,4,No,820.0,Sample data
+WO-2607-0996,2026-07-30,B36,HWU-016,Planned,PM schedule,Plumbing,P4 Planned,Routine service: hot water unit (AS/NZS 3500.4),Completed,2026-08-13,2026-08-02,Yes,3,No,950.0,Sample data
+WO-2607-0263,2026-07-31,B36,DB-043,Reactive,Helpdesk,Electrical,P4 Planned,Power point not working,Completed,2026-08-28,2026-09-21,No,52,No,890.0,Sample data
+WO-2607-0264,2026-07-31,B23,,Reactive,Helpdesk,Roofing and gutters,P2 Urgent,Gutter overflowing,Completed,2026-08-02,2026-08-01,Yes,1,No,2190.0,Sample data
+WO-2607-0716,2026-07-31,B23,DB-028,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),"Cancelled, missed",2026-08-14,,,92,No,,Sample data
+WO-2607-0794,2026-07-31,B23,FIP-002,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),Completed,2026-08-14,2026-08-14,Yes,14,No,610.0,Sample data
+WO-2608-0474,2026-08-01,B06,EXL-019,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-08-15,2026-08-15,Yes,14,No,120.0,Sample data
+WO-2608-0519,2026-08-01,B09,RAP-008,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2026-08-15,2026-08-08,Yes,7,No,170.0,Sample data
+WO-2608-0656,2026-08-01,B17,FIP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),Completed,2026-08-15,2026-08-05,Yes,4,No,750.0,Sample data
+WO-2608-0858,2026-08-01,B31,DB-035,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-08-15,2026-08-03,Yes,2,No,1350.0,Sample data
+WO-2608-0509,2026-08-02,B09,EXL-026,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-08-16,2026-09-02,No,31,No,150.0,Sample data
+WO-2608-0265,2026-08-03,B25,,Reactive,Helpdesk,Electrical,P3 Routine,Emergency light failed test,Completed,2026-08-10,2026-08-04,Yes,1,No,400.0,Sample data
+WO-2608-0559,2026-08-03,B13,EXT-021,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-08-17,2026-09-01,No,29,No,160.0,Sample data
+WO-2608-0914,2026-08-04,B32,ACU-031,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-08-18,2026-08-07,Yes,3,No,1190.0,Sample data
+WO-2608-0266,2026-08-05,B23,,Reactive,Helpdesk,Electrical,P3 Routine,RCD tripping,Completed,2026-08-12,2026-08-07,Yes,2,No,200.0,Sample data
+WO-2608-0267,2026-08-05,B04,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Broken desk,Completed,2026-08-12,2026-08-10,Yes,5,No,1590.0,Sample data
+WO-2608-0983,2026-08-05,B36,EXL-092,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-08-19,2026-08-10,Yes,5,No,180.0,Sample data
+WO-2608-0268,2026-08-06,B05,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Key cut request,Completed,2026-08-13,2026-08-08,Yes,2,No,310.0,Sample data
+WO-2608-0269,2026-08-07,B20,,Reactive,Helpdesk,Locksmith and hardware,P4 Planned,Door closer leaking,Completed,2026-09-04,2026-08-13,Yes,6,No,870.0,Sample data
+WO-2608-0389,2026-08-07,B03,RAP-001,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2026-08-21,2026-08-21,Yes,14,No,110.0,Sample data
+WO-2608-0947,2026-08-07,B34,ACU-035,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-08-21,2026-09-20,No,44,No,670.0,Sample data
+WO-2608-0270,2026-08-10,B13,,Reactive,Helpdesk,HVAC,P3 Routine,Noisy fan,Completed,2026-08-17,2026-08-11,Yes,1,No,540.0,Sample data
+WO-2608-0627,2026-08-10,B17,EXL-046,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-08-24,2026-08-16,Yes,6,No,90.0,Sample data
+WO-2608-0810,2026-08-10,B23,BFP-001,Planned,PM schedule,Plumbing,P4 Planned,Routine service: backflow prevention device (AS/NZS 2845.3),Completed,2026-08-24,2026-08-23,Yes,13,No,1190.0,Sample data
+WO-2608-0738,2026-08-12,B23,EXL-054,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-08-26,2026-09-02,No,21,No,80.0,Sample data
+WO-2608-0271,2026-08-13,B02,,Reactive,Helpdesk,Painting,P3 Routine,Water-stained ceiling,Completed,2026-08-20,2026-08-24,No,11,No,220.0,Sample data
+WO-2608-0272,2026-08-13,B12,ACU-016,Reactive,Helpdesk,HVAC,P2 Urgent,Heating not working,Completed,2026-08-15,2026-08-15,Yes,2,No,120.0,Sample data
+WO-2608-0511,2026-08-13,B09,EXL-027,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-08-27,2026-08-24,Yes,11,No,120.0,Sample data
+WO-2608-0770,2026-08-13,B23,FHR-009,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-08-27,2026-08-24,Yes,11,No,220.0,Sample data
+WO-2608-0967,2026-08-13,B36,EM-016,Planned,PM schedule,HVAC,P4 Planned,Routine service: electricity meter (NCC Section J),Completed,2026-08-27,2026-08-20,Yes,7,No,110.0,Sample data
+WO-2608-0975,2026-08-13,B36,EXT-068,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-08-27,2026-08-17,Yes,4,No,130.0,Sample data
+WO-2608-0273,2026-08-14,B23,,Reactive,Helpdesk,Plumbing,P2 Urgent,Blocked toilet,Completed,2026-08-16,2026-08-16,Yes,2,No,720.0,Sample data
+WO-2608-0274,2026-08-14,B23,,Reactive,Helpdesk,Electrical,P4 Planned,Lights out in classroom,Completed,2026-09-11,2026-08-30,Yes,16,No,250.0,Sample data
+WO-2608-0546,2026-08-14,B11,ACU-015,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-08-28,2026-08-17,Yes,3,No,310.0,Sample data
+WO-2608-0600,2026-08-14,B17,DB-018,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-08-28,2026-08-24,Yes,10,No,930.0,Sample data
+WO-2608-0752,2026-08-14,B23,EXL-061,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-08-28,2026-08-22,Yes,8,No,100.0,Sample data
+WO-2608-0828,2026-08-14,B25,EXL-068,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-08-28,2026-08-22,Yes,8,No,210.0,Sample data
+WO-2608-0876,2026-08-14,B31,EXL-078,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-08-28,2026-08-28,Yes,14,No,150.0,Sample data
+WO-2608-0275,2026-08-15,B09,,Reactive,Helpdesk,Carpentry and joinery,P2 Urgent,Broken desk,Completed,2026-08-17,2026-08-16,Yes,1,No,150.0,Sample data
+WO-2608-0276,2026-08-15,B35,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Broken desk,Completed,2026-08-22,2026-08-19,Yes,4,No,140.0,Sample data
+WO-2608-0277,2026-08-17,B05,ACU-007,Reactive,Helpdesk,HVAC,P3 Routine,Split system not cooling,Completed,2026-08-24,2026-08-20,Yes,3,No,630.0,Sample data
+WO-2608-0488,2026-08-18,B08,EXT-014,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-09-01,2026-08-26,Yes,8,No,160.0,Sample data
+WO-2608-0529,2026-08-18,B10,DB-013,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-09-01,2026-08-30,Yes,12,No,1270.0,Sample data
+WO-2608-0576,2026-08-18,B14,RAP-009,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2026-09-01,2026-08-20,Yes,2,No,210.0,Sample data
+WO-2608-0659,2026-08-18,B18,DB-021,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-09-01,2026-08-28,Yes,10,No,1050.0,Sample data
+WO-2608-0880,2026-08-18,B31,ACU-028,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-09-01,2026-08-29,Yes,11,No,250.0,Sample data
+WO-2608-0918,2026-08-18,B32,ACU-033,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-09-01,2026-09-01,Yes,14,No,1250.0,Sample data
+WO-2608-0278,2026-08-19,B23,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Key cut request,Completed,2026-08-26,2026-08-24,Yes,5,No,500.0,Sample data
+WO-2608-0582,2026-08-19,B16,EM-007,Planned,PM schedule,HVAC,P4 Planned,Routine service: electricity meter (NCC Section J),Completed,2026-09-02,2026-09-02,Yes,14,No,150.0,Sample data
+WO-2608-0783,2026-08-19,B23,AHU-003,Planned,PM schedule,HVAC,P4 Planned,Routine service: air handling unit (AS/NZS 3666.2),Completed,2026-09-02,2026-08-27,Yes,8,No,290.0,Sample data
+WO-2608-0279,2026-08-20,B06,,Reactive,Helpdesk,Electrical,P3 Routine,Emergency light failed test,Completed,2026-08-27,2026-08-21,Yes,1,No,230.0,Sample data
+WO-2608-0280,2026-08-20,B31,,Reactive,Helpdesk,Plumbing,P2 Urgent,Blocked toilet,Completed,2026-08-22,2026-08-22,Yes,2,No,240.0,Sample data
+WO-2608-0486,2026-08-21,B08,DB-010,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-09-04,2026-09-04,Yes,14,No,820.0,Sample data
+WO-2608-0675,2026-08-21,B18,EXL-050,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),"Cancelled, missed",2026-09-04,,,71,No,,Sample data
+WO-2608-0916,2026-08-22,B32,ACU-032,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-09-05,2026-09-01,Yes,10,No,1110.0,Sample data
+WO-2608-0495,2026-08-23,B09,DB-011,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-09-06,2026-08-29,Yes,6,No,630.0,Sample data
+WO-2608-0281,2026-08-24,B27,,Reactive,Helpdesk,Carpentry and joinery,P2 Urgent,Cupboard door off hinge,Completed,2026-08-26,2026-08-25,Yes,1,No,490.0,Sample data
+WO-2608-0644,2026-08-24,B17,AHU-002,Planned,PM schedule,HVAC,P4 Planned,Routine service: air handling unit (AS/NZS 3666.2),Completed,2026-09-07,2026-09-02,Yes,9,No,800.0,Sample data
+WO-2608-0665,2026-08-24,B18,EXT-033,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-09-07,2026-08-26,Yes,2,No,200.0,Sample data
+WO-2608-0835,2026-08-24,B27,EM-012,Planned,PM schedule,HVAC,P4 Planned,Routine service: electricity meter (NCC Section J),Completed,2026-09-07,2026-08-28,Yes,4,No,100.0,Sample data
+WO-2608-0955,2026-08-24,B35,EXL-087,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-09-07,2026-08-30,Yes,6,No,110.0,Sample data
+WO-2608-0282,2026-08-25,B09,DB-011,Reactive,Helpdesk,Electrical,P4 Planned,Power point not working,Completed,2026-09-22,2026-09-20,Yes,26,No,410.0,Sample data
+WO-2608-0283,2026-08-25,B36,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Door sticking,Completed,2026-09-01,2026-09-01,Yes,7,No,340.0,Sample data
+WO-2608-0452,2026-08-25,B05,ACU-005,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-09-08,2026-08-31,Yes,6,No,990.0,Sample data
+WO-2608-0494,2026-08-25,B08,ACU-010,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-09-08,2026-08-29,Yes,4,No,1330.0,Sample data
+WO-2608-0540,2026-08-25,B11,EXT-019,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-09-08,2026-09-06,Yes,12,No,150.0,Sample data
+WO-2608-0590,2026-08-25,B16,EXL-038,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-09-08,2026-08-28,Yes,3,No,100.0,Sample data
+WO-2608-0740,2026-08-25,B23,EXL-055,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-09-08,2026-09-02,Yes,8,No,120.0,Sample data
+WO-2608-0284,2026-08-26,B23,,Reactive,Helpdesk,Grounds,P3 Routine,Fallen branch,Completed,2026-09-02,2026-09-06,No,11,No,960.0,Sample data
+WO-2608-0406,2026-08-26,B04,EXL-009,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-09-09,2026-09-03,Yes,8,No,80.0,Sample data
+WO-2608-0435,2026-08-26,B05,DB-007,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-09-09,2026-09-09,Yes,14,No,810.0,Sample data
+WO-2608-0507,2026-08-26,B09,EXL-025,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-09-09,2026-09-05,Yes,10,No,70.0,Sample data
+WO-2608-0285,2026-08-27,B11,EXT-019,Reactive,Helpdesk,Fire services,P2 Urgent,Fire door not closing,Completed,2026-08-29,2026-08-30,No,3,No,290.0,Sample data
+WO-2608-0528,2026-08-27,B09,FD-006,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-09-10,2026-09-28,No,32,No,1170.0,Sample data
+WO-2608-0623,2026-08-27,B17,EXL-044,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-09-10,2026-09-07,Yes,11,No,200.0,Sample data
+WO-2608-0837,2026-08-27,B27,EXT-051,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-09-10,2026-10-01,No,35,No,100.0,Sample data
+WO-2608-0900,2026-08-27,B32,EXT-058,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-09-10,2026-09-01,Yes,5,No,70.0,Sample data
+WO-2608-0286,2026-08-28,B34,,Reactive,Helpdesk,Electrical,P3 Routine,Emergency light failed test,Completed,2026-09-04,2026-09-05,No,8,No,270.0,Sample data
+WO-2608-0287,2026-08-28,B07,,Reactive,Helpdesk,Electrical,P3 Routine,Lights out in classroom,Completed,2026-09-04,2026-08-31,Yes,3,No,510.0,Sample data
+WO-2608-0288,2026-08-28,B18,,Reactive,Helpdesk,Glazing,P3 Routine,Cracked window,Completed,2026-09-04,2026-09-01,Yes,4,No,480.0,Sample data
+WO-2608-0446,2026-08-28,B05,EXL-015,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-09-11,2026-10-12,No,45,No,80.0,Sample data
+WO-2608-0806,2026-08-28,B23,MECP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: master emergency control panel (AS 1851),Completed,2026-09-11,2026-09-01,Yes,4,No,340.0,Sample data
+WO-2608-0289,2026-08-29,B07,EXT-013,Reactive,Helpdesk,Fire services,P3 Routine,Extinguisher missing,Completed,2026-09-05,2026-09-04,Yes,6,No,350.0,Sample data
+WO-2608-0556,2026-08-29,B12,ACU-016,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-09-12,2026-10-11,No,43,No,600.0,Sample data
+WO-2608-0671,2026-08-30,B18,EXL-048,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-09-13,2026-09-12,Yes,13,No,160.0,Sample data
+WO-2608-0290,2026-08-31,B36,DB-043,Reactive,Helpdesk,Electrical,P3 Routine,Emergency light failed test,Completed,2026-09-07,2026-09-02,Yes,2,No,380.0,Sample data
+WO-2608-0748,2026-08-31,B23,EXL-059,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-09-14,2026-09-09,Yes,9,No,140.0,Sample data
+WO-2608-0795,2026-08-31,B23,FIP-002,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),Completed,2026-09-14,2026-09-07,Yes,7,No,810.0,Sample data
+WO-2609-0291,2026-09-01,B23,,Reactive,Helpdesk,Roofing and gutters,P4 Planned,Roof leak over classroom,"On hold, parts",2026-09-29,,,60,Yes,,Sample data
+WO-2609-0292,2026-09-01,B23,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Broken desk,Completed,2026-09-08,2026-09-04,Yes,3,No,150.0,Sample data
+WO-2609-0657,2026-09-01,B17,FIP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),Completed,2026-09-15,2026-09-12,Yes,11,No,480.0,Sample data
+WO-2609-0690,2026-09-01,B18,FD-009,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-09-15,2026-09-10,Yes,9,No,550.0,Sample data
+WO-2609-0941,2026-09-01,B34,EXT-062,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-09-15,2026-09-04,Yes,3,No,80.0,Sample data
+WO-2609-0293,2026-09-02,B18,,Reactive,Helpdesk,Roofing and gutters,P4 Planned,Roof leak over classroom,Completed,2026-09-30,2026-09-13,Yes,11,No,120.0,Sample data
+WO-2609-0294,2026-09-02,B20,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Key cut request,Completed,2026-09-09,2026-09-11,No,9,No,260.0,Sample data
+WO-2609-0295,2026-09-02,B15,,Reactive,Helpdesk,Carpentry and joinery,P2 Urgent,Broken desk,Completed,2026-09-04,2026-09-03,Yes,1,No,220.0,Sample data
+WO-2609-0465,2026-09-02,B05,FD-003,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-09-16,2026-09-04,Yes,2,No,700.0,Sample data
+WO-2609-0774,2026-09-02,B23,FHR-011,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-09-16,2026-09-05,Yes,3,No,160.0,Sample data
+WO-2609-0296,2026-09-03,B27,HWU-012,Reactive,Helpdesk,Plumbing,P3 Routine,Leaking tap,Completed,2026-09-10,2026-09-06,Yes,3,No,430.0,Sample data
+WO-2609-0297,2026-09-03,B02,,Reactive,Helpdesk,Painting,P3 Routine,Water-stained ceiling,Completed,2026-09-10,2026-09-08,Yes,5,No,570.0,Sample data
+WO-2609-0544,2026-09-03,B11,EXL-031,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-09-17,2026-09-05,Yes,2,No,80.0,Sample data
+WO-2609-0868,2026-09-03,B31,EXL-074,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-09-17,2026-09-08,Yes,5,No,210.0,Sample data
+WO-2609-0298,2026-09-04,B36,DB-042,Reactive,Helpdesk,Electrical,P2 Urgent,RCD tripping,Completed,2026-09-06,2026-09-05,Yes,1,No,150.0,Sample data
+WO-2609-0299,2026-09-04,B05,,Reactive,Helpdesk,Plumbing,P2 Urgent,Bubbler not working,Completed,2026-09-06,2026-09-05,Yes,1,No,920.0,Sample data
+WO-2609-0621,2026-09-04,B17,EXL-043,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),"Cancelled, missed",2026-09-18,,,57,No,,Sample data
+WO-2609-0300,2026-09-05,B32,DB-038,Reactive,Helpdesk,Electrical,P4 Planned,Emergency light failed test,Completed,2026-10-03,2026-09-11,Yes,6,No,620.0,Sample data
+WO-2609-0936,2026-09-05,B33,EXL-084,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-09-19,2026-09-10,Yes,5,No,80.0,Sample data
+WO-2609-0569,2026-09-06,B14,EXL-035,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-09-20,2026-09-13,Yes,7,No,210.0,Sample data
+WO-2609-0779,2026-09-06,B23,FD-012,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-09-20,2026-09-08,Yes,2,No,1100.0,Sample data
+WO-2609-0301,2026-09-07,B23,TMV-006,Reactive,Helpdesk,Plumbing,P3 Routine,Bubbler not working,Completed,2026-09-14,2026-09-12,Yes,5,No,600.0,Sample data
+WO-2609-0492,2026-09-07,B08,EXL-023,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-09-21,2026-09-14,Yes,7,No,130.0,Sample data
+WO-2609-0744,2026-09-07,B23,EXL-057,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-09-21,2026-09-19,Yes,12,No,110.0,Sample data
+WO-2609-0302,2026-09-08,B11,,Reactive,Helpdesk,HVAC,P3 Routine,Classroom too hot,Completed,2026-09-15,2026-09-09,Yes,1,No,1270.0,Sample data
+WO-2609-0523,2026-09-08,B09,FHR-004,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-09-22,2026-09-25,No,17,No,190.0,Sample data
+WO-2609-0550,2026-09-08,B12,EXT-020,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-09-22,2026-09-15,Yes,7,No,120.0,Sample data
+WO-2609-0567,2026-09-08,B14,EXL-034,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-09-22,2026-09-18,Yes,10,No,120.0,Sample data
+WO-2609-0864,2026-09-08,B31,EXT-056,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-09-22,2026-09-18,Yes,10,No,150.0,Sample data
+WO-2609-0303,2026-09-09,B17,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Cupboard door off hinge,Completed,2026-09-16,2026-09-13,Yes,4,No,100.0,Sample data
+WO-2609-0431,2026-09-09,B04,AHU-001,Planned,PM schedule,HVAC,P4 Planned,Routine service: air handling unit (AS/NZS 3666.2),Completed,2026-09-23,2026-09-20,Yes,11,No,930.0,Sample data
+WO-2609-0501,2026-09-09,B09,EXT-016,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-09-23,2026-09-22,Yes,13,No,110.0,Sample data
+WO-2609-0702,2026-09-09,B19,ACU-024,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-09-23,2026-09-21,Yes,12,No,530.0,Sample data
+WO-2609-1002,2026-09-09,B36,FD-017,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-09-23,2026-09-19,Yes,10,No,880.0,Sample data
+WO-2609-0304,2026-09-10,B18,ACU-023,Reactive,Helpdesk,HVAC,P3 Routine,Heating not working,Completed,2026-09-17,2026-09-14,Yes,4,No,520.0,Sample data
+WO-2609-0677,2026-09-10,B18,ACU-021,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),"Cancelled, missed",2026-09-24,,,51,No,,Sample data
+WO-2609-0999,2026-09-10,B36,FHR-014,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-09-24,2026-09-12,Yes,2,No,120.0,Sample data
+WO-2609-0305,2026-09-11,B27,,Reactive,Helpdesk,Painting,P2 Urgent,Water-stained ceiling,Completed,2026-09-13,2026-09-13,Yes,2,No,130.0,Sample data
+WO-2609-0393,2026-09-11,B04,DB-005,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-09-25,2026-09-24,Yes,13,No,1110.0,Sample data
+WO-2609-0436,2026-09-11,B05,EM-003,Planned,PM schedule,HVAC,P4 Planned,Routine service: electricity meter (NCC Section J),Completed,2026-09-25,2026-09-18,Yes,7,No,160.0,Sample data
+WO-2609-0679,2026-09-11,B18,ACU-022,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-09-25,2026-10-06,No,25,No,1100.0,Sample data
+WO-2609-0734,2026-09-11,B23,EXT-046,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-09-25,2026-09-14,Yes,3,No,180.0,Sample data
+WO-2609-0306,2026-09-12,B36,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Broken desk,Completed,2026-09-19,2026-09-27,No,15,No,120.0,Sample data
+WO-2609-0818,2026-09-12,B23,BLR-001,Planned,PM schedule,HVAC,P4 Planned,Routine service: boiler (AIRAH DA19),Completed,2026-09-26,2026-09-19,Yes,7,No,1180.0,Sample data
+WO-2609-0307,2026-09-14,B10,,Reactive,Helpdesk,Plumbing,P3 Routine,Blocked toilet,Completed,2026-09-21,2026-09-18,Yes,4,No,240.0,Sample data
+WO-2609-0308,2026-09-14,B23,,Reactive,Helpdesk,Plumbing,P3 Routine,Blocked toilet,Completed,2026-09-21,2026-10-05,No,21,No,150.0,Sample data
+WO-2609-0388,2026-09-14,B03,ACU-004,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-09-28,2026-09-25,Yes,11,No,1070.0,Sample data
+WO-2609-0408,2026-09-14,B04,EXL-010,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-09-28,2026-09-20,Yes,6,No,180.0,Sample data
+WO-2609-0584,2026-09-14,B16,EXT-025,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-09-28,2026-09-17,Yes,3,No,210.0,Sample data
+WO-2609-0617,2026-09-14,B17,EXL-041,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-09-28,2026-09-25,Yes,11,No,130.0,Sample data
+WO-2609-0629,2026-09-14,B17,RAP-014,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2026-09-28,2026-09-18,Yes,4,No,110.0,Sample data
+WO-2609-0698,2026-09-14,B19,EXL-051,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-09-28,2026-09-17,Yes,3,No,190.0,Sample data
+WO-2609-0829,2026-09-14,B26,DB-032,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Completed,2026-09-28,2026-09-23,Yes,9,No,1400.0,Sample data
+WO-2609-0309,2026-09-15,B23,,Reactive,Helpdesk,Roofing and gutters,P2 Urgent,Gutter overflowing,Completed,2026-09-17,2026-09-16,Yes,1,No,430.0,Sample data
+WO-2609-0310,2026-09-16,B32,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Key cut request,Completed,2026-09-23,2026-09-29,No,13,No,1510.0,Sample data
+WO-2609-0311,2026-09-16,B05,DB-006,Reactive,Helpdesk,Electrical,P2 Urgent,RCD tripping,Completed,2026-09-18,2026-09-20,No,4,No,90.0,Sample data
+WO-2609-0312,2026-09-16,B03,,Reactive,Helpdesk,Locksmith and hardware,P4 Planned,Door closer leaking,Completed,2026-10-14,2026-10-11,Yes,25,No,290.0,Sample data
+WO-2609-0313,2026-09-17,B36,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Key cut request,Completed,2026-09-24,2026-09-26,No,9,No,80.0,Sample data
+WO-2609-0314,2026-09-17,B03,,Reactive,Helpdesk,Electrical,P3 Routine,Power point not working,Completed,2026-09-24,2026-09-20,Yes,3,No,560.0,Sample data
+WO-2609-0384,2026-09-17,B03,EXL-007,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-10-01,2026-09-25,Yes,8,No,200.0,Sample data
+WO-2609-0315,2026-09-18,B32,,Reactive,Helpdesk,Locksmith and hardware,P4 Planned,Lock jammed,Completed,2026-10-16,2026-10-04,Yes,16,No,400.0,Sample data
+WO-2609-0578,2026-09-18,B14,HWU-006,Planned,PM schedule,Plumbing,P4 Planned,Routine service: hot water unit (AS/NZS 3500.4),Completed,2026-10-02,2026-10-08,No,20,No,340.0,Sample data
+WO-2609-1008,2026-09-18,,EH-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: external fire hydrant (AS 1851),Completed,2026-10-02,2026-09-27,Yes,9,No,470.0,Sample data
+WO-2609-0476,2026-09-19,B06,ACU-008,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-10-03,2026-09-28,Yes,9,No,920.0,Sample data
+WO-2609-0520,2026-09-19,B09,HWU-004,Planned,PM schedule,Plumbing,P4 Planned,Routine service: hot water unit (AS/NZS 3500.4),Completed,2026-10-03,2026-10-01,Yes,12,No,550.0,Sample data
+WO-2609-0485,2026-09-21,B07,ACU-009,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Open,2026-10-05,,,40,Yes,,Sample data
+WO-2609-0316,2026-09-22,B23,DB-028,Reactive,Helpdesk,Electrical,P3 Routine,Lights out in classroom,Completed,2026-09-29,2026-09-29,Yes,7,No,170.0,Sample data
+WO-2609-0442,2026-09-22,B05,EXT-011,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-10-06,2026-09-28,Yes,6,No,110.0,Sample data
+WO-2609-0902,2026-09-22,B32,EXT-059,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-10-06,2026-10-05,Yes,13,No,80.0,Sample data
+WO-2609-0921,2026-09-22,B32,HWU-014,Planned,PM schedule,Plumbing,P4 Planned,Routine service: hot water unit (AS/NZS 3500.4),Completed,2026-10-06,2026-10-05,Yes,13,No,1390.0,Sample data
+WO-2609-0462,2026-09-23,B05,FHR-003,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Completed,2026-10-07,2026-09-27,Yes,4,No,100.0,Sample data
+WO-2609-0503,2026-09-23,B09,EXT-017,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),"Cancelled, missed",2026-10-07,,,38,No,,Sample data
+WO-2609-0885,2026-09-23,B31,RAP-019,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Completed,2026-10-07,2026-10-04,Yes,11,No,80.0,Sample data
+WO-2609-0895,2026-09-23,B31,FD-014,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-10-07,2026-10-03,Yes,10,No,740.0,Sample data
+WO-2609-0402,2026-09-24,B04,EXT-008,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-10-08,2026-10-02,Yes,8,No,130.0,Sample data
+WO-2609-0700,2026-09-24,B19,EXL-052,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-10-08,2026-09-30,Yes,6,No,100.0,Sample data
+WO-2609-0396,2026-09-26,B04,EXT-005,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-10-10,2026-10-08,Yes,12,No,140.0,Sample data
+WO-2609-0807,2026-09-27,B23,MECP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: master emergency control panel (AS 1851),Completed,2026-10-11,2026-09-30,Yes,3,No,1130.0,Sample data
+WO-2609-0823,2026-09-27,B24,EXL-067,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-10-11,2026-10-10,Yes,13,No,200.0,Sample data
+WO-2609-0317,2026-09-28,B03,,Reactive,Helpdesk,Grounds,P2 Urgent,Fallen branch,Completed,2026-09-30,2026-09-30,Yes,2,No,130.0,Sample data
+WO-2609-0380,2026-09-29,B03,EXL-005,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-10-13,2026-10-01,Yes,2,No,210.0,Sample data
+WO-2609-0971,2026-09-29,B36,EXT-066,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-10-13,2026-10-01,Yes,2,No,180.0,Sample data
+WO-2609-0318,2026-09-30,B05,FHR-003,Reactive,Helpdesk,Fire services,P3 Routine,Detector fault on panel,Completed,2026-10-07,2026-10-02,Yes,2,No,380.0,Sample data
+WO-2609-0796,2026-09-30,B23,FIP-002,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),Completed,2026-10-14,2026-10-06,Yes,6,No,430.0,Sample data
+WO-2609-0882,2026-09-30,B31,ACU-029,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-10-14,2026-10-11,Yes,11,No,820.0,Sample data
+WO-2610-0658,2026-10-01,B17,FIP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire indicator panel (AS 1851),Completed,2026-10-15,2026-10-14,Yes,13,No,700.0,Sample data
+WO-2610-0754,2026-10-01,B23,EXL-062,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Open,2026-10-15,,,30,Yes,,Sample data
+WO-2610-0862,2026-10-01,B31,EXT-055,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-10-15,2026-10-05,Yes,4,No,180.0,Sample data
+WO-2610-0319,2026-10-03,B23,LP-001,Reactive,Helpdesk,Electrical,P2 Urgent,Power point not working,Completed,2026-10-05,2026-10-06,No,3,No,390.0,Sample data
+WO-2610-0363,2026-10-03,B01,ACU-001,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-10-17,2026-10-16,Yes,13,No,490.0,Sample data
+WO-2610-0479,2026-10-03,B07,EXT-013,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-10-17,2026-10-08,Yes,5,No,210.0,Sample data
+WO-2610-0513,2026-10-03,B09,ACU-011,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-10-17,2026-10-10,Yes,7,No,1380.0,Sample data
+WO-2610-0760,2026-10-04,B23,EXL-065,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-10-18,2026-10-07,Yes,3,No,100.0,Sample data
+WO-2610-0320,2026-10-05,B11,,Reactive,Helpdesk,Plumbing,P3 Routine,No hot water,Completed,2026-10-12,2026-10-06,Yes,1,No,560.0,Sample data
+WO-2610-0321,2026-10-05,B18,,Reactive,Helpdesk,HVAC,P3 Routine,Split system not cooling,Completed,2026-10-12,2026-10-12,Yes,7,No,370.0,Sample data
+WO-2610-0425,2026-10-05,B04,FD-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-10-19,2026-10-16,Yes,11,No,510.0,Sample data
+WO-2610-0987,2026-10-05,B36,ACU-038,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-10-19,2026-10-13,Yes,8,No,490.0,Sample data
+WO-2610-0322,2026-10-06,B02,,Reactive,Helpdesk,Plumbing,P3 Routine,No hot water,Completed,2026-10-13,2026-10-13,Yes,7,No,230.0,Sample data
+WO-2610-0323,2026-10-06,B23,AHU-003,Reactive,Helpdesk,HVAC,P2 Urgent,Noisy fan,Completed,2026-10-08,2026-10-07,Yes,1,No,380.0,Sample data
+WO-2610-0324,2026-10-06,B33,,Reactive,Helpdesk,Glazing,P3 Routine,Cracked window,Completed,2026-10-13,2026-10-16,No,10,No,410.0,Sample data
+WO-2610-0499,2026-10-06,B09,EXT-015,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Completed,2026-10-20,2026-10-16,Yes,10,No,140.0,Sample data
+WO-2610-0575,2026-10-06,B14,ACU-018,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-10-20,2026-10-18,Yes,12,No,920.0,Sample data
+WO-2610-0325,2026-10-07,B12,,Reactive,Helpdesk,Fire services,P3 Routine,Fire door not closing,Completed,2026-10-14,2026-10-13,Yes,6,No,490.0,Sample data
+WO-2610-0410,2026-10-07,B04,EXL-011,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-10-21,2026-10-18,Yes,11,No,80.0,Sample data
+WO-2610-0444,2026-10-07,B05,EXL-014,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-10-21,2026-10-10,Yes,3,No,100.0,Sample data
+WO-2610-0326,2026-10-09,B11,,Reactive,Helpdesk,Grounds,P2 Urgent,Trip hazard on path,Completed,2026-10-11,2026-10-10,Yes,1,No,340.0,Sample data
+WO-2610-0684,2026-10-09,B18,HWU-009,Planned,PM schedule,Plumbing,P4 Planned,Routine service: hot water unit (AS/NZS 3500.4),Completed,2026-10-23,2026-10-20,Yes,11,No,770.0,Sample data
+WO-2610-0870,2026-10-09,B31,EXL-075,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-10-23,2026-10-22,Yes,13,No,120.0,Sample data
+WO-2610-0327,2026-10-11,B19,DB-023,Reactive,Helpdesk,Electrical,P4 Planned,Power point not working,Completed,2026-11-08,2026-10-27,Yes,16,No,650.0,Sample data
+WO-2610-0328,2026-10-11,B04,AHU-001,Reactive,Helpdesk,HVAC,P3 Routine,Noisy fan,Completed,2026-10-18,2026-10-26,No,15,No,550.0,Sample data
+WO-2610-0368,2026-10-11,B02,EXL-003,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Completed,2026-10-25,2026-10-17,Yes,6,No,70.0,Sample data
+WO-2610-0526,2026-10-11,B09,FD-005,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire door (AS 1851),Completed,2026-10-25,2026-10-25,Yes,14,No,810.0,Sample data
+WO-2610-0855,2026-10-11,B29,ACU-026,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Completed,2026-10-25,2026-10-14,Yes,3,No,1130.0,Sample data
+WO-2610-0329,2026-10-12,B07,ACU-009,Reactive,Helpdesk,HVAC,P2 Urgent,Noisy fan,Completed,2026-10-14,2026-10-13,Yes,1,No,90.0,Sample data
+WO-2610-0330,2026-10-13,B05,WM-002,Reactive,Helpdesk,Plumbing,P3 Routine,Bubbler not working,Completed,2026-10-20,2026-10-23,No,10,No,420.0,Sample data
+WO-2610-0331,2026-10-14,B01,DB-001,Reactive,Helpdesk,Electrical,P4 Planned,Power point not working,"On hold, parts",2026-11-11,,,17,No,,Sample data
+WO-2610-0332,2026-10-14,B34,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Lock jammed,Completed,2026-10-21,2026-10-16,Yes,2,No,790.0,Sample data
+WO-2610-0333,2026-10-15,B04,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Door closer leaking,Awaiting quote,2026-10-22,,,16,Yes,,Sample data
+WO-2610-0334,2026-10-15,B02,,Reactive,Helpdesk,Glazing,P3 Routine,Cracked window,Completed,2026-10-22,2026-10-22,Yes,7,No,620.0,Sample data
+WO-2610-0335,2026-10-16,B17,DB-018,Reactive,Helpdesk,Electrical,P4 Planned,Power point not working,Open,2026-11-13,,,15,No,,Sample data
+WO-2610-0633,2026-10-18,B17,FHR-005,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Open,2026-11-01,,,13,No,,Sample data
+WO-2610-0336,2026-10-19,B17,FH-002,Reactive,Helpdesk,Fire services,P2 Urgent,Extinguisher missing,Completed,2026-10-21,2026-10-20,Yes,1,No,250.0,Sample data
+WO-2610-0337,2026-10-19,B32,TMV-008,Reactive,Helpdesk,Plumbing,P3 Routine,Bubbler not working,Completed,2026-10-26,2026-10-20,Yes,1,No,730.0,Sample data
+WO-2610-0338,2026-10-20,B17,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Lock jammed,Completed,2026-10-27,2026-10-22,Yes,2,No,590.0,Sample data
+WO-2610-0339,2026-10-20,B02,DB-002,Reactive,Helpdesk,Electrical,P2 Urgent,RCD tripping,Completed,2026-10-22,2026-10-21,Yes,1,No,220.0,Sample data
+WO-2610-0340,2026-10-20,B14,DB-016,Reactive,Helpdesk,Electrical,P3 Routine,Lights out in classroom,Completed,2026-10-27,2026-10-21,Yes,1,No,1070.0,Sample data
+WO-2610-0341,2026-10-20,B18,ACU-021,Reactive,Helpdesk,HVAC,P2 Urgent,Heating not working,Completed,2026-10-22,2026-10-20,Yes,0,No,140.0,Sample data
+WO-2610-0682,2026-10-20,B18,RAP-015,Planned,PM schedule,Height safety,P4 Planned,Routine service: roof anchor point (AS/NZS 1891.4),Open,2026-11-03,,,11,No,,Sample data
+WO-2610-0342,2026-10-21,B33,,Reactive,Helpdesk,Roofing and gutters,P3 Routine,Gutter overflowing,Completed,2026-10-28,2026-10-22,Yes,1,No,220.0,Sample data
+WO-2610-0343,2026-10-21,B35,,Reactive,Helpdesk,Carpentry and joinery,P3 Routine,Door sticking,In progress,2026-10-28,,,10,Yes,,Sample data
+WO-2610-0344,2026-10-21,B04,,Reactive,Helpdesk,Roofing and gutters,P3 Routine,Roof leak over classroom,Completed,2026-10-28,2026-10-22,Yes,1,No,370.0,Sample data
+WO-2610-0345,2026-10-21,B36,,Reactive,Helpdesk,Roofing and gutters,P3 Routine,Gutter overflowing,Completed,2026-10-28,2026-10-28,Yes,7,No,270.0,Sample data
+WO-2610-0346,2026-10-23,B11,,Reactive,Helpdesk,Locksmith and hardware,P3 Routine,Key cut request,Completed,2026-10-30,2026-10-26,Yes,3,No,1120.0,Sample data
+WO-2610-0347,2026-10-23,B32,,Reactive,Helpdesk,Carpentry and joinery,P1 Emergency,Cupboard door off hinge,Completed,2026-10-24,2026-10-23,Yes,0,No,1310.0,Sample data
+WO-2610-0481,2026-10-23,B07,EXL-020,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Open,2026-11-06,,,8,No,,Sample data
+WO-2610-0635,2026-10-23,B17,FHR-006,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire hose reel (AS 1851),Open,2026-11-06,,,8,No,,Sample data
+WO-2610-0386,2026-10-24,B03,ACU-003,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Open,2026-11-07,,,7,No,,Sample data
+WO-2610-0611,2026-10-24,B17,EXT-030,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Open,2026-11-07,,,7,No,,Sample data
+WO-2610-0348,2026-10-25,B04,,Reactive,Helpdesk,Painting,P2 Urgent,Water-stained ceiling,Completed,2026-10-27,2026-10-26,Yes,1,No,530.0,Sample data
+WO-2610-0660,2026-10-25,B18,DB-022,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Open,2026-11-08,,,6,No,,Sample data
+WO-2610-0667,2026-10-25,B18,EXT-034,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Open,2026-11-08,,,6,No,,Sample data
+WO-2610-0708,2026-10-25,B20,EXL-053,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Open,2026-11-08,,,6,No,,Sample data
+WO-2610-0826,2026-10-25,B25,EXT-049,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Open,2026-11-08,,,6,No,,Sample data
+WO-2610-0841,2026-10-25,B27,EXL-071,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Open,2026-11-08,,,6,No,,Sample data
+WO-2610-0349,2026-10-26,B23,AHU-003,Reactive,Helpdesk,HVAC,P3 Routine,Heating not working,Completed,2026-11-02,2026-10-30,Yes,4,No,450.0,Sample data
+WO-2610-0438,2026-10-26,B05,EXT-009,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Open,2026-11-09,,,5,No,,Sample data
+WO-2610-0897,2026-10-26,B32,DB-038,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Open,2026-11-09,,,5,No,,Sample data
+WO-2610-0350,2026-10-27,B29,,Reactive,Helpdesk,Fire services,P4 Planned,Detector fault on panel,Awaiting quote,2026-11-24,,,4,No,,Sample data
+WO-2610-0351,2026-10-27,B11,EXT-019,Reactive,Helpdesk,Fire services,P2 Urgent,Detector fault on panel,Completed,2026-10-29,2026-10-31,No,4,No,1120.0,Sample data
+WO-2610-0490,2026-10-27,B08,EXL-022,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Open,2026-11-10,,,4,No,,Sample data
+WO-2610-0352,2026-10-28,B31,FD-013,Reactive,Helpdesk,Fire services,P3 Routine,Detector fault on panel,Open,2026-11-04,,,3,No,,Sample data
+WO-2610-0353,2026-10-28,B05,DB-007,Reactive,Helpdesk,Electrical,P2 Urgent,RCD tripping,Completed,2026-10-30,2026-10-29,Yes,1,No,980.0,Sample data
+WO-2610-0354,2026-10-28,B36,,Reactive,Helpdesk,Electrical,P2 Urgent,RCD tripping,Completed,2026-10-30,2026-10-31,No,3,No,880.0,Sample data
+WO-2610-0681,2026-10-28,B18,ACU-023,Planned,PM schedule,HVAC,P4 Planned,Routine service: split system outdoor unit (AIRAH DA19),Open,2026-11-11,,,3,No,,Sample data
+WO-2610-0808,2026-10-28,B23,MECP-001,Planned,PM schedule,Fire services,P4 Planned,Routine service: master emergency control panel (AS 1851),Open,2026-11-11,,,3,No,,Sample data
+WO-2610-0834,2026-10-28,B27,DB-033,Planned,PM schedule,Electrical,P4 Planned,Routine service: distribution board (AS/NZS 3000),Open,2026-11-11,,,3,No,,Sample data
+WO-2610-0985,2026-10-29,B36,EXL-093,Planned,PM schedule,Electrical,P4 Planned,Routine service: combination exit and emergency light (AS/NZS 2293.2),Open,2026-11-12,,,2,No,,Sample data
+WO-2610-0605,2026-10-30,B17,EXT-027,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Open,2026-11-13,,,1,No,,Sample data
+WO-2610-0724,2026-10-30,B23,EXT-041,Planned,PM schedule,Fire services,P4 Planned,Routine service: fire extinguisher (AS 1851),Open,2026-11-13,,,1,No,,Sample data

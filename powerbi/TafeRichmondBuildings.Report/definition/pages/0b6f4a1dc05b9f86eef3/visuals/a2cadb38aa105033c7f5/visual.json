@@ -1,0 +1,96 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "a2cadb38aa105033c7f5",
+  "position": {
+    "x": 40,
+    "y": 290,
+    "z": 1,
+    "height": 720,
+    "width": 940,
+    "tabOrder": 1
+  },
+  "visual": {
+    "visualType": "stackedBarChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleWorkOrders"
+                    }
+                  },
+                  "Property": "priority"
+                }
+              },
+              "queryRef": "SampleWorkOrders.priority",
+              "nativeQueryRef": "priority"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleWorkOrders"
+                    }
+                  },
+                  "Property": "Sample open work orders"
+                }
+              },
+              "queryRef": "SampleWorkOrders.Sample open work orders",
+              "nativeQueryRef": "Sample open work orders"
+            }
+          ]
+        },
+        "Series": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Buildings"
+                    }
+                  },
+                  "Property": "key"
+                }
+              },
+              "queryRef": "Buildings.key",
+              "nativeQueryRef": "key"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Open by priority and building (Sample data)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

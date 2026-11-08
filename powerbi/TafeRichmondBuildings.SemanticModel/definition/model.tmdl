@@ -1,0 +1,20 @@
+model Model
+	culture: en-AU
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-AU
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["DataFolder", "GetFile", "Buildings", "Site", "SampleSummary", "SampleAssets", "SampleRisk", "SampleWorkOrders", "SamplePM", "SampleESM"]
+
+ref table Buildings
+ref table Site
+ref table SampleSummary
+ref table SampleAssets
+ref table SampleRisk
+ref table SampleWorkOrders
+ref table SamplePM
+ref table SampleESM
+
+ref cultureInfo en-AU

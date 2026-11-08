@@ -1,0 +1,83 @@
+project_id,building,element,description,driver,priority,target_year,estimate_aud,linked_assets,status,data_status
+CW-001,B01,Egress,Replace 1 combination exit and emergency light,Risk and end of life,2 In 2 to 3 years,2028,1000,EXL-002,Unfunded,Sample data
+CW-002,B02,Egress,Replace 1 combination exit and emergency light,Risk and end of life,2 In 2 to 3 years,2028,1000,EXL-004,Unfunded,Sample data
+CW-003,B04,Egress,Replace 1 combination exit and emergency light,Risk and end of life,2 In 2 to 3 years,2028,1000,EXL-009,Unfunded,Sample data
+CW-004,B04,Electrical,Replace 1 distribution board,Risk and end of life,2 In 2 to 3 years,2028,17000,DB-005,Unfunded,Sample data
+CW-005,B04,Fire,Replace 2 fire doors,Risk and end of life,1 Within a year,2027,13000,FD-001;FD-002,Unfunded,Sample data
+CW-006,B04,Safety,Replace 1 roof anchor point,Risk and end of life,1 Within a year,2027,1000,RAP-004,Unfunded,Sample data
+CW-007,B05,Egress,Replace 1 combination exit and emergency light,Risk and end of life,2 In 2 to 3 years,2028,1000,EXL-014,Funded,Sample data
+CW-008,B05,Fire,Replace 1 fire extinguisher,Risk and end of life,2 In 2 to 3 years,2028,0,EXT-010,Unfunded,Sample data
+CW-009,B05,Fire,Replace 1 fire hose reel,Risk and end of life,2 In 2 to 3 years,2028,2000,FHR-003,Unfunded,Sample data
+CW-010,B05,Safety,Replace 2 roof anchor points,Risk and end of life,2 In 2 to 3 years,2028,2000,RAP-005;RAP-006,Unfunded,Sample data
+CW-011,B08,Electrical,Replace 1 distribution board,Risk and end of life,2 In 2 to 3 years,2028,18000,DB-010,Unfunded,Sample data
+CW-012,B08,Fire,Replace 1 fire extinguisher,Risk and end of life,2 In 2 to 3 years,2028,0,EXT-014,Unfunded,Sample data
+CW-013,B09,Egress,Replace 1 combination exit and emergency light,Risk and end of life,2 In 2 to 3 years,2028,0,EXL-026,Funded,Sample data
+CW-014,B09,Electrical,Replace 1 distribution board,Risk and end of life,2 In 2 to 3 years,2028,18000,DB-012,Funded,Sample data
+CW-015,B09,Fire,Replace 2 fire extinguishers,Risk and end of life,2 In 2 to 3 years,2028,1000,EXT-015;EXT-017,Unfunded,Sample data
+CW-016,B10,Fire,Replace 1 fire extinguisher,Risk and end of life,2 In 2 to 3 years,2028,0,EXT-018,Unfunded,Sample data
+CW-017,B11,Egress,Replace 1 combination exit and emergency light,Risk and end of life,2 In 2 to 3 years,2028,1000,EXL-030,Unfunded,Sample data
+CW-018,B12,Egress,Replace 1 combination exit and emergency light,Risk and end of life,2 In 2 to 3 years,2028,1000,EXL-032,Unfunded,Sample data
+CW-019,B14,Fire,Replace 2 fire extinguishers,Risk and end of life,2 In 2 to 3 years,2028,1000,EXT-022;EXT-023,Unfunded,Sample data
+CW-020,B14,Safety,Replace 2 roof anchor points,Risk and end of life,1 Within a year,2027,2000,RAP-009;RAP-010,Funded,Sample data
+CW-021,B16,Fire,Replace 1 fire extinguisher,Risk and end of life,2 In 2 to 3 years,2028,0,EXT-025,In design,Sample data
+CW-022,B16,Safety,Replace 2 roof anchor points,Risk and end of life,1 Within a year,2027,2000,RAP-011;RAP-012,Unfunded,Sample data
+CW-023,B17,Mechanical,Replace 1 air handling unit,Risk and end of life,2 In 2 to 3 years,2028,113000,AHU-002,Unfunded,Sample data
+CW-024,B17,Egress,Replace 2 combination exit and emergency lights,Risk and end of life,2 In 2 to 3 years,2028,1000,EXL-040;EXL-044,Unfunded,Sample data
+CW-025,B18,Egress,Replace 1 combination exit and emergency light,Risk and end of life,2 In 2 to 3 years,2028,1000,EXL-047,Unfunded,Sample data
+CW-026,B18,Fire,Replace 2 fire doors,Risk and end of life,2 In 2 to 3 years,2028,13000,FD-009;FD-010,Funded,Sample data
+CW-027,B19,Egress,Replace 1 combination exit and emergency light,Risk and end of life,2 In 2 to 3 years,2028,1000,EXL-052,Unfunded,Sample data
+CW-028,B22,Fire,Replace 1 fire extinguisher,Risk and end of life,2 In 2 to 3 years,2028,0,EXT-038,Unfunded,Sample data
+CW-029,B23,Mechanical,Replace 1 air handling unit,Risk and end of life,1 Within a year,2027,132000,AHU-003,Funded,Sample data
+CW-030,B23,Egress,Replace 1 combination exit and emergency light,Risk and end of life,2 In 2 to 3 years,2028,1000,EXL-054,In design,Sample data
+CW-031,B23,Fire,Replace 1 fire extinguisher,Risk and end of life,2 In 2 to 3 years,2028,0,EXT-043,Unfunded,Sample data
+CW-032,B23,Fire,Replace 2 fire hose reels,Risk and end of life,2 In 2 to 3 years,2028,4000,FHR-009;FHR-010,In design,Sample data
+CW-033,B23,Electrical,Replace 1 main switchboard,Risk and end of life,1 Within a year,2027,228000,MSB-001,Funded,Sample data
+CW-034,B23,Safety,Replace 1 roof anchor point,Risk and end of life,1 Within a year,2027,1000,RAP-017,Funded,Sample data
+CW-035,B26,Fire,Replace 1 fire extinguisher,Risk and end of life,2 In 2 to 3 years,2028,0,EXT-050,Funded,Sample data
+CW-036,B27,Egress,Replace 1 combination exit and emergency light,Risk and end of life,2 In 2 to 3 years,2028,1000,EXL-071,In design,Sample data
+CW-037,B29,Egress,Replace 1 combination exit and emergency light,Risk and end of life,2 In 2 to 3 years,2028,1000,EXL-072,Unfunded,Sample data
+CW-038,B31,Egress,Replace 2 combination exit and emergency lights,Risk and end of life,2 In 2 to 3 years,2028,1000,EXL-075;EXL-078,Unfunded,Sample data
+CW-039,B31,Fire,Replace 1 fire extinguisher,Risk and end of life,2 In 2 to 3 years,2028,0,EXT-057,Unfunded,Sample data
+CW-040,B31,Safety,Replace 1 roof anchor point,Risk and end of life,1 Within a year,2027,1000,RAP-020,Unfunded,Sample data
+CW-041,B32,Egress,Replace 1 combination exit and emergency light,Risk and end of life,2 In 2 to 3 years,2028,0,EXL-081,Unfunded,Sample data
+CW-042,B32,Electrical,Replace 2 distribution boards,Risk and end of life,2 In 2 to 3 years,2028,38000,DB-037;DB-038,Unfunded,Sample data
+CW-043,B32,Fire,Replace 2 fire doors,Risk and end of life,1 Within a year,2027,14000,FD-015;FD-016,Funded,Sample data
+CW-044,B32,Fire,Replace 1 fire extinguisher,Risk and end of life,2 In 2 to 3 years,2028,0,EXT-058,Funded,Sample data
+CW-045,B35,Fire,Replace 1 fire extinguisher,Risk and end of life,2 In 2 to 3 years,2028,0,EXT-063,Funded,Sample data
+CW-046,B36,Egress,Replace 1 combination exit and emergency light,Risk and end of life,1 Within a year,2027,1000,EXL-089,Unfunded,Sample data
+CW-047,B36,Fire,Replace 1 fire door,Risk and end of life,1 Within a year,2027,7000,FD-017,Funded,Sample data
+CW-048,B36,Safety,Replace 2 roof anchor points,Risk and end of life,1 Within a year,2027,2000,RAP-025;RAP-026,Unfunded,Sample data
+CW-049,B02,Roof,Roof sheeting and gutters renewal,Condition,2 In 2 to 3 years,2028,27000,,Unfunded,Sample data
+CW-050,B02,Internal finishes,Floor coverings and ceilings renewal,Condition,2 In 2 to 3 years,2028,13000,,In design,Sample data
+CW-051,B05,Roof,Roof sheeting and gutters renewal,Condition,2 In 2 to 3 years,2028,179000,,Unfunded,Sample data
+CW-052,B05,Internal finishes,Floor coverings and ceilings renewal,Condition,2 In 2 to 3 years,2028,85000,,Unfunded,Sample data
+CW-053,B06,Roof,Roof sheeting and gutters renewal,Condition,3 In 4 to 5 years,2030,45000,,Unfunded,Sample data
+CW-054,B07,Roof,Roof sheeting and gutters renewal,Condition,2 In 2 to 3 years,2028,54000,,Funded,Sample data
+CW-055,B07,Internal finishes,Floor coverings and ceilings renewal,Condition,2 In 2 to 3 years,2028,30000,,Unfunded,Sample data
+CW-056,B10,Roof,Roof sheeting and gutters renewal,Condition,3 In 4 to 5 years,2030,52000,,Unfunded,Sample data
+CW-057,B11,Roof,Roof sheeting and gutters renewal,Condition,2 In 2 to 3 years,2028,41000,,Unfunded,Sample data
+CW-058,B11,Internal finishes,Floor coverings and ceilings renewal,Condition,2 In 2 to 3 years,2028,17000,,Unfunded,Sample data
+CW-059,B12,Roof,Roof sheeting and gutters renewal,Condition,3 In 4 to 5 years,2030,55000,,Unfunded,Sample data
+CW-060,B14,Roof,Roof sheeting and gutters renewal,Condition,2 In 2 to 3 years,2028,113000,,Unfunded,Sample data
+CW-061,B14,Internal finishes,Floor coverings and ceilings renewal,Condition,2 In 2 to 3 years,2028,59000,,Unfunded,Sample data
+CW-062,B18,Roof,Roof sheeting and gutters renewal,Condition,2 In 2 to 3 years,2028,140000,,Unfunded,Sample data
+CW-063,B18,Internal finishes,Floor coverings and ceilings renewal,Condition,2 In 2 to 3 years,2028,71000,,Unfunded,Sample data
+CW-064,B20,Building,Cladding and door repairs,Condition,4 In 6 to 10 years,2033,18000,,Unfunded,Sample data
+CW-065,B24,Building,Cladding and door repairs,Condition,4 In 6 to 10 years,2033,15000,,Unfunded,Sample data
+CW-066,B25,Building,Cladding and door repairs,Condition,4 In 6 to 10 years,2033,18000,,Unfunded,Sample data
+CW-067,B26,Roof,Roof sheeting and gutters renewal,Condition,3 In 4 to 5 years,2030,28000,,Unfunded,Sample data
+CW-068,B26,Building,Cladding and door repairs,Condition,4 In 6 to 10 years,2033,8000,,Unfunded,Sample data
+CW-069,B29,Roof,Roof sheeting and gutters renewal,Condition,2 In 2 to 3 years,2028,44000,,Unfunded,Sample data
+CW-070,B29,Internal finishes,Floor coverings and ceilings renewal,Condition,2 In 2 to 3 years,2028,16000,,Unfunded,Sample data
+CW-071,B32,Roof,Roof sheeting and gutters renewal,Condition,2 In 2 to 3 years,2028,155000,,Unfunded,Sample data
+CW-072,B32,Internal finishes,Floor coverings and ceilings renewal,Condition,2 In 2 to 3 years,2028,74000,,Funded,Sample data
+CW-073,B33,Roof,Roof sheeting and gutters renewal,Condition,2 In 2 to 3 years,2028,52000,,Funded,Sample data
+CW-074,B33,Internal finishes,Floor coverings and ceilings renewal,Condition,2 In 2 to 3 years,2028,29000,,Funded,Sample data
+CW-075,B34,Roof,Roof sheeting and gutters renewal,Condition,2 In 2 to 3 years,2028,41000,,Unfunded,Sample data
+CW-076,B34,Internal finishes,Floor coverings and ceilings renewal,Condition,2 In 2 to 3 years,2028,19000,,Unfunded,Sample data
+CW-077,B35,Roof,Roof sheeting and gutters renewal,Condition,3 In 4 to 5 years,2030,108000,,Unfunded,Sample data
+CW-078,B36,Roof,Roof sheeting and gutters renewal,Condition,2 In 2 to 3 years,2028,231000,,Funded,Sample data
+CW-079,B36,Internal finishes,Floor coverings and ceilings renewal,Condition,2 In 2 to 3 years,2028,107000,,Funded,Sample data
+CW-080,B36,Asbestos,Remove pipe lagging (plant room),Compliance,1 Within a year,2027,51000,ACM-020,Unfunded,Sample data
+CW-081,B23,Accessibility,Accessible toilets and a ramp to the main entry,Accessibility,2 In 2 to 3 years,2028,261000,,Funded,Sample data
+CW-082,B17,Accessibility,Accessible path of travel from the car park,Accessibility,2 In 2 to 3 years,2028,154000,,In design,Sample data

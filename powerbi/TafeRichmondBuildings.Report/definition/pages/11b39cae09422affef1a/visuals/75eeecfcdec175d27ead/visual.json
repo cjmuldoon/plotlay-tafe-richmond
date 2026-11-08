@@ -1,0 +1,130 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "75eeecfcdec175d27ead",
+  "position": {
+    "x": 1010,
+    "y": 590,
+    "z": 1,
+    "height": 420,
+    "width": 870,
+    "tabOrder": 1
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleRisk"
+                    }
+                  },
+                  "Property": "asset_id"
+                }
+              },
+              "queryRef": "SampleRisk.asset_id",
+              "nativeQueryRef": "asset_id"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleAssets"
+                    }
+                  },
+                  "Property": "asset_type"
+                }
+              },
+              "queryRef": "SampleAssets.asset_type",
+              "nativeQueryRef": "asset_type"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Buildings"
+                    }
+                  },
+                  "Property": "key"
+                }
+              },
+              "queryRef": "Buildings.key",
+              "nativeQueryRef": "key"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleRisk"
+                    }
+                  },
+                  "Property": "risk_score"
+                }
+              },
+              "queryRef": "SampleRisk.risk_score",
+              "nativeQueryRef": "risk_score"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleRisk"
+                    }
+                  },
+                  "Property": "risk_rating"
+                }
+              },
+              "queryRef": "SampleRisk.risk_rating",
+              "nativeQueryRef": "risk_rating"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleRisk"
+                    }
+                  },
+                  "Property": "risk_drivers"
+                }
+              },
+              "queryRef": "SampleRisk.risk_drivers",
+              "nativeQueryRef": "risk_drivers"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Assets by risk (Sample data)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
