@@ -30,6 +30,12 @@ UPSTREAM SOURCES
     Permissive, Version 2.0 (https://cdla.dev/permissive-2-0/). Two outlines (the complex roofs) are Microsoft's as
     they are; the others started from Microsoft's footprint where it had one and were drawn onto the roof edges.
 
+POWER BI MAP CONTEXT
+  The Shape Maps in powerbi/ draw context round the buildings: NSW Cadastre lots (DCS Spatial Services, CC BY 3.0 AU)
+  and suburb boundaries (Australian Bureau of Statistics, ASGS Edition 3, Suburbs and Localities 2021, CC BY 4.0),
+  cut to the map frame, and the campus outline from data/geometry/campus_site.geojson.
+
+
 NOT INCLUDED
   Nothing in this repository is derived from OpenStreetMap. No campus plans or maps were used. No personal data is
   included. TAFE NSW's and Spatial Services' logos are not used, and nothing here implies endorsement by either.

@@ -19,7 +19,7 @@
               {
                 "textRuns": [
                   {
-                    "value": "Sample data: these figures are not about TAFE NSW Richmond or any real building (data/sample/README.md says how they were made). Outlines drawn over NSW Imagery, (c) State of New South Wales (Spatial Services), CC BY 3.0 AU.",
+                    "value": "Sample data: these figures are not about TAFE NSW Richmond or any real building (data/sample/README.md says how they were made). Outlines drawn over NSW Imagery and map lots: (c) State of New South Wales (Spatial Services), CC BY 3.0 AU. Suburbs: ABS ASGS 2021 (CC BY 4.0).",
                     "textStyle": {
                       "fontSize": "9pt",
                       "color": "#5b6573"

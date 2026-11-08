@@ -19,7 +19,7 @@
               {
                 "textRuns": [
                   {
-                    "value": "Aerial imagery, and the outlines drawn over it: (c) State of New South Wales (Spatial Services), CC BY 3.0 AU. Two outlines from Microsoft Global ML Building Footprints, CDLA Permissive 2.0. Shapes made in Plotlay (getplotlay.com). Accuracy depends on the imagery and how each outline was drawn.",
+                    "value": "Aerial imagery, and the outlines drawn over it: (c) State of New South Wales (Spatial Services), CC BY 3.0 AU. Two outlines from Microsoft Global ML Building Footprints, CDLA Permissive 2.0. Map context: NSW Cadastre lots (Spatial Services, CC BY 3.0 AU), ABS ASGS 2021 suburbs (CC BY 4.0). Shapes made in Plotlay (getplotlay.com). Accuracy depends on the imagery and how each outline was drawn.",
                     "textStyle": {
                       "fontSize": "9pt",
                       "color": "#5b6573"

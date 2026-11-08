@@ -41,10 +41,10 @@ Three pages read the tables in `data/sample/`: **Sample: risk** (the risk matrix
 
 ## The maps
 
-- **Shape Map** (Drawn out, and Sample: risk). The custom map, `data/geometry/campus_buildings.topojson`, is saved inside the report (`TafeRichmondBuildings.Report/StaticResources/RegisteredResources/campus_buildings.topojson`, a copy that keeps only the building key), so the 38 buildings draw on open: by outline source on the first page, by sample assets at high or extreme risk on the risk page.
+- **Shape Map** (Drawn out, and Sample: risk). The custom map, `data/geometry/campus_buildings.topojson`, is saved inside the report (`TafeRichmondBuildings.Report/StaticResources/RegisteredResources/campus_buildings.topojson`, a copy that keeps only the building key), so the 38 buildings draw on open: by outline source on the first page, by sample assets at high or extreme risk on the risk page. The Shape Map has no base map of its own, so the file also carries the context, drawn underneath in a pale ground tone: the NSW Cadastre lots round the campus (the gaps between them are the roads), the suburb boundaries (ABS) and the campus as a thin outline. Loading the plain file from `data/` by hand (below) gives the buildings without that context.
 - If a map shows the United States instead (an older Desktop can ignore a saved map): select it, then **Format visual** (the paintbrush), **Visual**, **Map settings**, **Map type: Custom map**, **Add map type** (or **Browse**), and choose `..\data\geometry\campus_buildings.topojson`. Under **View map keys** the keys B01 to B38 should match. Projection: Mercator. If the Shape Map is not in the Visualizations pane, turn it on in **File, Options and settings, Options, Preview features, Shape map visual** and restart Desktop.
 - If a Shape Map comes up empty after opening, drag the fields back: Location `Buildings[key]`, Legend `Buildings[outline_source]` (first page) or Color saturation `[Sample high or extreme]` (risk page).
-- Optional, **Azure Maps**: add a reference layer from `..\data\geometry\campus_buildings.geojson`, join property `key`, map style **Grayscale (light)** or **Blank**. Do not publish satellite basemap screenshots.
+- Optional, if you add an **Azure Maps** visual (for real roads under the buildings): add a reference layer from `..\data\geometry\campus_buildings.geojson`, join property `key`, map style **Grayscale (light)** or **Blank**. Do not publish satellite basemap screenshots.
 
 ## Save a .pbix too
 
