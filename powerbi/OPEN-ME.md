@@ -27,7 +27,7 @@ After **Refresh** (there are no slicers, and nothing on these pages changes with
 | Drawn out | In no open data | 5 |
 | Drawn out | Microsoft offset, median m | 2.23 |
 
-These are the README's figures. The table lists all 38 buildings (18,022 m² of footprint in all); the offset chart on **Outline sources** shows the 31 buildings started from a Microsoft footprint, largest offset first.
+These are the README's figures. The table lists all 38 buildings (18,109 m² of footprint in all); the offset chart on **Outline sources** shows the 31 buildings started from a Microsoft footprint, largest offset first.
 
 The sample pages (not about any real building) read: Assets 372, High or extreme 70, Past expected life 106; Open 33, Overdue 9, Raised in 12 months 1,010; Planned maintenance on time 88.1%, Safety measures overdue 8, Capital works backlog 3,054,000.
 

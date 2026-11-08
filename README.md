@@ -49,7 +49,7 @@ The charts and map pictures were drawn with Plotlay's own chart engine (the Anal
 | Folder | What |
 |---|---|
 | [`data/geometry/`](data/geometry) | The buildings (keys B01 to B38) and the campus (key RICH) as drawn in Plotlay: GeoJSON, TopoJSON, CSV with WKT |
-| [`data/buildings/`](data/buildings) | `buildings.csv`: each building's outline source, accuracy, footprint, perimeter, and how far Microsoft's footprint was off |
+| [`data/buildings/`](data/buildings) | `buildings.csv`: each building's outline source, accuracy, footprint and perimeter (as drawn in Plotlay), and how far Microsoft's footprint was off |
 | [`data/site/`](data/site) | `site.csv` and `site_rollup.csv` (the buildings rolled up in Plotlay) |
 | [`data/sample/`](data/sample) | **Sample data**: eleven facilities tables, the data dictionary, the handover pack |
 | [`python/`](python) | `tafe_richmond.ipynb`, executed |
