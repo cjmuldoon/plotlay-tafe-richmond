@@ -6,7 +6,7 @@ TAFE NSW Richmond, on the Hawkesbury flood plain west of Sydney. **Live version,
 
 ![One building on the map, 38 on the campus: the buildings drawn over NSW aerial imagery, coloured by where each outline came from](visuals/hero_map_16x9.png)
 
-OpenStreetMap has 1 building inside the campus. NSW's building footprint layer is licensed to government agencies only. The land title is a 292 ha lot shared with the university next door, so there is no parcel to start from. Microsoft's machine-learned footprints find 33 shapes, which miss 5 buildings and sit a median 2.23 m off the roofs. In [Plotlay](https://www.getplotlay.com) all 38 buildings were drawn out over NSW aerial imagery (CC BY 3.0 AU), and each carries where its outline came from and how accurate it is likely to be.
+OpenStreetMap has 1 building inside the campus. NSW's building footprint layer is licensed to government agencies only. The land title is a 292 ha lot shared with the university next door, so there is no parcel to start from. Microsoft's building outlines, made by software from aerial photos, find 33 shapes, which miss 5 buildings and sit a median 2.23 m off the roofs. In [Plotlay](https://www.getplotlay.com) all 38 buildings were drawn out over NSW aerial imagery (CC BY 3.0 AU), and each carries where its outline came from and how accurate it is likely to be.
 
 [![Open in Plotlay](https://img.shields.io/badge/Open_in-Plotlay-1d4f91)](https://app.plotlay.io/?example=tafe-richmond&as=client)
 
@@ -19,6 +19,8 @@ OpenStreetMap has 1 building inside the campus. NSW's building footprint layer i
 | Microsoft footprint, picked as it is (a complex roof, not refined) | 2 | ±2.5 m |
 
 Accuracy depends on the imagery: a roof outline includes the eaves, and a shadow or a tree over an edge can hide it. These are what the drawing method can hold to; where law or a contract needs a licensed surveyor, their licence and sign-off are what count.
+
+![The 38 buildings in Plotlay's 3D view over NSW aerial imagery, each shown 4 m high (heights not measured)](visuals/render_3d_16x9.png)
 
 ![How far Microsoft's footprints were off](visuals/chart_ms_offset_16x9.png)
 
