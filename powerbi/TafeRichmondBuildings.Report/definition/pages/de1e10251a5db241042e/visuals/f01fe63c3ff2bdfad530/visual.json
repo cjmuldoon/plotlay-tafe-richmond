@@ -1,12 +1,12 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "f01fe63c3ff2bdfad530",
   "position": {
-    "x": 1660,
-    "y": 110,
+    "x": 1639.8576512455516,
+    "y": 109.3238434163701,
     "z": 1,
-    "height": 140,
-    "width": 220,
+    "height": 140.0711743772242,
+    "width": 242.56227758007117,
     "tabOrder": 1
   },
   "visual": {
@@ -34,7 +34,21 @@
         }
       }
     },
-    "drillFilterOtherVisuals": true,
+    "objects": {
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
     "visualContainerObjects": {
       "title": [
         {
@@ -71,20 +85,24 @@
         }
       ]
     },
-    "objects": {
-      "categoryLabels": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "8a04acbca91d02c266d0",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Buildings"
               }
-            }
+            },
+            "Property": "Microsoft offset median m"
           }
-        }
-      ]
-    }
+        },
+        "type": "Advanced"
+      }
+    ]
   }
 }

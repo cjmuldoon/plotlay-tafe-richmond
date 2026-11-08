@@ -37,9 +37,9 @@
       "type": "RegisteredResources",
       "items": [
         {
-          "name": "Plotlay_drafting_film.json",
-          "path": "Plotlay_drafting_film.json",
-          "type": "CustomTheme"
+          "name": "campus_buildings_870x440.topojson",
+          "path": "campus_buildings_870x440.topojson",
+          "type": "ShapeMap"
         },
         {
           "name": "campus_buildings.topojson",
@@ -47,9 +47,9 @@
           "type": "ShapeMap"
         },
         {
-          "name": "campus_buildings_870x440.topojson",
-          "path": "campus_buildings_870x440.topojson",
-          "type": "ShapeMap"
+          "name": "Plotlay_drafting_film.json",
+          "path": "Plotlay_drafting_film.json",
+          "type": "CustomTheme"
         }
       ]
     }

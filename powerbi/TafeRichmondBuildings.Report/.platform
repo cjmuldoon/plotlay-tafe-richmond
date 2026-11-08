@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "TafeRichmondBuildings"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "648b01f6-def2-4831-b3cb-21065bbb6a75"
+  }
+}

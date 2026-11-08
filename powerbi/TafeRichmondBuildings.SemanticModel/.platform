@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "TafeRichmondBuildings"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f8eaf6f4-3914-4991-b72b-84135ec0c049"
+  }
+}

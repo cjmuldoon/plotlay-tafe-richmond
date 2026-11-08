@@ -116,6 +116,8 @@ table SampleAssets
 
 		annotation SummarizationSetBy = Automatic
 
+		annotation UnderlyingDateTimeDataType = Date
+
 	column service_status
 		dataType: string
 		lineageTag: 7a56b986-298c-5f1b-6a0c-7624fe2da6ac
@@ -128,9 +130,9 @@ table SampleAssets
 		dataType: double
 		formatString: 0.0000000
 		lineageTag: c82fdb65-56ac-6a5c-b93e-973e84269c87
+		dataCategory: Latitude
 		summarizeBy: none
 		sourceColumn: lat
-		dataCategory: Latitude
 
 		annotation SummarizationSetBy = Automatic
 
@@ -138,9 +140,9 @@ table SampleAssets
 		dataType: double
 		formatString: 0.0000000
 		lineageTag: 795e09da-7c37-dae5-0828-0b53925d4bb6
+		dataCategory: Longitude
 		summarizeBy: none
 		sourceColumn: lng
-		dataCategory: Longitude
 
 		annotation SummarizationSetBy = Automatic
 
@@ -165,3 +167,4 @@ table SampleAssets
 				    Typed
 
 	annotation PBI_ResultType = Table
+
