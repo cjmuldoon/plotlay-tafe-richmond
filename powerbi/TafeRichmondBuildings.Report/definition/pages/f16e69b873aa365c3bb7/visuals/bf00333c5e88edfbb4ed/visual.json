@@ -3,9 +3,9 @@
   "name": "bf00333c5e88edfbb4ed",
   "position": {
     "x": 980,
-    "y": 110,
+    "y": 129,
     "z": 1,
-    "height": 900,
+    "height": 881,
     "width": 900,
     "tabOrder": 1
   },
@@ -116,6 +116,13 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "axisType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Categorical'"
                 }
               }
             }

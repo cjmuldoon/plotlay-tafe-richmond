@@ -3,9 +3,9 @@
   "name": "88e06eb39193564a19cf",
   "position": {
     "x": 1180,
-    "y": 270,
+    "y": 280,
     "z": 1,
-    "height": 740,
+    "height": 730,
     "width": 700,
     "tabOrder": 1
   },
@@ -38,11 +38,11 @@
                       "Entity": "Buildings"
                     }
                   },
-                  "Property": "outline_source"
+                  "Property": "outline_short"
                 }
               },
-              "queryRef": "Buildings.outline_source",
-              "nativeQueryRef": "outline_source",
+              "queryRef": "Buildings.outline_short",
+              "nativeQueryRef": "outline_short",
               "displayName": "Outline from"
             },
             {
@@ -155,7 +155,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "83.6D"
+                  "Value": "95.8D"
                 }
               }
             }
@@ -169,13 +169,13 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "309.8D"
+                  "Value": "257.9D"
                 }
               }
             }
           },
           "selector": {
-            "metadata": "Buildings.outline_source"
+            "metadata": "Buildings.outline_short"
           }
         },
         {
@@ -183,7 +183,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "88.0D"
+                  "Value": "100.8D"
                 }
               }
             }
@@ -197,7 +197,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "91.3D"
+                  "Value": "104.7D"
                 }
               }
             }
@@ -211,7 +211,7 @@
             "value": {
               "expr": {
                 "Literal": {
-                  "Value": "93.2D"
+                  "Value": "106.8D"
                 }
               }
             }

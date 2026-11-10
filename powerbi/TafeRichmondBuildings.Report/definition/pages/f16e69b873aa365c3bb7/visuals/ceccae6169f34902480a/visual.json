@@ -3,9 +3,9 @@
   "name": "ceccae6169f34902480a",
   "position": {
     "x": 40,
-    "y": 110,
+    "y": 129,
     "z": 1,
-    "height": 900,
+    "height": 881,
     "width": 900,
     "tabOrder": 1
   },
@@ -23,11 +23,11 @@
                       "Entity": "Buildings"
                     }
                   },
-                  "Property": "outline_source"
+                  "Property": "outline_short"
                 }
               },
-              "queryRef": "Buildings.outline_source",
-              "nativeQueryRef": "outline_source",
+              "queryRef": "Buildings.outline_short",
+              "nativeQueryRef": "outline_short",
               "displayName": "Outline from",
               "active": true
             }
@@ -116,6 +116,13 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            },
+            "axisType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Categorical'"
                 }
               }
             }

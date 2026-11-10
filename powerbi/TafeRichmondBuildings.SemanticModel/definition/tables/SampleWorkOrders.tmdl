@@ -36,8 +36,6 @@ table SampleWorkOrders
 
 		annotation SummarizationSetBy = Automatic
 
-		annotation UnderlyingDateTimeDataType = Date
-
 	column building
 		dataType: string
 		isHidden
@@ -96,8 +94,6 @@ table SampleWorkOrders
 
 		annotation SummarizationSetBy = Automatic
 
-		annotation UnderlyingDateTimeDataType = Date
-
 	column age_days
 		dataType: int64
 		formatString: 0
@@ -154,4 +150,3 @@ table SampleWorkOrders
 				    Extra
 
 	annotation PBI_ResultType = Table
-

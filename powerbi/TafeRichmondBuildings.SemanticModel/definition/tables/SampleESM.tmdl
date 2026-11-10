@@ -47,8 +47,6 @@ table SampleESM
 
 		annotation SummarizationSetBy = Automatic
 
-		annotation UnderlyingDateTimeDataType = Date
-
 	column open_defects
 		dataType: int64
 		formatString: 0
@@ -79,4 +77,3 @@ table SampleESM
 				    Typed
 
 	annotation PBI_ResultType = Table
-

@@ -101,4 +101,3 @@ table SampleRisk
 				    Typed
 
 	annotation PBI_ResultType = Table
-

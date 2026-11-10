@@ -117,6 +117,14 @@ table Buildings
 
 		annotation SummarizationSetBy = Automatic
 
+	column outline_short
+		dataType: string
+		lineageTag: 287d6757-b3de-d373-48b7-83b4695220f8
+		summarizeBy: none
+		sourceColumn: outline_short
+
+		annotation SummarizationSetBy = Automatic
+
 	partition Buildings = m
 		mode: import
 		source =
@@ -125,9 +133,9 @@ table Buildings
 				    Skipped = Table.Skip(Source, 0),
 				    Promoted = Table.PromoteHeaders(Skipped, [PromoteAllScalars = true]),
 				    Kept = Table.SelectColumns(Promoted, {"key", "outline_source", "outline_accuracy_m", "footprint_m2", "perimeter_m", "microsoft_offset_m", "microsoft_overlap", "in_microsoft_footprints", "shape"}),
-				    Typed = Table.TransformColumnTypes(Kept, {{"key", type text}, {"outline_source", type text}, {"outline_accuracy_m", type number}, {"footprint_m2", type number}, {"perimeter_m", type number}, {"microsoft_offset_m", type number}, {"microsoft_overlap", type number}, {"in_microsoft_footprints", type text}, {"shape", type text}}, "en-AU")
+				    Typed = Table.TransformColumnTypes(Kept, {{"key", type text}, {"outline_source", type text}, {"outline_accuracy_m", type number}, {"footprint_m2", type number}, {"perimeter_m", type number}, {"microsoft_offset_m", type number}, {"microsoft_overlap", type number}, {"in_microsoft_footprints", type text}, {"shape", type text}}, "en-AU"),
+				    Extra = Table.AddColumn(Typed, "outline_short", each if Text.StartsWith([outline_source], "Traced over NSW Imagery, started") then "Traced from Microsoft" else if Text.Contains([outline_source], "not in the Microsoft") then "Traced, not in footprints" else "Microsoft as is", type text)
 				in
-				    Typed
+				    Extra
 
 	annotation PBI_ResultType = Table
-

@@ -7,10 +7,7 @@ model Model
 		returnErrorValuesAsNull
 
 annotation PBI_QueryOrder = ["DataFolder", "GetFile", "Buildings", "Site", "SampleSummary", "SampleAssets", "SampleRisk", "SampleWorkOrders", "SamplePM", "SampleESM"]
-
 annotation __PBI_TimeIntelligenceEnabled = 0
-
-annotation PBI_ProTooling = ["DevMode"]
 
 ref table Buildings
 ref table Site
@@ -22,4 +19,3 @@ ref table SamplePM
 ref table SampleESM
 
 ref cultureInfo en-AU
-

@@ -3,9 +3,9 @@
   "name": "175599f88839cbb5615d",
   "position": {
     "x": 1010,
-    "y": 130,
+    "y": 144,
     "z": 1,
-    "height": 440,
+    "height": 426,
     "width": 870,
     "tabOrder": 1
   },
@@ -170,7 +170,7 @@
                 "name": {
                   "expr": {
                     "Literal": {
-                      "Value": "'campus_buildings_870x440.topojson'"
+                      "Value": "'campus_buildings_870x426.topojson'"
                     }
                   }
                 },
@@ -179,7 +179,7 @@
                     "ResourcePackageItem": {
                       "PackageName": "RegisteredResources",
                       "PackageType": 1,
-                      "ItemName": "campus_buildings_870x440.topojson"
+                      "ItemName": "campus_buildings_870x426.topojson"
                     }
                   }
                 }

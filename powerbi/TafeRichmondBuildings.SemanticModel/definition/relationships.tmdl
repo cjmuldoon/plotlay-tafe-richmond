@@ -21,4 +21,3 @@ relationship 1babc7e0-fc3f-6224-83da-a1d37081a14e
 relationship b6054b71-fbe6-5dad-ba19-f2735541f4d3
 	fromColumn: SampleESM.building
 	toColumn: Buildings.key
-
